@@ -1,2 +1,34 @@
-# migo-portfolio
+# Project B｜Migo Personal Portfolio Website
+
 Migo 个人作品集网站的规划与开发，展示商业视觉设计、AI 辅助创作及完整项目案例，支持简体中文与英文。
+
+本仓库集中管理网站规划、内容与后续设计开发。网站项目负责策略、信息架构、Sitemap、Wireframe、UI、Astro / TypeScript / Tailwind CSS 开发、中英文内容、响应式、交互、SEO、性能、部署和维护。
+
+## 独立仓库
+
+当前独立仓库为 [Migo1203/migo-portfolio](https://github.com/Migo1203/migo-portfolio)。2026-11-09 从 AIGC 迁入网站规划文档，保留本仓库初始化 README 的项目描述及历史。品牌定义和源文件仍由 AIGC 中的 Project A 管理。
+
+当前只有规划文档；没有 Astro 源码、依赖或部署。阶段一仍待验收，未开始 Wireframe 和 UI。
+
+## 资料入口
+
+- [网站规划验收单](网站规划验收单.md)：本阶段如何检查、哪些已确认、何时进入 Wireframe。
+- [首篇案例资料卡](文档/首篇案例资料卡.md)：用户已选择 NED 氛围灯，记录内容来源与待整理事项。
+- [网站协作约定](AGENTS.md)：阶段边界、品牌来源和后续操作规则。
+- [网站项目简报](网站项目简报.md)：定位、受众、阶段边界和待确认事项。
+- [网站地图](网站地图.md)：首发页面、后续扩展和双语路径建议。
+- [项目路线图](网站路线图.md)：从文档验收到后续设计、开发和上线的阶段。
+- [设计系统准备](设计系统准备.md)：视觉方向与尚待确认的品牌变量。
+- [内容计划](网站内容计划.md)：页面内容、案例字段和中英文准备。
+- [技术方案](网站技术方案.md)：技术选型、双语和静态部署的规划。
+- [任务清单](网站任务清单.md) · [决策日志](网站决策日志.md)：当前状态与阶段决策。
+- [网站品牌接入记录](文档/网站品牌接入记录.md)：本项目实际读取的品牌来源、版本和资产状态。
+- [网站品牌接入规范](https://github.com/Migo1203/AIGC/blob/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/02_%E7%BD%91%E7%AB%99%E9%A1%B9%E7%9B%AE%E5%85%A5%E5%8F%A3%E4%B8%8E%E5%93%81%E7%89%8C%E4%BA%A4%E6%8E%A5/%E7%BD%91%E7%AB%99%E5%93%81%E7%89%8C%E6%8E%A5%E5%85%A5%E8%A7%84%E8%8C%83.md)：网站使用已确认品牌资产的边界、来源和变更流程。
+- [品牌资产清单](https://github.com/Migo1203/AIGC/blob/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/%E5%93%81%E7%89%8C%E8%B5%84%E4%BA%A7%E6%B8%85%E5%8D%95.md)：Logo、Beedog、字体、颜色等交付状态与规格。
+- [总项目路线图](https://github.com/Migo1203/AIGC/blob/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/%E6%80%BB%E9%A1%B9%E7%9B%AE%E8%B7%AF%E7%BA%BF%E5%9B%BE.md)：网站与品牌各阶段、交付和依赖。
+- [总项目架构](https://github.com/Migo1203/AIGC/blob/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/%E6%80%BB%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84.md)：两个项目的职责与仓库关系。
+- [Project A 品牌设计](https://github.com/Migo1203/AIGC/blob/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/01_%E5%93%81%E7%89%8C%E8%AE%BE%E8%AE%A1%E9%A1%B9%E7%9B%AE/README.md)：品牌策略、角色与视觉源文件入口。
+
+网站只将 Project A 中已经确认且适用于网站的视觉资产作为正式品牌视觉使用；未确认部分标记为 [待确认]。本阶段仅整理与审阅项目文档，不开发网站、不生成品牌资产；等待用户验收后再进入 Wireframe 与 UI 设计。
+
+迁移来源、文件去向及核对范围见[仓库迁移记录](文档/仓库迁移记录.md)。后续网站文档、内容、线框、UI 和代码在本仓库维护；AIGC 的[网站入口与品牌交接](https://github.com/Migo1203/AIGC/blob/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/02_%E7%BD%91%E7%AB%99%E9%A1%B9%E7%9B%AE%E5%85%A5%E5%8F%A3%E4%B8%8E%E5%93%81%E7%89%8C%E4%BA%A4%E6%8E%A5/README.md)只维护导航与品牌接入规则。
