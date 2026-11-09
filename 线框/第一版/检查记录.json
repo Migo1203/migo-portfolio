@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-09",
+  "engine": "Chromium via Playwright",
+  "scope": "local low-fidelity prototype only",
+  "views": [
+    {
+      "page": "ned",
+      "view": "desktop",
+      "width": 1440,
+      "png": "01_NED项目详情_桌面.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "ned",
+      "view": "mobile",
+      "width": 390,
+      "png": "01_NED项目详情_手机.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "home",
+      "view": "desktop",
+      "width": 1440,
+      "png": "02_首页_桌面.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "home",
+      "view": "mobile",
+      "width": 390,
+      "png": "02_首页_手机.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "work",
+      "view": "desktop",
+      "width": 1440,
+      "png": "03_作品列表_桌面.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "work",
+      "view": "mobile",
+      "width": 390,
+      "png": "03_作品列表_手机.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "about",
+      "view": "desktop",
+      "width": 1440,
+      "png": "04_关于_桌面.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "about",
+      "view": "mobile",
+      "width": 390,
+      "png": "04_关于_手机.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "contact",
+      "view": "desktop",
+      "width": 1440,
+      "png": "05_联系_桌面.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "contact",
+      "view": "mobile",
+      "width": 390,
+      "png": "05_联系_手机.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "404",
+      "view": "desktop",
+      "width": 1440,
+      "png": "06_404_桌面.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    },
+    {
+      "page": "404",
+      "view": "mobile",
+      "width": 390,
+      "png": "06_404_手机.png",
+      "zh_layout": "pass",
+      "en_layout": "pass"
+    }
+  ],
+  "navigation": "home → work → ned → about → contact; 404 → home passed",
+  "gallery": "9 groups; full state counts, modal next/previous boundary and Escape tested",
+  "review_shell": "page and device selection passed",
+  "javascript_errors": [],
+  "limitations": [
+    "No production Astro application or hosting routes tested",
+    "No real project artwork integrated",
+    "English text is an unapproved structural draft",
+    "No real contact service or published site"
+  ]
+}
