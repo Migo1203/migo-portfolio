@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-10",
+  "url": "https://migo1203.github.io/migo-portfolio/",
+  "http_status": 200,
+  "https": true,
+  "html_sha256": "649b8b10b5ad31f581ad2b1a8e91237101af7ccf41de1e39350927600e5ba2c6",
+  "source_matches_live": true,
+  "layout_checks": [
+    {
+      "page": "ned",
+      "device": "desktop",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "ned",
+      "device": "desktop",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "home",
+      "device": "desktop",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "home",
+      "device": "desktop",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "work",
+      "device": "desktop",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "work",
+      "device": "desktop",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "about",
+      "device": "desktop",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "about",
+      "device": "desktop",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "desktop",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "desktop",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "404",
+      "device": "desktop",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "404",
+      "device": "desktop",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "ned",
+      "device": "mobile",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "ned",
+      "device": "mobile",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "home",
+      "device": "mobile",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "home",
+      "device": "mobile",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "work",
+      "device": "mobile",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "work",
+      "device": "mobile",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "about",
+      "device": "mobile",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "about",
+      "device": "mobile",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "mobile",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "mobile",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "404",
+      "device": "mobile",
+      "lang": "zh",
+      "http": 200,
+      "layout": "通过"
+    },
+    {
+      "page": "404",
+      "device": "mobile",
+      "lang": "en",
+      "http": 200,
+      "layout": "通过"
+    }
+  ],
+  "default_device": "1440 桌面／390 手机，均通过",
+  "interaction_checks": [
+    "首页→作品→NED",
+    "手机菜单",
+    "同案例切换英文",
+    "完整 11 手机状态登记",
+    "大图占位下一项与 Escape 关闭"
+  ],
+  "javascript_errors": [],
+  "browser_transport": "Chromium 原生访问受执行环境 CA 信任限制；使用 urllib 按环境 CA 完成 HTTPS 验证后，将真实线上响应交给 Playwright 渲染，未禁用 TLS 验证。",
+  "limitations": [
+    "仅验证线框审阅原型，不代表正式作品集已实现",
+    "未接入真实作品图像或联系服务",
+    "404 为原型视图，未验证正式网站托管路由"
+  ],
+  "run_url": "https://github.com/Migo1203/migo-portfolio/actions/runs/42790826191"
+}
