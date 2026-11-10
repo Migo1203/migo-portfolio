@@ -1,0 +1,48 @@
+name: 部署线框审阅
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '线框/第一版/线框审阅.html'
+      - '脚本/生成线框发布文件.py'
+      - '.github/workflows/部署线框审阅.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wireframe-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: 生成并检查发布文件
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+      - name: 生成审阅站点
+        run: python3 脚本/生成线框发布文件.py --output "$RUNNER_TEMP/wireframe-pages"
+      - name: 上传 Pages 发布包
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/wireframe-pages
+
+  deploy:
+    name: 发布到 GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 核对 Pages 配置
+        uses: actions/configure-pages@v5
+      - name: 发布审阅站点
+        id: deployment
+        uses: actions/deploy-pages@v4

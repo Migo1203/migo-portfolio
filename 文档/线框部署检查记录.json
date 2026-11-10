@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-10",
+  "scope": "本地验证 GitHub Pages 发布目录与项目路径前缀；非线上成功记录",
+  "artifact_files": [
+    "index.html",
+    ".nojekyll",
+    "部署清单.json"
+  ],
+  "source_matches_output": true,
+  "layout_checks": [
+    {
+      "check": "默认设备",
+      "width": 1440,
+      "device": "desktop",
+      "result": "通过"
+    },
+    {
+      "page": "ned",
+      "device": "desktop",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "ned",
+      "device": "desktop",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "home",
+      "device": "desktop",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "home",
+      "device": "desktop",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "work",
+      "device": "desktop",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "work",
+      "device": "desktop",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "about",
+      "device": "desktop",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "about",
+      "device": "desktop",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "desktop",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "desktop",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "404",
+      "device": "desktop",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "404",
+      "device": "desktop",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "check": "默认设备",
+      "width": 390,
+      "device": "mobile",
+      "result": "通过"
+    },
+    {
+      "page": "ned",
+      "device": "mobile",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "ned",
+      "device": "mobile",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "home",
+      "device": "mobile",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "home",
+      "device": "mobile",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "work",
+      "device": "mobile",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "work",
+      "device": "mobile",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "about",
+      "device": "mobile",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "about",
+      "device": "mobile",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "mobile",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "contact",
+      "device": "mobile",
+      "lang": "en",
+      "result": "通过"
+    },
+    {
+      "page": "404",
+      "device": "mobile",
+      "lang": "zh",
+      "result": "通过"
+    },
+    {
+      "page": "404",
+      "device": "mobile",
+      "lang": "en",
+      "result": "通过"
+    }
+  ],
+  "navigation": "首页→作品→NED，项目路径前缀保持不变",
+  "interactions": "手机菜单、同案例语言切换、大图占位前后项与 Escape 通过",
+  "documentation_links": "两条说明链接均指向 GitHub，避免站点根目录下失效",
+  "javascript_errors": [],
+  "online_status": "待启用 Pages 并完成实际部署和外部访问验证"
+}
