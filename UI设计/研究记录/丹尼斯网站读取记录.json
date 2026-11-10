@@ -1,0 +1,136 @@
+{
+  "purpose": "归档对话中的 Dennis 网站参考观察；不是最终方案采用",
+  "sources": [
+    {
+      "name": "首页",
+      "url": "https://www.dennissnellenberg.com/",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "丹尼斯_首页_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "818166407e8c3c2ece787b50116d99ab4393f2754370a3298ff9a79e0a578272",
+          "path": "参考截图/丹尼斯_首页_桌面.png",
+          "retained_in_project": true
+        },
+        {
+          "file": "丹尼斯_首页_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "06c32233f55b66a6b892b6b4fa758ef85c9a08b162538eb960432ae2e49965e4",
+          "path": "参考截图/丹尼斯_首页_手机.png",
+          "retained_in_project": true
+        }
+      ],
+      "http_status": 200,
+      "title": "Dennis Snellenberg • Freelance Designer & Developer",
+      "final_url": "https://www.dennissnellenberg.com/",
+      "h1": [
+        "Dennis Snellenberg—",
+        "Dennis Snellenberg—"
+      ],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 0,
+      "failed_resource_types": [],
+      "captured_date_utc": "2026-11-10",
+      "project_date_beijing": "2026-11-11",
+      "observation_status": "已查看桌面与手机首屏；未完成整站交互、媒体或性能测试。"
+    },
+    {
+      "name": "作品",
+      "url": "https://www.dennissnellenberg.com/work",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "丹尼斯_作品_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "8a956de1ebeffa4ec029598299b3001dd4e007986b7ea1d392d92475d42f06bc",
+          "path": "参考截图/丹尼斯_作品_桌面.png",
+          "retained_in_project": true
+        },
+        {
+          "file": "丹尼斯_作品_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "42d319be2e64d51bbee98e05cc8d10f7142dec7385cb4e7b3d39266f294aaac6",
+          "path": "参考截图/丹尼斯_作品_手机.png",
+          "retained_in_project": true
+        }
+      ],
+      "http_status": 200,
+      "title": "Work - Dennis Snellenberg",
+      "final_url": "https://www.dennissnellenberg.com/work",
+      "h1": [
+        "Creating next level digital products"
+      ],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 0,
+      "failed_resource_types": [],
+      "captured_date_utc": "2026-11-10",
+      "project_date_beijing": "2026-11-11",
+      "observation_status": "已查看桌面与手机首屏；未完成整站交互、媒体或性能测试。"
+    },
+    {
+      "name": "案例",
+      "url": "https://www.dennissnellenberg.com/work/the-damai",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "丹尼斯_案例_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "55eb85811a10e490e4f5554182c4a383ee92207b22fa87793594a4bda41e59ad",
+          "path": "参考截图/丹尼斯_案例_桌面.png",
+          "retained_in_project": true
+        },
+        {
+          "file": "丹尼斯_案例_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "a7e2159ce2380aa8aaf87f1f85bcdd4de0f27539b846ad36f2821d0c3234877d",
+          "path": "参考截图/丹尼斯_案例_手机.png",
+          "retained_in_project": true
+        }
+      ],
+      "http_status": 200,
+      "title": "The Damai - Dennis Snellenberg",
+      "final_url": "https://www.dennissnellenberg.com/work/the-damai",
+      "h1": [
+        "The Damai"
+      ],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 0,
+      "failed_resource_types": [],
+      "captured_date_utc": "2026-11-10",
+      "project_date_beijing": "2026-11-11",
+      "observation_status": "已查看桌面与手机首屏；未完成整站交互、媒体或性能测试。"
+    }
+  ],
+  "text_sources": [
+    "https://www.dennissnellenberg.com/",
+    "https://www.dennissnellenberg.com/work",
+    "https://www.dennissnellenberg.com/work/the-damai",
+    "https://www.dennissnellenberg.com/about",
+    "https://www.dennissnellenberg.com/contact"
+  ],
+  "limitations": [
+    "仅保留并查看六张首屏，未成功滚动的中段截图未归档",
+    "截图采集时媒体和非 GET 请求未执行",
+    "未完整测试动效、导航、表单、性能或无障碍",
+    "未核实可下载模板及其许可；研究建议尚未由用户确认"
+  ]
+}
