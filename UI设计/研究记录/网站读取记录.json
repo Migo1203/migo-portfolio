@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-10",
+  "purpose": "Migo 网站 UI 准备参考，不是整体风格采用或行业趋势结论",
+  "sources": [
+    {
+      "name": "01_Tobias",
+      "url": "https://vanschneider.com/",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "01_Tobias_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "cf05a4e4390c05e76b0d5fe55e0f2d458d0b9caf4534475f08d64a65ab48e371",
+          "path": "参考截图/01_Tobias_桌面.png",
+          "retained_in_project": true
+        },
+        {
+          "file": "01_Tobias_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "b0f601a90bb98862f15635f968ca3f2f423fabcb46cbabd9881a434db43f46b1",
+          "path": "参考截图/01_Tobias_手机.png",
+          "retained_in_project": true
+        }
+      ],
+      "http_status": 200,
+      "title": "Tobias van Schneider — Creative Direction - House of van Schneider",
+      "final_url": "https://vanschneider.com/",
+      "h1": [
+        "I CREATE;THEREFOREI AMI CREATE;THEREFOREI AM"
+      ],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 0,
+      "failed_resource_types": [],
+      "date": "2026-11-10",
+      "observation_status": "已查看桌面与手机首屏；未检查动态过程或完整导航。"
+    },
+    {
+      "name": "02_Malika",
+      "url": "https://www.malikafavre.com/pages/the-work",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "02_Malika_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "b25fcea5004faa4778841b4f8d74a9ff41960593f39993f6bbdaee8ee29c7414",
+          "retained_in_project": false,
+          "reason": "未作为可靠的完整视觉样板留存；读取限制已记录，采用官网文本补充。"
+        },
+        {
+          "file": "02_Malika_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "38e8a66b5099c486113c8f6375ca3e042f2356d229d117684a3dd4e27292caef",
+          "retained_in_project": false,
+          "reason": "未作为可靠的完整视觉样板留存；读取限制已记录，采用官网文本补充。"
+        }
+      ],
+      "http_status": 200,
+      "title": "The work – Malika Favre",
+      "final_url": "https://www.malikafavre.com/pages/the-work",
+      "h1": [],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 0,
+      "failed_resource_types": [],
+      "date": "2026-11-10",
+      "observation_status": "媒体区未完整呈现；只采用可见导航、标题及已读取文字，不评价作品媒体。"
+    },
+    {
+      "name": "03_Pablo",
+      "url": "https://www.pablostanley.com/work/open-peeps",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "03_Pablo_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "182678203f100e91e2fa192ff4b46efba345c417289db35d4a24febabb145542",
+          "path": "参考截图/03_Pablo_桌面.png",
+          "retained_in_project": true
+        },
+        {
+          "file": "03_Pablo_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "d332afee1f7b4bf05436a05b8b9253c18aa46c49ba0d13cdaa685b4e2f24883e",
+          "path": "参考截图/03_Pablo_手机.png",
+          "retained_in_project": true
+        }
+      ],
+      "http_status": 200,
+      "title": "Open Peeps — Pablo Stanley",
+      "final_url": "https://www.pablostanley.com/work/open-peeps",
+      "h1": [
+        "Open Peeps",
+        "People, some assembly required."
+      ],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 0,
+      "failed_resource_types": [],
+      "date": "2026-11-10",
+      "observation_status": "已查看案例首屏；手机截图含局部文字与画面相接或叠压，不据此判断整站体验。"
+    },
+    {
+      "name": "04_Dumbar",
+      "url": "https://studiodumbar.com/work/nl-branding",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "04_Dumbar_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "b4b051dd1bd11f977dcccc90b12aa1b5c8199fd060e55811df94ff13444f8402",
+          "retained_in_project": false,
+          "reason": "未作为可靠的完整视觉样板留存；读取限制已记录，采用官网文本补充。"
+        },
+        {
+          "file": "04_Dumbar_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "3b02e7244d721d7a9b3ce7279ebe296000f4d18ccdc1d408c2670412aac96ee6",
+          "retained_in_project": false,
+          "reason": "未作为可靠的完整视觉样板留存；读取限制已记录，采用官网文本补充。"
+        }
+      ],
+      "http_status": 200,
+      "title": "Studio Dumbar - The Netherlands",
+      "final_url": "https://studiodumbar.com/work/nl-branding",
+      "h1": [
+        "The Netherlands - Branding the nation on the international stage"
+      ],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 1,
+      "failed_resource_types": [
+        "script"
+      ],
+      "date": "2026-11-10",
+      "observation_status": "正文未在截图中呈现，存在脚本请求失败；主要采用官网文本章节，不作正文视觉结论。"
+    },
+    {
+      "name": "05_Malika作品",
+      "url": "https://www.malikafavre.com/pages/women",
+      "transport": "TLS-verified urllib responses rendered with Playwright; non-GET and media requests blocked",
+      "screenshots": [
+        {
+          "file": "05_Malika作品_桌面.png",
+          "viewport": [
+            1440,
+            1000
+          ],
+          "sha256": "89a671fbced4d166e6a36324d2e888dfdbded8555f8e8f31ae01b1b6ebea9861",
+          "retained_in_project": false,
+          "reason": "未作为可靠的完整视觉样板留存；读取限制已记录，采用官网文本补充。"
+        },
+        {
+          "file": "05_Malika作品_手机.png",
+          "viewport": [
+            390,
+            844
+          ],
+          "sha256": "8d0d79dc29ec7dede3f5c0184ad297d54791c8c2b2b955e6ad98f725ff4d049d",
+          "retained_in_project": false,
+          "reason": "未作为可靠的完整视觉样板留存；读取限制已记录，采用官网文本补充。"
+        }
+      ],
+      "http_status": 200,
+      "title": "Women – Malika Favre",
+      "final_url": "https://www.malikafavre.com/pages/women",
+      "h1": [
+        "Women"
+      ],
+      "limitations": "首屏静态观察；未点击菜单、播放媒体、完成整站可用性或性能测试。",
+      "failed_resource_count": 0,
+      "failed_resource_types": [],
+      "date": "2026-11-10",
+      "observation_status": "首屏媒体保持加载状态；文字页另经网页读取工具核对，不作完整作品视觉结论。"
+    }
+  ],
+  "text_sources": [
+    "https://vanschneider.com/",
+    "https://www.malikafavre.com/pages/the-work",
+    "https://www.malikafavre.com/pages/women",
+    "https://www.pablostanley.com/",
+    "https://www.pablostanley.com/work",
+    "https://www.pablostanley.com/work/open-peeps",
+    "https://studiodumbar.com/work",
+    "https://studiodumbar.com/work/nl-branding"
+  ],
+  "method": "官网文字读取，并通过按环境 CA 校验的 HTTPS 响应在浏览器渲染首屏；媒体和非 GET 请求未执行。截图已实际查看。",
+  "limitations": [
+    "未完成整站交互、性能或无障碍测试",
+    "未播放动效和媒体",
+    "部分网页未完整呈现，研究文档分别标注",
+    "未复制参考站点资产进入 Migo 界面"
+  ],
+  "screenshot_archive_scope": "只留存 Tobias 和 Pablo 两个主要视觉参考的桌面与手机首屏；加载不完整的其他截图不作为视觉样板保存。"
+}
