@@ -169,5 +169,18 @@
   "interactions": "手机菜单、同案例语言切换、大图占位前后项与 Escape 通过",
   "documentation_links": "两条说明链接均指向 GitHub，避免站点根目录下失效",
   "javascript_errors": [],
-  "online_status": "待启用 Pages 并完成实际部署和外部访问验证"
+  "online_status": "待启用 Pages 并完成实际部署和外部访问验证",
+  "github_actions": {
+    "run_id": 42789766954,
+    "url": "https://github.com/Migo1203/migo-portfolio/actions/runs/42789766954",
+    "build": "success",
+    "deploy": "failure",
+    "failed_step": "核对 Pages 配置",
+    "error": "Pages site not found; first-time enablement API returned 403 Resource not accessible by integration"
+  },
+  "public_http_check": {
+    "url": "https://migo1203.github.io/migo-portfolio/",
+    "status": 404,
+    "verified_live": false
+  }
 }
