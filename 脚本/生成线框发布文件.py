@@ -11,7 +11,7 @@ def main():
     parser.add_argument("--output", type=Path, required=True, help="独立的发布输出目录")
     args = parser.parse_args()
     repo = Path(__file__).resolve().parents[1]
-    source = repo / "线框/第二版/线框审阅.html"
+    source = repo / "线框/第三版/线框审阅.html"
     output = args.output.resolve()
     if output == repo or output in source.parents:
         parser.error("输出目录不能覆盖仓库根目录或线框源目录")

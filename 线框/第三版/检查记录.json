@@ -1,0 +1,1053 @@
+{
+  "date": "2026-11-11",
+  "scope": "V03本地交互与轻量动效原型，非正式网站或用户验收",
+  "layouts": [
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 320,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 390,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 760,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 768,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1024,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1440,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 1920,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "browse",
+      "width": 2560,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 1440,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "home",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "home",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "work",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "work",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "about",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "about",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "contact",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "contact",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "ned",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "ned",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "404",
+      "lang": "zh",
+      "passed": true
+    },
+    {
+      "mode": "canvas",
+      "width": 390,
+      "page": "404",
+      "lang": "en",
+      "passed": true
+    }
+  ],
+  "checks": [
+    "120组布局、双语身份、全部图组及12张长图通过",
+    "普通链接/键盘进入、主内容焦点、浏览器前后退、列表位置与焦点、章节后退、同案例语言章节定位通过",
+    "手机菜单键盘开关、Escape焦点返回、外部点击收起、跨断点焦点转移通过",
+    "9图组44图位逐项键盘可达、按钮首尾状态、Tab留在对话框、背景锁定、关闭后阅读位置与焦点恢复通过",
+    "正常动效、系统偏好实时变化、手动关闭动效及同一图组任务可完成通过",
+    "加载/失败演示明确标注且可恢复占位；缺译演示保留案例身份并可回中文或英文草稿通过",
+    "设置展开小屏无溢出、画布/浏览/动效切换、原型404返回、键盘跳到正文、联系待补状态通过",
+    "手机查看层横竖屏改变后仍保留图组并能关闭通过"
+  ],
+  "screenshots": [
+    "预览图/01_首页_桌面.png",
+    "预览图/02_作品_桌面.png",
+    "预览图/03_关于_桌面.png",
+    "预览图/04_联系_桌面.png",
+    "预览图/05_作品下级_NED详情_桌面.png",
+    "预览图/06_404_桌面.png",
+    "预览图/01_首页_手机.png",
+    "预览图/02_作品_手机.png",
+    "预览图/03_关于_手机.png",
+    "预览图/04_联系_手机.png",
+    "预览图/05_作品下级_NED详情_手机.png",
+    "预览图/06_404_手机.png"
+  ],
+  "errors": [],
+  "external_requests": [],
+  "html_sha256": "8b0a9aa92f2d91c2f0f18d675c8ac7dd25f916655ab5f53d926c16f9e66e7ad6",
+  "limitations": [
+    "实际作品图片、真实加载/失败/重试和正式译文尚未接入；状态演示明确为模拟",
+    "未完成真实手机、读屏、正式HTTP路由、SEO和真实媒体性能验证",
+    "M05–M09后续动效未实现；不是最终UI或品牌定稿",
+    "本地检查时第三版尚未提交/推送/更新Pages；用户随后要求推送，实际发布另见部署说明"
+  ],
+  "state_screenshot_note": "查看层状态截图在打开动画结束后另行保存，避免将半透明过渡帧误认为稳定界面。",
+  "artifacts": [
+    {
+      "path": "NED详情_浏览模式.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "a650f1248e731afd8e64663c14657633db5ade0aa16991f4dfec701d8402c257"
+    },
+    {
+      "path": "图片查看_键盘操作.png",
+      "size": [
+        1440,
+        900
+      ],
+      "sha256": "5b3f9bd68c8f57a9d80d40cc0f0cfc357db4803e4e26b8f5037391d5e601e443"
+    },
+    {
+      "path": "图片状态_加载演示.png",
+      "size": [
+        1440,
+        900
+      ],
+      "sha256": "7d241ea2433415b88de5e99c5cb3600444e0a70235408869dde02dcdfb046833"
+    },
+    {
+      "path": "图片状态_失败演示.png",
+      "size": [
+        1440,
+        900
+      ],
+      "sha256": "23ecd2043d2c1de8e7d34b38924615db2961f1df220d3265c4647f760713b664"
+    },
+    {
+      "path": "手机图片查看.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "a08de71e6e9fc02d6d1491abdd27be00b837b575b77aef8e13bbd98f4479bba4"
+    },
+    {
+      "path": "手机菜单_展开.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "d1fc3b2d450174a768f4bb7bb7e10bd66ffd9fb1afdc2a099492806b206c35a3"
+    },
+    {
+      "path": "线框总览.png",
+      "size": [
+        1420,
+        2380
+      ],
+      "sha256": "e0ec1e07f9570dda0f57d565cd44e1bc46e682b683c7f77ede5f53e89c5b43ea"
+    },
+    {
+      "path": "英文缺译_状态演示.png",
+      "size": [
+        1440,
+        900
+      ],
+      "sha256": "9a6d969a028f261437c6f60edfb9660de25e452a598cd4633bdc68f4d4efb5e9"
+    },
+    {
+      "path": "预览图/01_首页_手机.png",
+      "size": [
+        390,
+        2081
+      ],
+      "sha256": "c975c2492700dad4801ea481735500cf03316219264133620c9631b8398b9b37"
+    },
+    {
+      "path": "预览图/01_首页_桌面.png",
+      "size": [
+        1440,
+        1732
+      ],
+      "sha256": "ef7e025d2877ba3e92ba5dbbe30f9c23be051c69cbda17e0c79c3e2bf4cbbff1"
+    },
+    {
+      "path": "预览图/02_作品_手机.png",
+      "size": [
+        390,
+        1335
+      ],
+      "sha256": "6b8bf4557ef37bb598254f5d937b13ee6c5e710d5cc5499f48b27f292aebcc0a"
+    },
+    {
+      "path": "预览图/02_作品_桌面.png",
+      "size": [
+        1440,
+        1222
+      ],
+      "sha256": "b46213e679e1b8c2f9c6568120a38824c647ce28a58fc7caac016941976b1ac8"
+    },
+    {
+      "path": "预览图/03_关于_手机.png",
+      "size": [
+        390,
+        1734
+      ],
+      "sha256": "17f75f37603e90bff4478daa8b853ea050559a6e40afb564e3be800b96bd8a69"
+    },
+    {
+      "path": "预览图/03_关于_桌面.png",
+      "size": [
+        1440,
+        1705
+      ],
+      "sha256": "1daeb049f03e8e69df46d663f5ec242f931d5e77a6e5e4008135a456fb8df3fc"
+    },
+    {
+      "path": "预览图/04_联系_手机.png",
+      "size": [
+        390,
+        1276
+      ],
+      "sha256": "f65b154a2f33b416803c7cd51c3c3295523f1735e231cb59617ff30461b1cdc9"
+    },
+    {
+      "path": "预览图/04_联系_桌面.png",
+      "size": [
+        1440,
+        1189
+      ],
+      "sha256": "c853a2fa770f1beca98fc9d8621c1dff0a954d8107f8e8927c19888684aed582"
+    },
+    {
+      "path": "预览图/05_作品下级_NED详情_手机.png",
+      "size": [
+        390,
+        12009
+      ],
+      "sha256": "c437b201a32d450724a5a2b3058786f7611dffd04aea5e673a32dbe2ffdc4465"
+    },
+    {
+      "path": "预览图/05_作品下级_NED详情_桌面.png",
+      "size": [
+        1440,
+        7347
+      ],
+      "sha256": "408d242f695c2b001f7760186faf606ba61f40bb02ed95335701e269aa1b3797"
+    },
+    {
+      "path": "预览图/06_404_手机.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "919924f148c30649c7e9965b5b0886f6f3c793a8cee40b554ad61ed607da2df9"
+    },
+    {
+      "path": "预览图/06_404_桌面.png",
+      "size": [
+        1440,
+        1000
+      ],
+      "sha256": "b92f637e2e1cca795c6677a8b4f7b31f0b258895afb719f70c04ef0ed7a65824"
+    },
+    {
+      "path": "首页_浏览模式.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "9a2ac32035d6ccc7c7f72dbb82034cb94d92794016fc211134097a2d6acf8de5"
+    }
+  ],
+  "local_document_links_checked": 104,
+  "prior_versions_and_publish_source_unchanged": true,
+  "publication_update_note": "prior_versions_and_publish_source_unchanged 是本地修订检查时的记录；本次上传随后将发布脚本和工作流切换至第三版，第一、第二版文件仍保留。"
+}

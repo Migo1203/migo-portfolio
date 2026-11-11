@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Migo｜第三版交互审阅</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:auto}body{margin:0;background:#ddd;color:#222;font:16px/1.65 system-ui,"Noto Sans CJK SC",sans-serif}a{color:inherit;text-underline-offset:4px}button,select{font:inherit;color:inherit;background:white;border:1px solid #777;padding:8px 12px;cursor:pointer}button:disabled{cursor:default;color:#666;background:#eee}a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible{outline:3px solid #555;outline-offset:4px}h1,h2,h3,p{margin:0 0 16px}h1{font-size:48px;line-height:1.25;font-weight:600}h2{font-size:28px;line-height:1.4;font-weight:600}h3{font-size:19px;font-weight:600}p{max-width:74ch}small,.muted{color:#666;font-size:14px}.eyebrow{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:#555;margin-bottom:16px}.review{padding:16px 24px;background:#fafafa;border-bottom:1px solid #888;position:sticky;top:0;z-index:20}.review p{max-width:none;font-size:13px;margin:4px 0 12px}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.controls label{font-size:14px}.surface{padding:24px;overflow:auto}.canvas{margin:0 auto;background:white;width:1440px;border:1px solid #999;overflow-wrap:anywhere}.canvas.mobile{width:390px}.site-header{padding:24px 72px;border-bottom:1px solid #aaa;display:flex;align-items:center;justify-content:space-between;gap:24px}.wordmark{font-size:24px;font-weight:600;white-space:nowrap}.wordmark span{display:block;font-size:10px;color:#666;font-weight:400}.site-nav{display:flex;gap:28px;align-items:center}.site-nav a[aria-current=page]{font-weight:bold}.mobile-menu{display:none}.container{padding:0 72px}.section{padding:52px 0;border-bottom:1px solid #ccc;scroll-margin-top:140px}.hero{padding:64px 0 44px}.lead{font-size:21px;max-width:68ch}.row{display:flex;gap:16px;align-items:center;flex-wrap:wrap}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.action{display:inline-block;border:1px solid #555;padding:10px 18px;text-decoration:none;background:#fafafa}.grid2,.grid3{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}.panel{border:1px solid #aaa;padding:24px;min-width:0}.panel p:last-child{margin-bottom:0}.placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:repeating-linear-gradient(135deg,#f1f1f1,#f1f1f1 16px,#ededed 16px,#ededed 17px);border:1px dashed #999;color:#555;width:100%;padding:20px;min-width:0;line-height:1.5}.placeholder strong{font-size:17px;font-weight:500}.placeholder small{font-size:12px;display:block;margin-top:10px}.hero-slot{min-height:320px}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}.gallery.two{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery .placeholder{min-height:160px}.gallery .placeholder.wide{min-height:175px}.caption{font-size:13px;margin:8px 0 0;color:#666}.meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0}.meta div{border-top:1px solid #aaa;padding-top:12px}.meta dt{font-size:13px;color:#666}.meta dd{margin:6px 0 0}.toc{padding:18px 20px;border:1px solid #aaa;margin:24px 0 0;display:flex;gap:20px;flex-wrap:wrap}.toc a{font-size:14px}.inline-note{border-left:3px solid #aaa;padding:8px 16px;margin:24px 0;color:#555;font-size:14px}.site-footer{padding:32px 72px;display:flex;justify-content:space-between;gap:24px;font-size:14px}.empty{padding:40px;border:1px dashed #aaa;margin-top:32px}.page404{min-height:640px;display:flex;flex-direction:column;justify-content:center}.page404 h1{font-size:72px}.role-list{padding-left:22px;margin:0}.role-list li{margin-bottom:12px}.review-note{padding:16px 24px;background:#fafafa;border-top:1px solid #aaa;font-size:14px}.review-note p{max-width:none;margin:0 0 8px}.mobile .site-header{padding:16px 20px;align-items:flex-start}.mobile .site-nav{display:none}.mobile .mobile-menu{display:block;font-size:14px;max-width:230px;text-align:right}.mobile .mobile-menu summary{cursor:pointer;padding:8px 0}.mobile .mobile-menu nav{display:flex;flex-direction:column;align-items:flex-end;gap:12px;padding:12px 0}.mobile .container{padding:0 20px}.mobile .section{padding:32px 0;scroll-margin-top:120px}.mobile .hero{padding:36px 0 28px}.mobile h1{font-size:32px}.mobile h2{font-size:24px}.mobile .lead{font-size:18px}.mobile .grid2,.mobile .grid3,.mobile .meta{grid-template-columns:1fr;gap:16px}.mobile .meta{margin:24px 0}.mobile .meta div{padding-top:8px}.mobile .panel{padding:20px}.mobile .hero-slot{min-height:220px}.mobile .gallery,.mobile .gallery.two{grid-template-columns:1fr;gap:16px}.mobile .gallery .placeholder{min-height:180px}.mobile .gallery .placeholder.wide{min-height:150px}.mobile .toc{gap:12px 18px;padding:16px}.mobile .site-footer{padding:28px 20px;flex-direction:column;gap:16px}.mobile .empty{padding:24px}.mobile .page404{min-height:570px}.mobile .page404 h1{font-size:60px}.canvas-mode{background:white}.canvas-mode .surface{padding:0;overflow:visible}.canvas-mode .canvas{border:0;margin:0}.canvas-mode .review,.canvas-mode .review-note{display:none}dialog{border:1px solid #555;width:min(90vw,960px);max-height:90vh;padding:24px}dialog::backdrop{background:#0008}.large-slot{margin:20px 0;min-height:300px}.modal-actions{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.dialog-top{display:flex;justify-content:space-between;gap:16px;align-items:start}.dialog-top h2{font-size:20px}.lang-warning{font-size:12px;padding:8px 20px;background:#eee;border-bottom:1px solid #aaa}.skip{position:absolute;left:-9999px}.skip:focus{left:10px;top:10px;background:white;padding:10px;z-index:50}@media print{.review,.review-note{display:none}.surface{padding:0}.canvas{zoom:1!important;width:100%!important}.section{break-inside:avoid}}@media(max-width:600px){.review{position:static;padding:12px}.surface{padding:12px}.review-note{padding:12px}}
+
+/* V02：浏览模式铺满视口；固定画布仅用于尺寸对照。以下为线框样式。 */
+.review{position:static;padding:10px 24px;background:#f7f7f7;border-bottom:1px solid #ccc}
+.review-bar{display:flex;align-items:baseline;gap:8px 24px;flex-wrap:wrap;font-size:14px}
+.review-bar span{color:#666;font-size:12px}.review-tools{margin-top:4px}.review-tools>summary{cursor:pointer;width:fit-content;font-size:13px;padding:3px 0}
+.review-tools .controls{padding:12px 0 4px}.review-tools p{margin:6px 0;font-size:12px}
+.controls select,.controls button{font-size:14px}.controls button:disabled{opacity:.55}
+.browser-mode{background:white}.browser-mode .surface{padding:0;overflow:visible}.browser-mode .canvas{width:100%;border:0;margin:0}
+.container{width:100%;max-width:1280px;margin:0 auto;padding:0 clamp(24px,5vw,72px)}
+.site-header{display:block;padding:0}.header-inner{max-width:1280px;margin:0 auto;padding:22px clamp(24px,5vw,72px);display:flex;justify-content:space-between;align-items:center;gap:24px}
+.site-nav{gap:24px}.site-nav a[aria-current],.mobile-menu a[aria-current]{font-weight:700;text-decoration-thickness:2px}
+.site-footer{max-width:1280px;margin:0 auto;padding:32px clamp(24px,5vw,72px)}
+.hero{padding:48px 0 36px}.home-hero{padding:48px 0 32px}.home-hero h1{font-size:clamp(32px,3.8vw,50px)}
+.home-hero .lead{max-width:48ch}.home-hero .actions{margin-top:20px}.home-selected{padding-top:28px}
+.section{scroll-margin-top:24px}.breadcrumbs{display:flex;gap:8px;flex-wrap:wrap;font-size:13px;color:#666;margin-bottom:20px}
+.current-context{border-top:1px solid #bbb;padding-top:12px;margin-top:20px;font-size:14px;max-width:74ch}
+.mobile .site-header{padding:0}.mobile .header-inner{padding:16px 20px;align-items:flex-start}.mobile .site-nav{display:none}
+.mobile .container{width:100%;padding:0 20px}.mobile .hero,.mobile .home-hero{padding:32px 0 24px}.mobile .home-selected{padding-top:20px}
+.mobile .home-hero h1{font-size:32px}.mobile .section{scroll-margin-top:16px}.mobile .site-footer{padding:28px 20px}
+.review-note{max-width:none;font-size:12px;border-color:#ddd}.review-note p{max-width:1200px;margin:0 auto 6px}
+@media(max-width:760px){.review{padding:10px 20px}.review-bar{gap:2px 12px}.controls{gap:10px}.controls label{display:flex;gap:6px;align-items:center;flex-wrap:wrap}.review-tools .controls{align-items:flex-start}.review-tools p{line-height:1.5}}
+
+/* V03 交互候选；灰度、系统字体及数值不构成最终品牌或UI标准。 */
+:root{--feedback-duration:140ms;--menu-duration:200ms;--viewer-duration:160ms;--cover-duration:200ms}
+.controls label{max-width:100%}.controls select{max-width:100%;min-width:0}.controls [disabled]{cursor:default}
+.motion-status{font-size:12px;color:#555;margin:4px 0}.demo-banner{border-bottom:1px dashed #aaa;background:#f5f5f5;padding:10px 20px;font-size:13px}
+.action,.site-nav a,.wordmark,button{transition:background-color var(--feedback-duration) ease-out,color var(--feedback-duration) ease-out,border-color var(--feedback-duration) ease-out}
+.action:active,button:not(:disabled):active{background:#ddd}.site-nav a:focus-visible,.action:focus-visible{outline:3px solid #555;outline-offset:4px}
+.case-cover{display:block;overflow:hidden}.case-cover .placeholder{transition:transform var(--cover-duration) ease-out;border-style:dashed}
+.mobile-menu nav{transform-origin:top}.mobile-menu[open] nav{animation:menu-in var(--menu-duration) ease-out}
+@keyframes menu-in{from{opacity:0}to{opacity:1}}
+#lightbox{overflow:auto;overscroll-behavior:contain;max-height:90vh;max-height:90dvh;width:min(94vw,960px)}
+#lightbox[open]{animation:viewer-in var(--viewer-duration) ease-out}#lightbox[open]::backdrop{animation:viewer-in var(--viewer-duration) ease-out}
+@keyframes viewer-in{from{opacity:0}to{opacity:1}}
+.dialog-top{position:sticky;top:-24px;background:white;z-index:2;padding:4px 0 12px;border-bottom:1px solid #ddd}.dialog-top h2{overflow-wrap:anywhere}.dialog-top button{flex-shrink:0}
+.large-slot{min-height:260px;gap:12px}.large-slot p{font-size:14px;margin:0}.large-slot button{font-size:14px}.missing-translation{max-width:74ch;margin:32px 0;padding:24px;border:1px dashed #888}
+main:focus,section[tabindex="-1"]:focus,h2[tabindex="-1"]:focus{outline:none}
+@media(hover:hover) and (pointer:fine){.action:hover,button:not(:disabled):hover{background:#eee}.site-nav a:hover{text-decoration-thickness:2px}html[data-motion="on"] .case-cover:hover .placeholder{transform:scale(1.015)}}
+html[data-motion="off"] *,html[data-motion="off"] *::before,html[data-motion="off"] *::after,html[data-motion="off"] #lightbox::backdrop{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after,#lightbox::backdrop{animation:none!important;transition:none!important;scroll-behavior:auto!important}.case-cover .placeholder{transform:none!important}}
+</style>
+</head>
+<body>
+<header class="review">
+ <div class="review-bar"><strong>Migo｜交互审阅 V03 · 待审阅</strong><span>低保真 · 轻量动效候选 · 内容与素材待确认</span></div>
+ <details class="review-tools" id="review-tools"><summary>页面与预览设置 / Review settings</summary>
+ <div class="controls">
+  <label>页面 <select id="page-select"><optgroup label="主页面"><option value="home">01 首页</option><option value="work">02 作品</option><option value="about">03 关于</option><option value="contact">04 联系</option></optgroup><optgroup label="作品下级 · 项目详情"><option value="ned">作品 / NED 项目详情</option></optgroup><optgroup label="特殊页面"><option value="404">404 未找到</option></optgroup></select></label>
+  <label>预览 <select id="mode-select"><option value="browse">浏览模式 · 自适应窗口</option><option value="review">画布模式 · 固定尺寸对照</option></select></label>
+  <label>画布尺寸 <select id="device-select"><option value="desktop">桌面 · 1440px</option><option value="mobile">手机 · 390px</option></select></label>
+  <label>内容 <select id="lang-select"><option value="zh">中文草稿</option><option value="en">English draft</option></select></label>
+  <label>动效 <select id="motion-select"><option value="auto">轻量动效 · 遵循系统偏好</option><option value="off">关闭动效 · 静态对照</option></select></label>
+  <label>状态演示 <select id="demo-select"><option value="normal">正常占位</option><option value="loading">图片加载 · 模拟</option><option value="error">图片失败 · 模拟</option><option value="translation">英文缺译 · 模拟</option></select></label>
+  <button id="fit" type="button">画布适应窗口</button><button id="actual" type="button">画布原始尺寸</button>
+ </div>
+ <p>浏览模式铺满窗口并随宽度重排；画布模式用于比较 1440px / 390px。页面设置不是网站主导航，NED 详情属于作品下级。</p>
+ <p id="motion-status" class="motion-status" aria-live="polite"></p><p>图片状态在 NED 的放大查看层中演示；缺译演示请切换英文。均为审阅用模拟，不是真实素材加载或正式译文状态。</p>
+ </details>
+</header>
+<div class="surface"><article id="wireframe" class="canvas"></article></div>
+<aside class="review-note"><p id="page-note"></p><p>审阅重点：NED 分工是否容易理解；完整成果能否找到；手机阅读与页面返回是否清楚。联系方式、完整译文、素材公开条件和品牌视觉仍待确认。</p><p>这是线框审阅原型，非正式作品集网站；图片为占位，无真实联系服务，发布不等于验收通过。<a href="https://github.com/Migo1203/migo-portfolio/blob/main/线框/第三版/README.md">查看交付与验收说明</a> · <a href="https://github.com/Migo1203/migo-portfolio/blob/main/文档/首篇案例资料卡.md">查看案例来源与版本</a></p></aside>
+<dialog id="lightbox" aria-labelledby="lightbox-title"><div class="dialog-top"><h2 id="lightbox-title"></h2><button id="close-modal" type="button" autofocus aria-label="关闭 / Close">关闭 ×</button></div><p id="lightbox-count" class="muted" role="status" aria-live="polite" aria-atomic="true"></p><div id="media-panel" class="placeholder large-slot"></div><div class="modal-actions"><button id="prev-image" type="button">← 上一张 / Previous</button><button id="next-image" type="button">下一张 / Next →</button></div></dialog>
+
+<script>
+
+const canvas=document.getElementById('wireframe');
+const params=()=>new URLSearchParams(location.search);
+const validPages=['home','work','about','contact','ned','404'];
+let page='home',lang='zh',en=false,mode='browse',device='desktop',motionChoice='auto',demo='normal';
+let group='',index=0,opener=null,lockedY=0,bodyLocked=false,bodyStyles=null,restoring=false,drawId=0,fit=true;
+const dialog=document.getElementById('lightbox');
+const mediaQuery=matchMedia('(prefers-reduced-motion: reduce)');
+const T=(zh,eng)=>en?eng:zh;
+const labels={};
+function updateLabels(){Object.assign(labels,{home:T('首页','Home'),work:T('作品','Work'),ned:T('NED 项目详情','NED project'),about:T('关于','About'),contact:T('联系','Contact'),'404':'404'});}
+function readLocation(){
+ const p=params();page=p.has('page')?(validPages.includes(p.get('page'))?p.get('page'):'404'):'home';
+ lang=p.get('lang')==='en'?'en':'zh';en=lang==='en';
+ mode=['review','canvas'].includes(p.get('mode'))?p.get('mode'):'browse';
+ device=mode==='browse'?(innerWidth<760?'mobile':'desktop'):(p.get('device')==='mobile'?'mobile':'desktop');
+ motionChoice=p.get('motion')==='off'?'off':'auto';
+ demo=['loading','error','translation'].includes(p.get('demo'))?p.get('demo'):'normal';
+ document.documentElement.lang=en?'en':'zh-CN';
+ document.body.classList.toggle('canvas-mode',mode==='canvas');document.body.classList.toggle('browser-mode',mode==='browse');
+ canvas.classList.toggle('mobile',device==='mobile');updateLabels();
+}
+function url(p=page,l=lang){const query={page:p,lang:l,mode,motion:motionChoice,demo};if(mode!=='browse')query.device=device;return '?'+new URLSearchParams(query);}
+function link(p,label,cls=''){return `<a class="${cls}" href="${url(p)}" ${p===page?'aria-current="page"':p==='work'&&page==='ned'?'aria-current="location"':''}>${label}</a>`;}
+const nav=()=>['home','work','about','contact'].map(p=>link(p,labels[p])).join('')+`<a class="language" href="${url(page,en?'zh':'en')}" lang="${en?'zh-CN':'en'}">${en?'中文':'EN'}</a>`;
+const header=()=>`<a class="skip" href="#main">${T('跳到正文','Skip to content')}</a><header class="site-header"><div class="header-inner"><a class="wordmark" href="${url('home')}">Migo<span>${T('临时文字标识','Temporary text mark')}</span></a><nav class="site-nav" aria-label="${T('主导航','Main navigation')}">${nav()}</nav><details class="mobile-menu"><summary>${T('菜单 / 语言','Menu / Language')}</summary><nav aria-label="${T('手机导航','Mobile navigation')}">${nav()}</nav></details></div></header>${en?'<div class="lang-warning">English content is a wireframe draft and has not been approved for publication.</div>':''}`;
+const footer=()=>`<footer class="site-footer"><span>Migo · ${T('独立视觉设计师','Independent visual designer')}</span><div class="row">${link('work',T('返回作品','View work'))}${link('about',T('了解我','About me'))}${link('contact',T('联系','Contact'))}</div></footer>`;
+const btn=(p,label)=>link(p,label,'action');
+const imageGroups={};
+function gallery(group,items,cols=''){
+ imageGroups[group]=items;
+ return `<div class="gallery ${cols}" data-gallery="${group}">${items.map((item,i)=>`<button class="placeholder ${item.wide?'wide':''}" type="button" data-group="${group}" data-image="${i}" aria-label="${T('放大：','Enlarge: ')}${item.label}"><strong>${item.label}</strong><small>${item.note||T('原图占位 · 点击放大','Original image slot · click to enlarge')}</small></button>`).join('')}</div>`;
+}
+const slot=(label,more='',cls='hero-slot')=>`<div class="placeholder ${cls}"><strong>${label}</strong><small>${more||T('作品素材占位','Artwork placeholder')}</small></div>`;
+const section=(id,num,title,body)=>`<section class="section" id="${id}"><p class="eyebrow">${num}</p><h2>${title}</h2>${body}</section>`;
+const casecard=()=>`<div class="grid2 case-card"><a class="case-cover" id="case-ned" href="${url('ned')}" aria-label="${T('查看 NED 案例','View the NED case')}">${slot('NED Eric Lamp',T('封面 V04 · 待审阅','Cover V04 · pending review'))}</a><div><p class="eyebrow">${T('当前网站试验案例','Current website trial case')}</p><h2>NED Eric Lamp</h2><p>${T('以商品识别、功能说明和生活方式表达，组织一套电商视觉内容。','An e-commerce visual concept connecting product recognition, functional information and everyday settings.')}</p><p class="muted">${T('自发模拟项目 · AI 协作 · 无真实上架或投放','Self-initiated simulation · AI collaboration · not launched or advertised')}</p>${btn('ned',T('查看项目 →','View project →'))}</div></div>`;
+function ned(){
+ const goods=[T('主图 V01','Main image V01'),T('01 产品场景 V02','01 Product setting V02'),T('02 旋钮操作 V02','02 Knob controls V02'),T('03 光色调节 V01','03 Color temperature V01'),T('04 续航场景 V02','04 Runtime setting V02'),T('05 尺寸材质 V02','05 Size and material V02'),T('06 户外场景 V02','06 Outdoor setting V02'),T('07 多场景 V02','07 Multiple settings V02')];
+ const states=[T('居家开场','Home opening'),T('细节：顶部旋钮','Detail: top knob'),T('细节：沙色表面','Detail: sand finish'),T('操作：按压开关','Control: press'),T('操作：旋转调光','Control: turn'),T('操作：按旋调色','Control: press and turn'),T('场景：餐桌','Setting: dining'),T('场景：床头','Setting: bedside'),T('场景：露台','Setting: terrace'),T('尺寸','Dimensions'),T('使用问答','FAQ')];
+ const desktop=[T('居家开场','Home opening'),T('整体与真实细节','Product and real details'),...states.slice(3)];
+ const stories=[T('品牌介绍','Brand introduction'),T('审美与造型','Form and character'),T('日常生活','Everyday moments'),T('品牌问答','Brand FAQ')];
+ const banners=[T('店铺页头','Store header'),T('餐桌导流 · 电脑','Dining banner · desktop'),T('餐桌导流 · 手机','Dining banner · mobile'),T('REC 广告 · 横','REC ad · landscape'),T('REC 广告 · 方','REC ad · square'),T('REC 广告 · 竖','REC ad · portrait')];
+ const toc=[['overview',T('概述','Overview')],['role',T('我的工作','My contribution')],['decisions',T('设计判断','Design decisions')],['goods',T('商品图','Product images')],['aplus',T('高级 A+','Premium A+')],['story',T('品牌故事','Brand story')],['banners',T('Banner','Banners')],['reflection',T('复盘','Reflection')]];
+ let out=`<div class="container"><main id="main"><section class="hero"><nav class="breadcrumbs" aria-label="${T('面包屑','Breadcrumb')}">${link('home',T('首页','Home'))}<span aria-hidden="true">/</span>${link('work',T('作品','Work'))}<span aria-hidden="true">/</span><span aria-current="page">NED Eric Lamp</span></nav><h1>NED Eric Lamp</h1><p class="lead">${T('让氛围被感受，让产品被看懂。','Helping people feel the atmosphere and understand the product.')}</p><p>${T('自发电商视觉模拟 · 当前网站试验案例','Self-initiated e-commerce simulation · current website trial case')}</p><dl class="meta"><div><dt>${T('展示语境','Context')}</dt><dd>${T('亚马逊美国站概念','Amazon US concept')}</dd></div><div><dt>${T('我的工作','My contribution')}</dt><dd>${T('目标、方向、取舍与审稿','Goals, direction, selection and review')}</dd></div><div><dt>${T('成果范围','Scope')}</dt><dd>${T('商品图 / Listing / A+ / 品牌故事 / Banner','Product images / Listing / A+ / Brand story / Banners')}</dd></div></dl>${gallery('cover',[{label:T('项目封面 · 开篇 V04','Project cover · V04'),note:'1600 × 1200 · '+T('待审阅','pending review'),wide:true}],'two')}<nav class="toc" aria-label="${T('案例章节','Case chapters')}">${toc.map(([id,label])=>`<a href="#${id}">${label}</a>`).join('')}</nav></section>`;
+ out+=section('overview','01 / OVERVIEW',T('项目概述','Project overview'),`<p>${T('围绕 NED Eric 台灯的真实产品资料，探索面向亚马逊美国站的电商视觉：在商品识别、操作说明与生活方式表达之间建立一致的内容体验。','A self-initiated exploration based on available information about the NED Eric lamp, connecting product recognition, controls and lifestyle storytelling in an Amazon US context.')}</p><p class="inline-note">${T('这是作品集模拟项目，非 NED 品牌委托。未实际上架或投放；产品参数为来源资料标称，未实测。','This is a portfolio simulation, not a NED commission. It has not been launched or advertised. Product specifications are source claims, not independently tested results.')}</p>`);
+ out+=section('role','02 / CONTRIBUTION',T('我的工作与 AI 协作','My contribution and AI collaboration'),`<div class="grid2"><div class="panel"><h3>Migo</h3><ul class="role-list"><li>${T('提出项目目标与审美方向','Defined project goals and aesthetic direction')}</li><li>${T('选择参考与比较版本','Selected references and compared versions')}</li><li>${T('作出取舍，提供审稿与迭代反馈','Made selections and provided review feedback')}</li></ul></div><div class="panel"><h3>Codex + AI</h3><ul class="role-list"><li>${T('资料整理、图像生成与合成','Research organization, image generation and compositing')}</li><li>${T('英文文案、SVG 排版与导出','English copy, SVG layout and exports')}</li><li>${T('执行范围以原制作记录为依据','Execution scope follows the production records')}</li></ul></div></div>`);
+ out+=section('decisions','03 / DECISIONS',T('设计判断：从问题到内容','Design decisions: from questions to content'),`<div class="grid3"><div class="panel"><h3>${T('01 统一气质，保留昼夜差异','01 Consistency with day–night variation')}</h3><p>${T('暖中性与自然材质作为共同基础，用日间、夜间和暮色区分场景职责。','A warm neutral base and natural materials connect daylight, night and dusk settings with distinct roles.')}</p></div><div class="panel"><h3>${T('02 产品优先，按问题分组','02 Product first, organized by question')}</h3><p>${T('商品图帮助识别与理解卖点，A+ 展开细节和体验，Banner 承担不同入口的表达。','Product images explain recognition and features; A+ expands details and experience; banners serve distinct entry points.')}</p></div><div class="panel"><h3>${T('03 检查保真与状态覆盖','03 Fidelity and state coverage')}</h3><p>${T('根据反馈修订产品边缘、近景与场景差异，并补齐手机端内容状态。','Feedback informed revisions to product edges, close-ups and scene variation, plus complete mobile content coverage.')}</p></div></div>${gallery('strategy',[{label:T('背景与视觉策略 · V04','Background and visual strategy · V04'),note:T('现有策略页占位，项目参考色不是 Migo 品牌色','Existing strategy board slot; its reference colors are not Migo brand colors'),wide:true}],'two')}`);
+ out+=section('goods','04A / OUTPUT',T('商品图与 Listing','Product images and Listing'),`<p>${T('完整保留 1 张主图、7 张辅图与 Listing V01。Listing 是模拟页面，文字后续需提供网页可读版本。','Retains one main image, seven supporting images and Listing V01. The Listing is a simulation; a readable text version is to be provided.')}</p>${gallery('listing',[{label:'Listing V01',note:T('完整模拟页面 · 可放大','Full simulated page · enlarge to inspect'),wide:true}],'two')}${gallery('goods',goods.map(label=>({label})))}`);
+ out+=section('aplus','04B / OUTPUT',T('高级 A+：细节、操作与场景','Premium A+: details, controls and settings'),`<p>${T('内容源 V03；外层展示 V04 · 修订 V02。桌面 10 个模块，手机 11 个图文状态，完整保留。','Content source V03; presentation V04, revision V02. All ten desktop modules and eleven mobile content states are retained.')}</p><h3>${T('桌面完整内容 · 10 模块','Complete desktop content · 10 modules')}</h3>${gallery('aplus-desktop',desktop.map(label=>({label,wide:true})),'two')}<h3 style="margin-top:32px">${T('手机完整内容 · 11 状态','Complete mobile content · 11 states')}</h3>${gallery('aplus-mobile',states.map(label=>({label})))}`);
+ out+=section('story','04C / OUTPUT',T('品牌故事：从产品走向生活方式','Brand story: from product to everyday living'),`<p>${T('内容源品牌故事 V01，外层展示 V04。完整桌面卡组与四个手机状态保留。','Brand story V01 within presentation V04. The full desktop card set and all four mobile states are retained.')}</p>${gallery('story-desktop',[{label:T('品牌氛围开场','Brand atmosphere opening'),wide:true},{label:T('桌面完整卡组','Complete desktop card set'),wide:true}],'two')}${gallery('story-mobile',stories.map(label=>({label})))}`);
+ out+=section('banners','04D / OUTPUT',T('Banner 系统：不同入口','Banner system: distinct entry points'),`<p>${T('三主题、六份适配，内容源 Banner V02；完整保留电脑、手机及广告比例。','Three themes and six adaptations from Banner V02, retaining desktop, mobile and ad formats.')}</p>${gallery('banners',banners.map(label=>({label,wide:true})),'two')}`);
+ out+=section('reflection','05 / REFLECTION',T('简短复盘','Brief reflection'),`<div class="grid2"><div><h3>${T('把检查提前到扩展整套之前','Check before scaling up')}</h3><p>${T('现有记录显示，产品边缘、构图差异和手机状态覆盖曾引发返工。下一次应先验证关键试样，再扩展整套。','The records identify rework around product edges, composition variation and mobile state coverage. Key samples should be checked before expanding a full set.')}</p></div><div><h3>${T('结果与限制','Results and limitations')}</h3><p>${T('形成了可追溯的视觉内容与版本记录。没有真实销售或转化数据，不能据此证明商业效果。','The project produced traceable visual content and version records. Without sales or conversion data, commercial impact cannot be established.')}</p></div></div>`);
+ out+=section('next','06 / NEXT',T('继续了解 Migo','Continue exploring'),`<div class="actions">${btn('work',T('返回作品列表','Back to work'))}${btn('about',T('关于 Migo','About Migo'))}${btn('contact',T('联系','Contact'))}</div><p class="caption">${T('其他案例尚未选定，暂不设置虚构的“下一个项目”。','Other cases have not been selected; no fictional next project is included.')}</p>`);
+ return out+'</main></div>';
+}
+function home(){return `<div class="container"><main id="main"><section class="hero home-hero"><p class="eyebrow">MIGO / ${T('个人作品集','PERSONAL PORTFOLIO')}</p><h1>${T('好奇探索，认真设计。','Explore with curiosity. Design with care.')}</h1><p class="lead">${T('我是 Migo，关注 AIGC 与商业视觉设计。','I’m Migo, exploring AIGC and commercial visual design.')}</p><p>${T('通过自主项目，探索 AI 辅助创作、内容组织与设计判断。','Through self-initiated projects, I explore AI-assisted creation, content organization and design decisions.')}</p><div class="actions">${btn('work',T('查看作品 →','View work →'))}${btn('about',T('关于我','About me'))}${link('contact',T('岗位机会与合作联系','Roles and collaborations'))}</div></section><section class="section home-selected" id="selected"><p class="eyebrow">01 / SELECTED WORK</p><h2>${T('从项目了解我的工作','Explore my work through projects')}</h2>${casecard()}</section>${section('approach','02 / APPROACH',T('我如何参与项目','How I approach a project'),`<div class="grid3"><div class="panel"><h3>${T('理解目标','Understand the goal')}</h3><p>${T('从产品信息与展示目标出发，明确内容要回答什么。','Start with product information and presentation goals to define what the content should explain.')}</p></div><div class="panel"><h3>${T('选择与判断','Select and decide')}</h3><p>${T('比较参考与版本，记录取舍和迭代反馈。','Compare references and versions, documenting selections and review feedback.')}</p></div><div class="panel"><h3>${T('透明地协作','Collaborate transparently')}</h3><p>${T('区分个人判断与 AI 工具执行，用真实记录说明分工。','Distinguish personal decisions from AI-assisted execution through project records.')}</p></div></div><div class="actions">${btn('about',T('了解我的背景与工作方式','About my background and approach'))}</div>`)}${section('contact','03 / CONTACT',T('进一步交流','Let’s connect'),`<p>${T('求职机会优先，也欢迎商业合作交流。','Open to role opportunities and commercial collaborations.')}</p>${btn('contact',T('前往联系页','Go to contact'))}`)}</main></div>`}
+
+function work(){return `<div class="container"><main id="main"><section class="hero"><p class="eyebrow">WORK</p><h1>${T('作品与案例','Work and case studies')}</h1><p class="lead">${T('从项目目标、设计判断与具体成果，了解我的工作。','Explore project goals, design decisions and outcomes.')}</p></section>${section('cases','01 / CASE STUDIES',T('当前试验案例','Current trial case'),casecard())}<section class="section"><h2>${T('后续案例','Future cases')}</h2><p>${T('Migo × Beedog 个人品牌 IP 设计原计划作为首篇案例，目前尚未完成。完成并审阅后再决定上线顺序。','The Migo × Beedog personal brand and character project was originally intended as the first case. It remains in development; publication order will be decided after review.')}</p><p class="muted">${T('当前仅有一个试验案例，不设置无效筛选或虚构作品卡片。','Only one trial case is included; no non-functional filters or invented projects are added.')}</p></section></main></div>`}
+function about(){return `<div class="container"><main id="main"><section class="hero"><p class="eyebrow">ABOUT</p><h1>${T('我是 Migo','I’m Migo')}</h1><p class="lead">${T('独立视觉设计师，关注商业视觉、AI 辅助创作与创意思考。','An independent visual designer interested in commercial visuals, AI-assisted creation and creative thinking.')}</p><p>${T('好奇探索，认真设计。','Explore with curiosity. Design with care.')}</p></section>${section('practice','01 / PRACTICE',T('通过实际项目了解我的工作','Understand my work through real project records'),`<p>${T('在 NED 试验案例中，我负责项目目标、审美方向、参考选择、版本取舍与审稿反馈，并与 Codex 和 AI 工具协作。','In the NED trial case, I set goals and aesthetic direction, selected references, compared versions and provided review feedback in collaboration with Codex and AI tools.')}</p>${btn('ned',T('查看 NED 案例','View the NED case'))}<div class="empty">${T('目前关注深圳 AIGC／视觉设计岗位；完整履历与对外介绍待补充、待审阅。','Currently exploring AIGC and visual design roles in Shenzhen; the full résumé and public introduction are pending.')}</div>`)}${section('brand','02 / MIGO × BEEDOG',T('设计师与品牌角色','Designer and brand character'),`<div class="grid2"><div><h3>Migo</h3><p>${T('设计师与品牌主体，负责专业创作、设计决策和商业服务。','The designer and brand owner, responsible for professional creation, design decisions and commercial services.')}</p><h3>Beedog</h3><p>${T('Migo 的原创品牌角色，支持情感表达与内容互动；不是另一位独立设计师。','Migo’s original brand character for emotional expression and content interaction, not a separate designer.')}</p></div>${slot(T('Beedog 形象预留 · 尚未确认','Beedog visual slot · not yet approved'),T('角色设计 Pending · 本轮不绘制','Character design pending · no character artwork created'))}</div>`)}${section('next','03 / NEXT',T('查看作品或进一步交流','Explore work or get in touch'),`<div class="actions">${btn('work',T('查看作品','View work'))}${btn('contact',T('联系','Contact'))}</div>`)}</main></div>`}
+function contact(){return `<div class="container"><main id="main"><section class="hero"><p class="eyebrow">CONTACT</p><h1>${T('一起讨论下一步','Let’s discuss what’s next')}</h1><p class="lead">${T('求职机会优先，也欢迎商业合作交流。','Open to role opportunities and commercial collaborations.')}</p></section>${section('channels','01 / GET IN TOUCH',T('联系入口','Contact channels'),`<div class="grid2"><div class="panel"><h3>${T('联系渠道','Contact method')}</h3><p>${T('邮箱或其他主要联系方式待提供。','An email address or primary contact method is to be provided.')}</p><button type="button" disabled>${T('联系方式待补充','Contact details pending')}</button><p class="caption">${T('渠道确认后再开放实际联系操作。','Contact actions will become available once details are confirmed.')}</p></div><div class="panel"><h3>${T('交流时可附上','Helpful context')}</h3><ul class="role-list"><li>${T('岗位或项目背景','Role or project context')}</li><li>${T('需要的设计内容与时间安排','Design scope and timing')}</li><li>${T('便于回复的联系信息','Contact details for a reply')}</li></ul></div></div><p class="inline-note">${T('当前没有在线表单或消息收集。','No contact form or message collection is currently provided.')}</p>`)}${section('next','02 / EXPLORE',T('先了解我的工作','Explore my work first'),`<div class="actions">${btn('work',T('查看作品','View work'))}${btn('about',T('关于 Migo','About Migo'))}</div>`)}</main></div>`}
+function notfound(){return `<div class="container"><main class="page404" id="main"><p class="eyebrow">PAGE NOT FOUND</p><h1>404</h1><h2>${T('这个页面暂时找不到','This page could not be found')}</h2><p>${T('链接可能已变更，你可以回到首页或继续查看作品。','The link may have changed. Return home or continue exploring the work.')}</p><div class="actions">${btn('home',T('返回首页','Return home'))}${btn('work',T('查看作品','View work'))}</div></main></div>`}
+
+const renderers={home,work,about,contact,ned,'404':notfound};
+const positions=new Map();
+function positionKey(){return `${page}/${lang}/${mode}/${device}`;}
+function storePosition(key,value){positions.set(key,value);try{sessionStorage.setItem('migo-v03:'+key,JSON.stringify(value));}catch{}}
+function getPosition(key){if(positions.has(key))return positions.get(key);try{return JSON.parse(sessionStorage.getItem('migo-v03:'+key));}catch{return null;}}
+function focusToken(el=document.activeElement){if(!el)return null;if(el.id)return {id:el.id};if(el.dataset.focusKey)return {key:el.dataset.focusKey};return null;}
+function findFocus(token){if(!token)return null;return token.id?document.getElementById(token.id):canvas.querySelector(`[data-focus-key="${token.key}"]`);}
+function focusWithoutScroll(el){if(el&&el.isConnected&&el.getClientRects().length)el.focus({preventScroll:true});}
+function savePosition(){
+ if(restoring||bodyLocked)return;
+ const point={v3:true,y:scrollY,focus:focusToken()};
+ history.replaceState({...history.state,...point},'',location.href);storePosition(positionKey(),point);
+}
+let scrollFrame=0;
+addEventListener('scroll',()=>{if(!scrollFrame)scrollFrame=requestAnimationFrame(()=>{scrollFrame=0;savePosition();});},{passive:true});
+addEventListener('pagehide',savePosition);
+function currentSection(){
+ const hash=location.hash.slice(1);
+ const sections=[...canvas.querySelectorAll('main .section[id]')];
+ let found='';for(const section of sections)if(section.getBoundingClientRect().top<=100)found=section.id;
+ return found||(scrollY>200?hash:'');
+}
+function updateState(){window.wireframeState={version:'V03',page,device,lang,mode,demo,motionChoice,reducedMotion:document.documentElement.dataset.motion==='off',viewer:{open:dialog.open,group,index},groupCounts:Object.fromEntries(Object.entries(imageGroups).map(([k,v])=>[k,v.length]))};}
+function applyMotion(){
+ const reduced=motionChoice==='off'||mediaQuery.matches;
+ document.documentElement.dataset.motion=reduced?'off':'on';
+ document.getElementById('motion-status').textContent=motionChoice==='off'?'当前：已关闭动效，功能保持可用。':mediaQuery.matches?'当前：系统要求减少动态效果，已停用位移、缩放与过渡。':'当前：轻量动效候选；可切换静态对照，也会响应系统偏好。';
+ updateState();
+}
+mediaQuery.addEventListener('change',applyMotion);
+function closeMenu(restoreFocus=false){const menu=canvas.querySelector('.mobile-menu');if(menu?.open){menu.open=false;if(restoreFocus)focusWithoutScroll(menu.querySelector('summary'));}}
+function resize(){
+ const active=document.activeElement;
+ if(mode==='browse'){device=innerWidth<760?'mobile':'desktop';canvas.classList.toggle('mobile',device==='mobile');}
+ if(device==='desktop')closeMenu(false);
+ if(!dialog.open&&active&&active!==document.body&&!active.getClientRects().length){
+  if(device==='mobile')focusWithoutScroll(canvas.querySelector('.mobile-menu summary'));
+  else{const target=active.getAttribute?.('href');focusWithoutScroll([...canvas.querySelectorAll('.site-nav a')].find(a=>a.getAttribute('href')===target)||canvas.querySelector('.wordmark'));}
+ }
+ canvas.style.zoom=mode==='browse'||mode==='canvas'||!fit?'1':Math.min(1,Math.max(1,innerWidth-(innerWidth<600?24:48))/(device==='mobile'?390:1440));
+ for(const id of ['device-select','fit','actual'])document.getElementById(id).disabled=mode!=='review';
+ document.getElementById('device-select').value=device;updateState();
+}
+addEventListener('resize',resize);
+function lockBody(){
+ lockedY=scrollY;bodyStyles={};for(const key of ['position','top','left','right','width','overflow'])bodyStyles[key]=document.body.style[key];
+ bodyLocked=true;Object.assign(document.body.style,{position:'fixed',top:`-${lockedY}px`,left:'0',right:'0',width:'100%',overflow:'hidden'});
+}
+function finishClose(restore=true){
+ if(!bodyLocked)return;
+ bodyLocked=false;for(const [key,value] of Object.entries(bodyStyles))document.body.style[key]=value;
+ scrollTo(0,lockedY);if(restore)focusWithoutScroll(opener);opener=null;updateState();
+}
+function closeViewer(restore=true){if(dialog.open)dialog.close();finishClose(restore);}
+dialog.addEventListener('cancel',event=>{event.preventDefault();closeViewer();});
+dialog.addEventListener('close',()=>{if(bodyLocked)finishClose();});
+document.getElementById('close-modal').addEventListener('click',()=>closeViewer());
+function mediaContent(){
+ const label=document.getElementById('lightbox-label');
+ if(label)label.textContent=imageGroups[group][index].label;
+}
+function drawMedia(){
+ const label=imageGroups[group][index].label;
+ const panel=document.getElementById('media-panel');panel.replaceChildren();
+ const strong=document.createElement('strong');strong.id='lightbox-label';strong.textContent=label;panel.append(strong);
+ const text=document.createElement('p');text.setAttribute('role','status');
+ text.textContent=demo==='loading'?T('【状态演示】图片加载中 · 当前为暂停的审阅状态，没有真实网络等待。','[State demo] Loading image · a paused review state, not a network request.'):demo==='error'?T('【状态演示】图片加载失败 · 不代表真实作品素材故障。','[State demo] Image failed to load · no real artwork request has failed.'):T('大图占位 · 实际作品素材后续接入。','Image placeholder · original artwork is not integrated yet.');panel.append(text);
+ if(demo==='loading'||demo==='error'){
+  const reset=document.createElement('button');reset.type='button';reset.id='end-media-demo';reset.textContent=T('结束演示，恢复占位','End demo and restore placeholder');
+  reset.addEventListener('click',()=>{demo='normal';const u=new URL(location.href);u.searchParams.set('demo','normal');history.replaceState(history.state,'',u);document.getElementById('demo-select').value='normal';drawMedia();refreshLinks();canvas.querySelector('.demo-banner')?.remove();focusWithoutScroll(document.getElementById('close-modal'));updateState();});panel.append(reset);
+ }
+}
+function displayImage(){
+ const items=imageGroups[group];document.getElementById('lightbox-title').textContent=items[index].label;
+ document.getElementById('lightbox-count').textContent=`${index+1} / ${items.length}`;
+ document.getElementById('prev-image').disabled=index===0;document.getElementById('next-image').disabled=index===items.length-1;
+ drawMedia();updateState();
+}
+function openViewer(el){savePosition();opener=el;group=el.dataset.group;index=Number(el.dataset.image);displayImage();lockBody();dialog.showModal();document.getElementById('close-modal').focus({preventScroll:true});updateState();}
+function stepImage(delta){if(!dialog.open)return;const next=index+delta;if(next>=0&&next<imageGroups[group].length){index=next;displayImage();}}
+document.getElementById('prev-image').onclick=()=>stepImage(-1);document.getElementById('next-image').onclick=()=>stepImage(1);
+dialog.addEventListener('keydown',event=>{
+ if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();stepImage(event.key==='ArrowLeft'?-1:1);}
+ if(event.key==='Tab'){
+  const nodes=[...dialog.querySelectorAll('button:not(:disabled),a[href],select:not(:disabled),[tabindex]:not([tabindex="-1"])')].filter(el=>el.getClientRects().length);
+  const first=nodes[0],last=nodes[nodes.length-1],active=document.activeElement;
+  if(!nodes.length){event.preventDefault();return;}
+  if(event.shiftKey&&(active===first||!nodes.includes(active))){event.preventDefault();last.focus();}
+  else if(!event.shiftKey&&(active===last||!nodes.includes(active))){event.preventDefault();first.focus();}
+ }
+});
+function refreshLinks(){
+ for(const a of canvas.querySelectorAll('a[href]')){
+  const u=new URL(a.href,location.href);if(u.origin===location.origin&&u.pathname===location.pathname&&u.search){u.searchParams.set('demo',demo);u.searchParams.set('motion',motionChoice);a.href=u.pathname+u.search+u.hash;}
+ }
+}
+function missingTranslation(){return `<div class="container"><main id="main"><section class="hero"><p class="eyebrow">${labels[page]} / STATE DEMO</p><h1>English version pending</h1><div class="missing-translation"><p>This is a review-only missing-translation demo. The project identity is unchanged; no approved translation is being claimed.</p><p lang="zh-CN">中文内容仍可访问；退出演示后可继续查看英文结构草稿。</p><div class="actions"><a class="action language" href="${url(page,'zh')}">查看同一页面的中文</a><button id="end-translation-demo" type="button">End demo · show English draft</button></div></div></section></main></div>`;}
+function renderPage(point=null,{anchor=false,focusMain=false}={}){
+ restoring=true;const token=++drawId;closeViewer(false);readLocation();
+ for(const key of Object.keys(imageGroups))delete imageGroups[key];
+ const banner=demo==='normal'?'':`<div class="demo-banner">${T('【审阅状态演示】不是正式内容或真实网络状态；可在顶部设置中结束。','[Review state demo] Not final content or a live network state; reset it in review settings.')}</div>`;
+ canvas.innerHTML=header()+banner+(demo==='translation'&&en?missingTranslation():renderers[page]())+footer();
+ canvas.querySelectorAll('a,button,summary,select').forEach((el,i)=>el.dataset.focusKey=String(i));
+ const main=canvas.querySelector('main');main.tabIndex=-1;
+ for(const [id,value] of [['page-select',page],['device-select',device],['lang-select',lang],['mode-select',mode==='canvas'?'browse':mode],['motion-select',motionChoice],['demo-select',demo]])document.getElementById(id).value=value;
+ if(mode==='review')document.getElementById('review-tools').open=true;
+ document.getElementById('page-note').textContent=T('V03：检查导航／返回位置、菜单 Escape、图组与关闭返回、语言章节定位；加载／失败／缺译均为模拟。','V03: review navigation, position restoration, menu Escape, image groups, language context and explicitly simulated states.');
+ document.title=`${labels[page]}｜Migo 交互审阅 V03`;applyMotion();resize();
+ requestAnimationFrame(()=>{
+  if(token!==drawId)return;
+  let target=null;try{if(location.hash)target=document.getElementById(decodeURIComponent(location.hash.slice(1)));}catch{}
+  if(anchor&&target){target.scrollIntoView({behavior:'instant',block:'start'});const heading=target===main?main:(target.querySelector?.('h2')||target);heading.tabIndex=-1;focusWithoutScroll(heading);}
+  else{scrollTo(0,point?.y||0);if(point?.focus)focusWithoutScroll(findFocus(point.focus));else if(focusMain)focusWithoutScroll(main);}
+  requestAnimationFrame(()=>{if(token!==drawId)return;restoring=false;savePosition();updateState();});
+ });
+}
+function navigate(next,{replace=false,preserve=false,languageChange=false}={}){
+ const u=new URL(next,location.href);const before=page;const prior={v3:true,y:bodyLocked?lockedY:scrollY,focus:focusToken()};
+ if(languageChange&&page==='ned'){const id=location.hash.slice(1)||currentSection();if(id)u.hash=id;}
+ savePosition();closeMenu(false);closeViewer(false);
+ const nextPage=u.searchParams.get('page')||'home';
+ let point=preserve?prior:null;
+ if(!point&&before==='ned'&&nextPage==='work'){const l=u.searchParams.get('lang')||'zh';point=getPosition(`work/${l}/${u.searchParams.get('mode')||'browse'}/${device}`);}
+ history[replace?'replaceState':'pushState'](point||{v3:true,y:0,focus:null},'',u);
+ renderPage(point,{anchor:!!u.hash&&!point,focusMain:!point});
+}
+addEventListener('popstate',()=>{const point={...history.state};renderPage(point,{anchor:!Number.isFinite(point.y)&&!!location.hash,focusMain:!point.focus});});
+document.addEventListener('click',event=>{
+ const image=event.target.closest('[data-image]');if(image&&canvas.contains(image)){openViewer(image);return;}
+ const end=event.target.closest('#end-translation-demo');if(end){const u=new URL(location.href);u.searchParams.set('demo','normal');navigate(u,{replace:true});return;}
+ const a=event.target.closest('a[href]');if(!a||!canvas.contains(a)||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||a.target||a.hasAttribute('download'))return;
+ const u=new URL(a.href,location.href);if(u.origin!==location.origin||u.pathname!==location.pathname)return;
+ event.preventDefault();navigate(u,{languageChange:a.classList.contains('language')});
+});
+document.addEventListener('click',event=>{const menu=canvas.querySelector('.mobile-menu');if(menu?.open&&!menu.contains(event.target)&&!dialog.open)closeMenu(false);});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!dialog.open){const menu=canvas.querySelector('.mobile-menu');if(menu?.open){event.preventDefault();closeMenu(true);}}});
+const settingIds=['page-select','device-select','lang-select','mode-select','motion-select','demo-select'];
+for(const id of settingIds)document.getElementById(id).addEventListener('change',()=>{
+ const nextMode=document.getElementById('mode-select').value;
+ const q={page:document.getElementById('page-select').value,lang:document.getElementById('lang-select').value,mode:nextMode,motion:document.getElementById('motion-select').value,demo:document.getElementById('demo-select').value};
+ if(nextMode==='review')q.device=document.getElementById('device-select').value;
+ const u=new URL(location.href);u.search=new URLSearchParams(q);u.hash=id==='lang-select'?(location.hash.slice(1)||currentSection()):'';
+ navigate(u,{replace:id!=='page-select',preserve:id!=='page-select'&&id!=='lang-select',languageChange:id==='lang-select'});
+});
+document.getElementById('fit').onclick=()=>{fit=true;resize();};document.getElementById('actual').onclick=()=>{fit=false;resize();};
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+const initial=history.state?.v3?history.state:null;
+renderPage(initial,{anchor:!initial&&!!location.hash});
+
+</script>
+</body>
+</html>
