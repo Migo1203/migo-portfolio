@@ -1,0 +1,1180 @@
+{
+  "date_beijing": "2026-11-11",
+  "archive_scope": "同一对话中已完成的交互观察与源码核对，不是本轮重新浏览或整站测试",
+  "source_urls": [
+    "https://www.dennissnellenberg.com/",
+    "https://www.dennissnellenberg.com/work",
+    "https://www.dennissnellenberg.com/work/the-damai",
+    "https://www.dennissnellenberg.com/assets/js/index-new.js",
+    "https://www.dennissnellenberg.com/assets/css/style-new.css"
+  ],
+  "method": "原始GET响应经环境CA校验后在云端Chromium渲染；真实鼠标移动、滚轮和点击。屏蔽非GET、分析跟踪及媒体，不代表原生网络性能。",
+  "screenshots": [
+    {
+      "original_capture_file": "01_首页初始.png",
+      "path": "丹尼斯交互截图/01_首页加载遮罩.png",
+      "size": [
+        1440,
+        900
+      ],
+      "sha256": "95be57d3ab87053ca56b298550e1c38ac8ea70661eea4166ce97fbf3f6ee66c6",
+      "source_capture_mtime_utc": "2026-11-11T07:10:51.239444+00:00"
+    },
+    {
+      "original_capture_file": "03_首页稳定.png",
+      "path": "丹尼斯交互截图/02_首页稳定状态.png",
+      "size": [
+        1440,
+        900
+      ],
+      "sha256": "73e5b26e7e14d42f1a8baf3cfffe166dd5f578dc2e7ab3123160ebc96c503192",
+      "source_capture_mtime_utc": "2026-11-11T07:10:55.157564+00:00"
+    },
+    {
+      "original_capture_file": "04_导航悬停.png",
+      "path": "丹尼斯交互截图/03_导航磁吸悬停.png",
+      "size": [
+        1440,
+        900
+      ],
+      "sha256": "66064b968a54ae53c081edbdbc085e81dcdf1056fb2751d08e20fc6fb7db44ec",
+      "source_capture_mtime_utc": "2026-11-11T07:10:55.999175+00:00"
+    },
+    {
+      "original_capture_file": "18_作品页初始.png",
+      "path": "丹尼斯交互截图/04_作品列表初始.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "sha256": "6ff46d25f6f05de4a837aa690a53806e0d6769a659e748c98eb8a3606f16cbe2",
+      "source_capture_mtime_utc": "2026-11-11T07:12:36.626434+00:00"
+    },
+    {
+      "original_capture_file": "19_作品1悬停.png",
+      "path": "丹尼斯交互截图/05_作品一悬停.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "sha256": "2b462ff2edd26d4c6f69325106637c3f46fdb0a2dac2d2893f89ae9834ccc715",
+      "source_capture_mtime_utc": "2026-11-11T07:12:37.775462+00:00"
+    },
+    {
+      "original_capture_file": "20_作品1跟随.png",
+      "path": "丹尼斯交互截图/06_作品一跟随.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "sha256": "5bddf939b1d40ea1ca871cac044aaa65343d8e0ab53a8b492f1abe02d1171672",
+      "source_capture_mtime_utc": "2026-11-11T07:12:38.754074+00:00"
+    },
+    {
+      "original_capture_file": "19_作品2悬停.png",
+      "path": "丹尼斯交互截图/07_切换作品预览.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "sha256": "d1f4c46eadafc7f01f9da1eaec4587c7a5813d7ead9605400380cb5f8d5f4520",
+      "source_capture_mtime_utc": "2026-11-11T07:12:39.740585+00:00"
+    },
+    {
+      "original_capture_file": "21_离开作品恢复.png",
+      "path": "丹尼斯交互截图/08_离开作品恢复.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "sha256": "6ff46d25f6f05de4a837aa690a53806e0d6769a659e748c98eb8a3606f16cbe2",
+      "source_capture_mtime_utc": "2026-11-11T07:12:41.485237+00:00"
+    },
+    {
+      "original_capture_file": "16_手机菜单展开.png",
+      "path": "丹尼斯交互截图/09_手机菜单展开.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "e9491b9551313cb03ad02430045d3d9ff69a60120ab9e62d543d3ccee87c6721",
+      "source_capture_mtime_utc": "2026-11-11T07:11:17.440515+00:00"
+    },
+    {
+      "original_capture_file": "17_手机菜单关闭.png",
+      "path": "丹尼斯交互截图/10_手机菜单关闭.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "4741387ba7b3539cd25ca42b208964056764584ebea1065f2c5eaca58045a7a6",
+      "source_capture_mtime_utc": "2026-11-11T07:11:18.778945+00:00"
+    },
+    {
+      "original_capture_file": "22_项目切换遮罩.png",
+      "path": "丹尼斯交互截图/11_项目切换遮罩.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "sha256": "ed0240f3f6053a4ae7491cf5e639f8678371a98caa5fe6f087baff018822da42",
+      "source_capture_mtime_utc": "2026-11-11T07:12:41.870557+00:00"
+    },
+    {
+      "original_capture_file": "23_项目详情进入.png",
+      "path": "丹尼斯交互截图/12_项目详情进入.png",
+      "size": [
+        1440,
+        1100
+      ],
+      "sha256": "fb05b181b51c3246c09df6b116b6543ed4a442e5965679e32dc1d1398dd9164f",
+      "source_capture_mtime_utc": "2026-11-11T07:12:44.511793+00:00"
+    }
+  ],
+  "primary_observation": {
+    "url": "https://www.dennissnellenberg.com/",
+    "method": "原始GET响应经环境CA校验后在云端Chromium渲染；真实鼠标移动、滚轮和点击。屏蔽非GET、分析跟踪及媒体，不代表原生网络性能。",
+    "events": [
+      {
+        "name": "01_首页初始",
+        "screenshot": "01_首页初始.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main no-touch",
+          "html": "has-scroll-init has-scroll-smooth",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+            "opacity": "1",
+            "x": 1526.3922119140625,
+            "y": -0.004713956732302904,
+            "width": 540.2032470703125,
+            "height": 900.0093994140625
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3646.6875
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 630,
+            "width": 1440,
+            "height": 270
+          }
+        },
+        "archive_path": "丹尼斯交互截图/01_首页加载遮罩.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "02_首页进入中",
+        "screenshot": "02_首页进入中.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main no-touch",
+          "html": "has-scroll-init has-scroll-smooth",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 900
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+            "opacity": "1",
+            "x": 1526.3922119140625,
+            "y": -0.004713956732302904,
+            "width": 540.2032470703125,
+            "height": 900.0093994140625
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3646.6875
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 630,
+            "width": 1440,
+            "height": 270
+          }
+        },
+        "retained_in_project": false,
+        "archive_note": "未作为最终观察截图归档；原始状态记录保留，不据此扩大视觉结论。"
+      },
+      {
+        "name": "03_首页稳定",
+        "screenshot": "03_首页稳定.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main no-touch",
+          "html": "has-scroll-init has-scroll-smooth",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 900
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+            "opacity": "1",
+            "x": 1526.3922119140625,
+            "y": -0.004713956732302904,
+            "width": 540.2032470703125,
+            "height": 900.0093994140625
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3646.6875
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 630,
+            "width": 1440,
+            "height": 270
+          }
+        },
+        "archive_path": "丹尼斯交互截图/02_首页稳定状态.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "04_导航悬停",
+        "screenshot": "04_导航悬停.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main no-touch",
+          "html": "has-scroll-init has-scroll-smooth",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 900
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+            "opacity": "1",
+            "x": 1526.3922119140625,
+            "y": -0.004713956732302904,
+            "width": 540.2032470703125,
+            "height": 900.0093994140625
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3646.6875
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 1183,
+            "y": 53,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 1183,
+            "y": 53,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 1209,
+            "y": 54,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 630,
+            "width": 1440,
+            "height": 270
+          }
+        },
+        "archive_path": "丹尼斯交互截图/03_导航磁吸悬停.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "05_滚动_1",
+        "screenshot": "05_滚动_1.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main no-touch",
+          "html": "has-scroll-init has-scroll-smooth has-scroll-scrolling",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 900
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+            "opacity": "1",
+            "x": 1526.3922119140625,
+            "y": -0.004713956732302904,
+            "width": 540.2032470703125,
+            "height": 900.0093994140625
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3646.6875
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 20,
+            "y": 400,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 20,
+            "y": 400,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 20,
+            "y": 400,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 534.7254638671875,
+            "width": 1440,
+            "height": 270
+          }
+        },
+        "retained_in_project": false,
+        "archive_note": "未作为最终观察截图归档；原始状态记录保留，不据此扩大视觉结论。"
+      },
+      {
+        "name": "05_滚动_3",
+        "screenshot": "05_滚动_3.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main no-touch",
+          "html": "has-scroll-init has-scroll-smooth has-scroll-scrolling",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": -900,
+            "width": 1440,
+            "height": 900
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+            "opacity": "1",
+            "x": 1526.3922119140625,
+            "y": -0.004713956732302904,
+            "width": 540.2032470703125,
+            "height": 900.0093994140625
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3646.6875
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 20,
+            "y": 400,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 20,
+            "y": 400,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "x": 20,
+            "y": 400,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 438.7274475097656,
+            "width": 1440,
+            "height": 269.9999694824219
+          }
+        },
+        "retained_in_project": false,
+        "archive_note": "未作为最终观察截图归档；原始状态记录保留，不据此扩大视觉结论。"
+      },
+      {
+        "name": "15_手机首页",
+        "screenshot": "15_手机首页.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main touch",
+          "html": "has-scroll-init",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": -844,
+            "width": 390,
+            "height": 844
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 468, 0)",
+            "opacity": "1",
+            "x": 467.9926452636719,
+            "y": -0.0034033276606351137,
+            "width": 390.0147399902344,
+            "height": 844.0068359375
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3690.3125
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 475.875,
+            "width": 390,
+            "height": 174
+          }
+        },
+        "retained_in_project": false,
+        "archive_note": "未作为最终观察截图归档；原始状态记录保留，不据此扩大视觉结论。"
+      },
+      {
+        "name": "16_手机菜单展开",
+        "screenshot": "16_手机菜单展开.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main touch nav-active",
+          "html": "has-scroll-init",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": -844,
+            "width": 390,
+            "height": 844
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 0, 0)",
+            "opacity": "1",
+            "x": -0.007365259807556868,
+            "y": -0.0034033276606351137,
+            "width": 390.01470947265625,
+            "height": 844.0068359375
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3690.3125
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 475.875,
+            "width": 390,
+            "height": 174
+          }
+        },
+        "archive_path": "丹尼斯交互截图/09_手机菜单展开.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "17_手机菜单关闭",
+        "screenshot": "17_手机菜单关闭.png",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/",
+          "main": "main touch",
+          "html": "has-scroll-init",
+          "loader": {
+            "class": "loading-screen",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": -844,
+            "width": 390,
+            "height": 844
+          },
+          "nav": {
+            "class": "fixed-nav theme-dark",
+            "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 468, 0)",
+            "opacity": "1",
+            "x": 467.9926452636719,
+            "y": -0.0034033276606351137,
+            "width": 390.0147399902344,
+            "height": 844.0068359375
+          },
+          "scroll": {
+            "class": "main-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 3690.3125
+          },
+          "preview": {
+            "class": "mouse-pos-list-image no-select",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "float": {
+            "class": "float-image-wrap",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "cursor": {
+            "class": "mouse-pos-list-btn no-select",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "name": {
+            "class": "big-name",
+            "transform": "none",
+            "opacity": "1",
+            "x": 0,
+            "y": 475.875,
+            "width": 390,
+            "height": 174
+          }
+        },
+        "archive_path": "丹尼斯交互截图/10_手机菜单关闭.png",
+        "retained_in_project": true
+      }
+    ],
+    "failed_requests": [],
+    "js_errors": [],
+    "nav_before": {
+      "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 0, 0)",
+      "text": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 0, 0)"
+    },
+    "nav_hover": {
+      "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 5.4277, 3.2965)",
+      "text": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 2.7138, 1.6483)"
+    },
+    "nav_leave": {
+      "transform": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 0, 0)",
+      "text": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 0, 0)"
+    },
+    "desktop_error": "TimeoutError: Locator.hover: Timeout 7000ms exceeded.\nCall log:\n  - waiting for locator(\".work-items a\").first\n    - locator resolved to <a class=\"row\" href=\"https://www.dennissnellenberg.com/work/twice\">…</a>\n  - attempting hover action\n    2 × waiting for element to be visible and stable\n      - element is not stable\n    - retrying hover action\n    - waiting 20ms\n    2 × waiting for element to be visible and stable\n      - element is not stable\n    - retrying hover action\n      - waiting 100ms\n    13 × waiting for element to be visible and stable\n       - element is visible and stable\n       - scrolling i"
+  },
+  "work_page_supplement": {
+    "events": [
+      {
+        "name": "18_作品页初始",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/work",
+          "html": "has-scroll-init has-scroll-smooth",
+          "main": "main no-touch",
+          "windowY": 0,
+          "loader": -1100,
+          "preview": "mouse-pos-list-image no-select",
+          "previewCSS": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "x": 0,
+            "y": 0
+          },
+          "float": "none",
+          "nav": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+          "rows": [
+            {
+              "name": "TWICE\n\nSpain\n\nInteraction & Development\n\n2024",
+              "rect": {
+                "x": 115.19650268554688,
+                "y": 802.5675659179688,
+                "width": 1209.6268310546875,
+                "height": 108.8336181640625,
+                "top": 802.5675659179688,
+                "right": 1324.8233337402344,
+                "bottom": 911.4011840820312,
+                "left": 115.19650268554688
+              }
+            },
+            {
+              "name": "The Damai\n\nBali, Indonesia\n\nDesign & Development\n\n2024",
+              "rect": {
+                "x": 115.19459533691406,
+                "y": 911.7081909179688,
+                "width": 1209.626953125,
+                "height": 108.8336181640625,
+                "top": 911.7081909179688,
+                "right": 1324.821548461914,
+                "bottom": 1020.5418090820312,
+                "left": 115.19459533691406
+              }
+            }
+          ]
+        },
+        "archive_path": "丹尼斯交互截图/04_作品列表初始.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "19_作品1悬停",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/work",
+          "html": "has-scroll-init has-scroll-smooth",
+          "main": "main no-touch",
+          "windowY": 0,
+          "loader": -1100,
+          "preview": "mouse-pos-list-image no-select active",
+          "previewCSS": {
+            "transform": "matrix(1, 0, 0, 1, -198, -205.92)",
+            "x": 329,
+            "y": 619.0800170898438
+          },
+          "float": "matrix(1, 0, 0, 1, 0, 0)",
+          "nav": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+          "rows": [
+            {
+              "name": "TWICE\n\nSpain\n\nInteraction & Development\n\n2024",
+              "rect": {
+                "x": 115.19650268554688,
+                "y": 802.5675659179688,
+                "width": 1209.6268310546875,
+                "height": 108.8336181640625,
+                "top": 802.5675659179688,
+                "right": 1324.8233337402344,
+                "bottom": 911.4011840820312,
+                "left": 115.19650268554688
+              }
+            },
+            {
+              "name": "The Damai\n\nBali, Indonesia\n\nDesign & Development\n\n2024",
+              "rect": {
+                "x": 115.19459533691406,
+                "y": 911.7081909179688,
+                "width": 1209.626953125,
+                "height": 108.8336181640625,
+                "top": 911.7081909179688,
+                "right": 1324.821548461914,
+                "bottom": 1020.5418090820312,
+                "left": 115.19459533691406
+              }
+            }
+          ]
+        },
+        "archive_path": "丹尼斯交互截图/05_作品一悬停.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "20_作品1跟随",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/work",
+          "html": "has-scroll-init has-scroll-smooth",
+          "main": "main no-touch",
+          "windowY": 0,
+          "loader": -1100,
+          "preview": "mouse-pos-list-image no-select active",
+          "previewCSS": {
+            "transform": "matrix(1, 0, 0, 1, -198, -205.92)",
+            "x": 758,
+            "y": 636.0800170898438
+          },
+          "float": "matrix(1, 0, 0, 1, 0, 0)",
+          "nav": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+          "rows": [
+            {
+              "name": "TWICE\n\nSpain\n\nInteraction & Development\n\n2024",
+              "rect": {
+                "x": 115.19650268554688,
+                "y": 802.5675659179688,
+                "width": 1209.6268310546875,
+                "height": 108.8336181640625,
+                "top": 802.5675659179688,
+                "right": 1324.8233337402344,
+                "bottom": 911.4011840820312,
+                "left": 115.19650268554688
+              }
+            },
+            {
+              "name": "The Damai\n\nBali, Indonesia\n\nDesign & Development\n\n2024",
+              "rect": {
+                "x": 115.19459533691406,
+                "y": 911.7081909179688,
+                "width": 1209.626953125,
+                "height": 108.8336181640625,
+                "top": 911.7081909179688,
+                "right": 1324.821548461914,
+                "bottom": 1020.5418090820312,
+                "left": 115.19459533691406
+              }
+            }
+          ]
+        },
+        "archive_path": "丹尼斯交互截图/06_作品一跟随.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "19_作品2悬停",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/work",
+          "html": "has-scroll-init has-scroll-smooth",
+          "main": "main no-touch",
+          "windowY": 0,
+          "loader": -1100,
+          "preview": "mouse-pos-list-image no-select active",
+          "previewCSS": {
+            "transform": "matrix(1, 0, 0, 1, -198, -205.92)",
+            "x": 345,
+            "y": 744.0800170898438
+          },
+          "float": "matrix(1, 0, 0, 1, 0, -396)",
+          "nav": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+          "rows": [
+            {
+              "name": "TWICE\n\nSpain\n\nInteraction & Development\n\n2024",
+              "rect": {
+                "x": 115.19650268554688,
+                "y": 802.5675659179688,
+                "width": 1209.6268310546875,
+                "height": 108.8336181640625,
+                "top": 802.5675659179688,
+                "right": 1324.8233337402344,
+                "bottom": 911.4011840820312,
+                "left": 115.19650268554688
+              }
+            },
+            {
+              "name": "The Damai\n\nBali, Indonesia\n\nDesign & Development\n\n2024",
+              "rect": {
+                "x": 115.19459533691406,
+                "y": 911.7081909179688,
+                "width": 1209.626953125,
+                "height": 108.8336181640625,
+                "top": 911.7081909179688,
+                "right": 1324.821548461914,
+                "bottom": 1020.5418090820312,
+                "left": 115.19459533691406
+              }
+            }
+          ]
+        },
+        "archive_path": "丹尼斯交互截图/07_切换作品预览.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "20_作品2跟随",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/work",
+          "html": "has-scroll-init has-scroll-smooth",
+          "main": "main no-touch",
+          "windowY": 0,
+          "loader": -1100,
+          "preview": "mouse-pos-list-image no-select active",
+          "previewCSS": {
+            "transform": "matrix(1, 0, 0, 1, -198, -205.92)",
+            "x": 758,
+            "y": 745.0800170898438
+          },
+          "float": "matrix(1, 0, 0, 1, 0, -396)",
+          "nav": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+          "rows": [
+            {
+              "name": "TWICE\n\nSpain\n\nInteraction & Development\n\n2024",
+              "rect": {
+                "x": 115.19650268554688,
+                "y": 802.5675659179688,
+                "width": 1209.6268310546875,
+                "height": 108.8336181640625,
+                "top": 802.5675659179688,
+                "right": 1324.8233337402344,
+                "bottom": 911.4011840820312,
+                "left": 115.19650268554688
+              }
+            },
+            {
+              "name": "The Damai\n\nBali, Indonesia\n\nDesign & Development\n\n2024",
+              "rect": {
+                "x": 115.19459533691406,
+                "y": 911.7081909179688,
+                "width": 1209.626953125,
+                "height": 108.8336181640625,
+                "top": 911.7081909179688,
+                "right": 1324.821548461914,
+                "bottom": 1020.5418090820312,
+                "left": 115.19459533691406
+              }
+            }
+          ]
+        },
+        "retained_in_project": false,
+        "archive_note": "未作为最终观察截图归档；原始状态记录保留，不据此扩大视觉结论。"
+      },
+      {
+        "name": "21_离开作品恢复",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/work",
+          "html": "has-scroll-init has-scroll-smooth",
+          "main": "main no-touch",
+          "windowY": 0,
+          "loader": -1100,
+          "preview": "mouse-pos-list-image no-select",
+          "previewCSS": {
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "x": 37,
+            "y": 410
+          },
+          "float": "matrix(1, 0, 0, 1, 0, 0)",
+          "nav": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+          "rows": [
+            {
+              "name": "TWICE\n\nSpain\n\nInteraction & Development\n\n2024",
+              "rect": {
+                "x": 115.19650268554688,
+                "y": 802.5675659179688,
+                "width": 1209.6268310546875,
+                "height": 108.8336181640625,
+                "top": 802.5675659179688,
+                "right": 1324.8233337402344,
+                "bottom": 911.4011840820312,
+                "left": 115.19650268554688
+              }
+            },
+            {
+              "name": "The Damai\n\nBali, Indonesia\n\nDesign & Development\n\n2024",
+              "rect": {
+                "x": 115.19459533691406,
+                "y": 911.7081909179688,
+                "width": 1209.626953125,
+                "height": 108.8336181640625,
+                "top": 911.7081909179688,
+                "right": 1324.821548461914,
+                "bottom": 1020.5418090820312,
+                "left": 115.19459533691406
+              }
+            }
+          ]
+        },
+        "archive_path": "丹尼斯交互截图/08_离开作品恢复.png",
+        "retained_in_project": true
+      },
+      {
+        "name": "22_项目切换遮罩",
+        "state": {
+          "url": "https://www.dennissnellenberg.com/work/the-damai",
+          "html": "has-scroll-init has-scroll-smooth is-transitioning",
+          "main": "main no-touch",
+          "windowY": 0,
+          "loader": 865.640625,
+          "preview": "mouse-pos-list-image no-select active",
+          "previewCSS": {
+            "transform": "matrix(1, 0, 0, 1, -197.672, -205.579)",
+            "x": 76.328125,
+            "y": 665.4212646484375
+          },
+          "float": "matrix(1, 0, 0, 1, 0, -395.343)",
+          "nav": "matrix(1, 1.74533e-05, -1.74533e-05, 1, 626.588, 0)",
+          "rows": [
+            {
+              "name": "TWICE\n\nSpain\n\nInteraction & Development\n\n2024",
+              "rect": {
+                "x": 115.19650268554688,
+                "y": 802.5675659179688,
+                "width": 1209.6268310546875,
+                "height": 108.8336181640625,
+                "top": 802.5675659179688,
+                "right": 1324.8233337402344,
+                "bottom": 911.4011840820312,
+                "left": 115.19650268554688
+              }
+            },
+            {
+              "name": "The Damai\n\nBali, Indonesia\n\nDesign & Development\n\n2024",
+              "rect": {
+                "x": 115.19459533691406,
+                "y": 911.7081909179688,
+                "width": 1209.626953125,
+                "height": 108.8336181640625,
+                "top": 911.7081909179688,
+                "right": 1324.821548461914,
+                "bottom": 1020.5418090820312,
+                "left": 115.19459533691406
+              }
+            }
+          ]
+        },
+        "archive_path": "丹尼斯交互截图/11_项目切换遮罩.png",
+        "retained_in_project": true
+      }
+    ],
+    "failed": [],
+    "errors": [],
+    "error": "Error: Page.evaluate: TypeError: Failed to execute 'getComputedStyle' on 'Window': parameter 1 is not of type 'Element'.\n    at eval (eval at evaluate (:311:30), <anonymous>:1:580)\n    at UtilityScript.evaluate (<anonymous>:318:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  },
+  "detail_arrival_evidence": {
+    "screenshot": "丹尼斯交互截图/12_项目详情进入.png",
+    "url": "https://www.dennissnellenberg.com/work/the-damai",
+    "visual_verified": true,
+    "automated_state_record_complete": false,
+    "note": "原观察脚本在等待目标URL并保存截图后，辅助状态读取函数遇到该页不存在的元素而报错；截图已实际查看，不能把此异常当作站点脚本报错。"
+  },
+  "limitations": [
+    "最初网页交互工具未完成悬停、菜单与详情观察，其推测不作为验证结果",
+    "原生Chromium导航遇到环境证书信任错误；改用继承CA校验的真实HTTPS响应渲染，未关闭TLS校验",
+    "屏蔽分析跟踪、媒体和非GET请求，不测量原生网络性能",
+    "初次首页作品悬停超时，随后在作品列表页以真实鼠标移动补查，未扩大为首页全部行为已验证",
+    "项目进入截图存在，辅助DOM读取异常如实保留",
+    "未完成桌面菜单、全部滚动联动、真机帧率、键盘及减少动态效果的完整验证",
+    "第三方完整HTML、JS、CSS不加入项目资产，源码只保留原始链接"
+  ]
+}
