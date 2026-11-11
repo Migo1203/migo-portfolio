@@ -86,5 +86,86 @@
     "不验证正式HTTP路由、SEO、真实媒体性能或完整读屏与真机表现"
   ],
   "local_document_links": 115,
-  "prior_versions_unchanged": true
+  "prior_versions_unchanged": true,
+  "online": {
+    "checked_at_utc": "2026-11-11T08:41:04.196000+00:00",
+    "url": "https://migo1203.github.io/migo-portfolio/",
+    "http_status": 200,
+    "method": "环境CA校验的真实线上HTTPS响应，在云端Chromium渲染；未关闭TLS验证。",
+    "layouts": [
+      {
+        "width": 390,
+        "page": "home",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "work",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "about",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "contact",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "ned",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "404",
+        "passed": true
+      },
+      {
+        "width": 1440,
+        "page": "home",
+        "passed": true
+      },
+      {
+        "width": 1440,
+        "page": "work",
+        "passed": true
+      },
+      {
+        "width": 1440,
+        "page": "about",
+        "passed": true
+      },
+      {
+        "width": 1440,
+        "page": "contact",
+        "passed": true
+      },
+      {
+        "width": 1440,
+        "page": "ned",
+        "passed": true
+      },
+      {
+        "width": 1440,
+        "page": "404",
+        "passed": true
+      }
+    ],
+    "checks": [
+      "默认首页、主导航、作品→详情、章节双语与浏览器返回通过",
+      "查看层键盘循环、图组切换、背景锁定、关闭焦点返回及系统减少动态效果通过",
+      "手机菜单Escape关闭与焦点恢复通过",
+      "关闭动效和明确标注的失败演示可操作、可恢复占位通过"
+    ],
+    "js_errors": []
+  },
+  "workflow": {
+    "url": "https://github.com/Migo1203/migo-portfolio/actions/runs/42988884970",
+    "run_id": 42988884970,
+    "source_commit": "32330231e8b9be5054e5a2f4d3e45d0c00c6b387",
+    "conclusion": "success"
+  }
 }
