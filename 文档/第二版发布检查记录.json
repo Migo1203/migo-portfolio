@@ -72,5 +72,90 @@
     }
   ],
   "js_errors": [],
-  "scope": "第二版低保真审阅发布包，不是正式作品集网站或用户验收"
+  "scope": "第二版低保真审阅发布包，不是正式作品集网站或用户验收",
+  "online": {
+    "checked_at_utc": "2026-11-11T06:15:53.374017+00:00",
+    "url": "https://migo1203.github.io/migo-portfolio/",
+    "http_status": 200,
+    "sha256": "c776e775fa57a0c270c6754c4f8940d6fa899683b6a004b0e6462906232d25c7",
+    "source": "线框/第二版/线框审阅.html",
+    "method": "真实线上GET，经继承的CA设置校验TLS；Playwright渲染实际获取的线上响应，未关闭TLS验证。",
+    "layouts": [
+      {
+        "width": 390,
+        "page": "home",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "work",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "about",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "contact",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "ned",
+        "passed": true
+      },
+      {
+        "width": 390,
+        "page": "404",
+        "passed": true
+      },
+      {
+        "width": 1920,
+        "page": "home",
+        "passed": true
+      },
+      {
+        "width": 1920,
+        "page": "work",
+        "passed": true
+      },
+      {
+        "width": 1920,
+        "page": "about",
+        "passed": true
+      },
+      {
+        "width": 1920,
+        "page": "contact",
+        "passed": true
+      },
+      {
+        "width": 1920,
+        "page": "ned",
+        "passed": true
+      },
+      {
+        "width": 1920,
+        "page": "404",
+        "passed": true
+      }
+    ],
+    "checks": [
+      "桌面主导航、作品→NED、所属栏目、图组前后／关闭、同案例英文切换、面包屑返回通过",
+      "手机默认首页、自适应布局和菜单→关于通过"
+    ],
+    "js_errors": [],
+    "limitations": [
+      "低保真结构原型，非正式网站与用户验收",
+      "图片仍为占位；不验证真实素材性能、正式路由与SEO"
+    ]
+  },
+  "workflow": {
+    "url": "https://github.com/Migo1203/migo-portfolio/actions/runs/42971107324",
+    "run_id": 42971107324,
+    "source_commit": "a9de5f00a8f1ce3361152d563af2507f9568fb7d",
+    "conclusion": "success"
+  }
 }
