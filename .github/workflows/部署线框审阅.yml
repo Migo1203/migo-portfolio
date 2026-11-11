@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '线框/第一版/线框审阅.html'
+      - '线框/第二版/线框审阅.html'
       - '脚本/生成线框发布文件.py'
       - '.github/workflows/部署线框审阅.yml'
   workflow_dispatch:

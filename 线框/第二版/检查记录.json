@@ -1,0 +1,942 @@
+{
+  "date": "2026-11-11",
+  "scope": "第二版低保真结构审阅，本地检查；非正式网站与用户验收",
+  "layouts": [
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 320,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 760,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 768,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 1024,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 1920,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "zh",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "home",
+      "lang": "en",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "zh",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "work",
+      "lang": "en",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "zh",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "about",
+      "lang": "en",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "zh",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "contact",
+      "lang": "en",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "zh",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "ned",
+      "lang": "en",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "zh",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "browse",
+      "page": "404",
+      "lang": "en",
+      "width": 2560,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "home",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "home",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "work",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "work",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "about",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "about",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "contact",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "contact",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "ned",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "ned",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "404",
+      "lang": "zh",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "404",
+      "lang": "en",
+      "width": 1440,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "home",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "home",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "work",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "work",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "about",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "about",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "contact",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "contact",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "ned",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "ned",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "404",
+      "lang": "zh",
+      "width": 390,
+      "no_horizontal_overflow": true
+    },
+    {
+      "mode": "canvas",
+      "page": "404",
+      "lang": "en",
+      "width": 390,
+      "no_horizontal_overflow": true
+    }
+  ],
+  "checks": [
+    "无参数默认首页、自适应浏览；主导航顺序及工具折叠通过",
+    "首页→关于→作品→NED→同案例英文→作品面包屑返回通过",
+    "9图组44图位：逐项可达、首尾禁用、Escape关闭、焦点返回通过",
+    "手机菜单路径和同页改变窗口后的导航切换通过",
+    "浏览／画布切换、尺寸切换、原始尺寸操作及状态保持通过",
+    "未知页面参数进入原型404并可返回；联系占位禁用且无表单通过",
+    "审阅设置展开后的320／390／768／1440／1920宽度无横向溢出"
+  ],
+  "screenshots": [
+    {
+      "path": "预览图/01_首页_桌面.png",
+      "width": 1440
+    },
+    {
+      "path": "预览图/02_作品_桌面.png",
+      "width": 1440
+    },
+    {
+      "path": "预览图/03_关于_桌面.png",
+      "width": 1440
+    },
+    {
+      "path": "预览图/04_联系_桌面.png",
+      "width": 1440
+    },
+    {
+      "path": "预览图/05_作品下级_NED详情_桌面.png",
+      "width": 1440
+    },
+    {
+      "path": "预览图/06_404_桌面.png",
+      "width": 1440
+    },
+    {
+      "path": "预览图/01_首页_手机.png",
+      "width": 390
+    },
+    {
+      "path": "预览图/02_作品_手机.png",
+      "width": 390
+    },
+    {
+      "path": "预览图/03_关于_手机.png",
+      "width": 390
+    },
+    {
+      "path": "预览图/04_联系_手机.png",
+      "width": 390
+    },
+    {
+      "path": "预览图/05_作品下级_NED详情_手机.png",
+      "width": 390
+    },
+    {
+      "path": "预览图/06_404_手机.png",
+      "width": 390
+    }
+  ],
+  "errors": [],
+  "first_version_git_blob": "e177cfeceacb44fbf55a6bb933f801fef3c3d217",
+  "html_sha256": "c776e775fa57a0c270c6754c4f8940d6fa899683b6a004b0e6462906232d25c7",
+  "limitations": [
+    "图片仍为占位，未接入真实作品或最终品牌资产",
+    "英文是结构草稿，未完成对外文案审核",
+    "检查本地HTML原型，不验证正式站点路由、SEO或真实媒体性能",
+    "本地检查时尚未提交、推送或更新GitHub Pages；后续用户要求推送，发布结果另见部署说明"
+  ],
+  "expanded_controls": [
+    {
+      "width": 320,
+      "expanded_controls_no_overflow": true
+    },
+    {
+      "width": 390,
+      "expanded_controls_no_overflow": true
+    },
+    {
+      "width": 768,
+      "expanded_controls_no_overflow": true
+    },
+    {
+      "width": 1440,
+      "expanded_controls_no_overflow": true
+    },
+    {
+      "width": 1920,
+      "expanded_controls_no_overflow": true
+    }
+  ],
+  "local_document_link_check": {
+    "checked": 71,
+    "broken": 0
+  },
+  "first_version_and_deployment_files_unchanged": true,
+  "publication_update_note": "first_version_and_deployment_files_unchanged 记录本地修订检查时的结果；用户随后要求推送，生成脚本及工作流已切换第二版来源。第一版文件仍保留。"
+}

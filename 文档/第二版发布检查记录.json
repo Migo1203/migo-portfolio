@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-11",
+  "source": "线框/第二版/线框审阅.html",
+  "sha256": "c776e775fa57a0c270c6754c4f8940d6fa899683b6a004b0e6462906232d25c7",
+  "files": [
+    "index.html",
+    ".nojekyll",
+    "部署清单.json"
+  ],
+  "local_document_links": 81,
+  "first_version_unchanged": true,
+  "build_layouts": [
+    {
+      "width": 390,
+      "page": "home",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "page": "work",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "page": "about",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "page": "contact",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "page": "ned",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "page": "404",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "page": "home",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "page": "work",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "page": "about",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "page": "contact",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "page": "ned",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "page": "404",
+      "passed": true
+    }
+  ],
+  "js_errors": [],
+  "scope": "第二版低保真审阅发布包，不是正式作品集网站或用户验收"
+}
