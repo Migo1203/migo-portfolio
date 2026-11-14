@@ -1,0 +1,108 @@
+{
+  "日期": "2026-11-15",
+  "源码SHA256": "817f2bab73b67d742270eeb5a3e69898229b0abe6c4cf1dbcacbb20bb12094aa",
+  "说明": "Chromium模拟；物理图片尺寸按实际选择文件读取，避免把srcset调整后的naturalWidth当物理像素。",
+  "正常动效": {
+    "方式": "标准Chrome UA模拟实际入场，不改页面检测器或页面源码",
+    "图片显影完成": true
+  },
+  "手机冷启动cover物理像素": [
+    {
+      "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/800/%E5%B0%81%E9%9D%A2_%E5%8E%9F%E5%9C%BA%E6%99%AF%E8%A3%81%E5%88%87.webp",
+      "width": 390,
+      "height": 286.953125,
+      "物理宽": 800,
+      "物理高": 450,
+      "真实放大率": 0.638
+    },
+    {
+      "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/800/%E7%AD%96%E7%95%A5_%E9%A4%90%E6%A1%8C%E6%9A%AE%E8%89%B2.webp",
+      "width": 342,
+      "height": 273.59375,
+      "物理宽": 800,
+      "物理高": 443,
+      "真实放大率": 0.618
+    },
+    {
+      "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/800/%E5%93%81%E7%89%8C%E7%94%9F%E6%B4%BB.webp",
+      "width": 342,
+      "height": 360,
+      "物理宽": 640,
+      "物理高": 800,
+      "真实放大率": 0.534
+    },
+    {
+      "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/800/%E5%A4%9C%E9%97%B4%E5%9C%BA%E6%99%AF.webp",
+      "width": 342,
+      "height": 228,
+      "物理宽": 800,
+      "物理高": 328,
+      "真实放大率": 0.695
+    },
+    {
+      "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/800/Banner%E5%9C%BA%E6%99%AF.webp",
+      "width": 342,
+      "height": 228,
+      "物理宽": 800,
+      "物理高": 400,
+      "真实放大率": 0.57
+    },
+    {
+      "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/800/%E5%A4%9C%E9%97%B4%E5%9C%BA%E6%99%AF.webp",
+      "width": 342,
+      "height": 273.59375,
+      "物理宽": 800,
+      "物理高": 328,
+      "真实放大率": 0.834
+    }
+  ],
+  "弱网1秒观察": {
+    "条件": "1.6Mbit/s、150ms延迟，锚点跳转1秒后，非真实设备",
+    "结果": [
+      {
+        "章节": "outcomes",
+        "visible": [
+          {
+            "alt": "产品主图：NED Eric原商品图，完整构图与原英文保留。",
+            "loaded": true,
+            "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/%E7%BC%A9%E7%95%A5320/00_%E4%B8%BB%E5%9B%BE_%E8%BF%91%E7%99%BD%E5%BA%95_V01.webp"
+          },
+          {
+            "alt": "产品展示：NED Eric原商品图，完整构图与原英文保留。",
+            "loaded": true,
+            "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/%E7%BC%A9%E7%95%A5320/01_%E4%BA%A7%E5%93%81%E5%B1%95%E7%A4%BA_V02.webp"
+          },
+          {
+            "alt": "旋钮操作：NED Eric原商品图，完整构图与原英文保留。",
+            "loaded": true,
+            "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/%E7%BC%A9%E7%95%A5320/02_%E6%97%8B%E9%92%AE%E6%93%8D%E4%BD%9C_V02.webp"
+          },
+          {
+            "alt": "光色调节：NED Eric原商品图，完整构图与原英文保留。",
+            "loaded": true,
+            "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/%E7%BC%A9%E7%95%A5320/03_%E5%85%89%E8%89%B2%E8%B0%83%E8%8A%82_V01.webp"
+          }
+        ],
+        "runningAnimations": 0
+      },
+      {
+        "章节": "extended",
+        "visible": [
+          {
+            "alt": "高级A+光色调节原场景，展示手部与顶部旋钮。",
+            "loaded": true,
+            "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/400/A%E5%8A%A0%E6%93%8D%E4%BD%9C.webp"
+          },
+          {
+            "alt": "同一光色调节场景的手机适配原图。",
+            "loaded": true,
+            "source": "http://127.0.0.1:43607/assets/%E5%93%8D%E5%BA%94%E5%BC%8F/400/A%E5%8A%A0%E6%89%8B%E6%9C%BA.webp"
+          }
+        ],
+        "runningAnimations": 0
+      }
+    ]
+  },
+  "减少动态效果运行中动画数": 0,
+  "页面脚本错误": []
+}

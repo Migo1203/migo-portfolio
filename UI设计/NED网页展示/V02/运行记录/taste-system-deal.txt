@@ -1,0 +1,18 @@
+PALETTES for a studio (made for the trade; take the first, the next only when the first clashes with the client's own logo or photographs; ignore a "note" about layout):
+  swap-pastels               Swapping pastels  bg #c3d7e5 surface #d0e0eb ink #141414 accent #0f5257  [pastel-fields]
+      cool putty ground, teal accent; made for studio
+  card-pastels               Card pastels  bg #f7f7f5 surface #ebebe8 ink #000000 accent #d0106f  [pastel-fields]
+      off-white ground, pink accent; made for studio
+  stone-blueprint            Stone and blueprint  bg #dfdedb surface #d3d2ce ink #26251e accent #2456d6  [light-neutral]
+      warm stone ground, blue accent; made for studio
+  plan line 2: "palette swap-pastels" and one sentence on why it fits a studio: what in the trade its cool putty ground and teal accent answer (the room, the material, the goods; never a fact the brief does not give)
+TYPE for service (take the first; all Google Fonts; headlines 400, text 400, 500 for buttons and labels; sentence case, sizes come from system.css):
+  instrument         Instrument Sans  (neo-grotesk; display 400, tracking -3.6% at hero size, axis wght; precise, friendly, calm)
+      suits: design and productivity software, studios, modern agencies
+  rethink            Rethink Sans  (neo-grotesk; display 400, tracking -3.5% at hero size, axis wght; calm, friendly)
+      suits: florists, studios, small shops: soft and readable
+  newsreader         Newsreader / Hanken Grotesk  (serif; display 400, tracking -2.5% at hero size, axis wght; trusted, refined, calm)
+      suits: bookshops, guesthouses, advisers, schools: a calm text serif
+  (a word or editorial hero needs a weight or width axis: deal again with --axis)
+
+then: node /workspace/AI-Skills/已知技能/源文件/Leonxlnx--taste-skill/skills/taste-skill/scripts/start.mjs css --page service --palette <id> --type <id> --radius soft --history .taste-skill/history.json

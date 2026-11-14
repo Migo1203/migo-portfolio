@@ -1,0 +1,52 @@
+{
+  "本地链接检查数": 152,
+  "失效链接": [],
+  "DESIGN_YAML可解析": true,
+  "sidecar_schemaVersion": 2,
+  "上游资源完整性": [
+    {
+      "文件": "assets/system.css",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/motion/motion.css",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/motion/motion.js",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/layout/layout.css",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/layout/layout.js",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/ui/cards.css",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/moments/moments.js",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/moments/lib.js",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/moments/picture-develops/moment.js",
+      "完全一致": true
+    },
+    {
+      "文件": "assets/moments/picture-develops/moment.css",
+      "完全一致": true
+    }
+  ],
+  "缺少来源回退文件": [],
+  "素材WebP数": 50,
+  "便携SHA一致": true,
+  "说明": "机检裁图及浏览器临时目录不纳入最终文件导航。"
+}

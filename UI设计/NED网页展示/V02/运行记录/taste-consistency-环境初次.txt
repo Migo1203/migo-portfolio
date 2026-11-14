@@ -1,0 +1,11 @@
+file:///workspace/AI-Skills/%E5%B7%B2%E7%9F%A5%E6%8A%80%E8%83%BD/%E6%BA%90%E6%96%87%E4%BB%B6/Leonxlnx--taste-skill/skills/taste-skill/scripts/consistency.mjs:4656
+    proc.once('exit', (c) => { clearTimeout(t); rej(new Error('Chrome exited early (' + c + ')')); });
+                                                    ^
+
+Error: Chrome exited early (null)
+    at ChildProcess.<anonymous> (file:///workspace/AI-Skills/%E5%B7%B2%E7%9F%A5%E6%8A%80%E8%83%BD/%E6%BA%90%E6%96%87%E4%BB%B6/Leonxlnx--taste-skill/skills/taste-skill/scripts/consistency.mjs:4656:53)
+    at Object.onceWrapper (node:events:631:26)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0

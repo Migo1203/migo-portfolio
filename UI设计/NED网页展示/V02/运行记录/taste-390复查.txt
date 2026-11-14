@@ -1,0 +1,190 @@
+consistency  /workspace/migo-portfolio/UI设计/NED网页展示/V02/index.html
+
+390x844  16 screens  27 FAIL  16 WARN
+  FAIL hero-fill       section#background  "把生活空间的氛围， 转成有用的产品信息。"
+       the next section shows on the first screen: it starts at 712px on a 844px screen (the hero ends at 712px)  [390-01-hero-fill.jpg]
+       fix: let the hero fill the first screen alone (min-height: 100svh, less above it): nothing of the next section on load
+  FAIL fold-cut        h2#background-h  "把生活空间的氛围， 转成有用的产品信息。"
+       a 30px line is sliced by the bottom of the first screen (16px of it below the fold)  [390-02-fold-cut.jpg]
+       fix: size the hero so the heading ends above the fold, or starts below it
+  FAIL no-visual       section#background  "把生活空间的氛围， 转成有用的产品信息。"
+       no picture, effect or mock in this section; a feature section needs a visual  [390-09-no-visual.jpg]
+       fix: give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits
+  FAIL no-visual       section#content-system  "按浏览中的问题， 分配每一种内容。"
+       no picture, effect or mock in this section; a feature section needs a visual  [390-17-no-visual.jpg]
+       fix: give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits
+  FAIL card-visual     section#palette > div.wrap > div.color-board > div.swatch-stack  "骨白 #F4F1EB RGB 244 / 241 / 235 沙灰 #D8CAB"
+       5 cards hold only text: no picture, icon, UI fragment or effect in any of them  [390-12-card-visual.jpg]
+       fix: give the cards a visual: an inset panel with a UI fragment, a photograph or real icons
+  FAIL button-styles   (the page)
+       3 button styles on the page: square, outline #5a463b x1 ("EN"); square, fill #5a463b, outline #5a463b x1 ("查看完整成果"); square, outline #d8cabc x1 ("复制HEX")  [390-03-button-styles.jpg]
+       fix: one primary and one secondary button: one shape, one height per size, one label size
+  FAIL cta             section#story-banner  "让故事与入口， 延续同一种生活感。"
+       the last section before the footer ends with no button  [390-21-cta.jpg]
+       fix: add the action: a button in the hero, one on every priced item, one in the closing section
+  FAIL copy-fact       h1#hero-h  "NED Eric Lamp"
+       the first screen holds no number, price, date, place, platform or genre  [390-04-copy-fact.jpg]
+       fix: put one hard fact from the brief on the first screen: a number, a price, a date, the place, the platforms it runs on or a game's genre; take it from the brief or remove the claim
+  FAIL heading-scale   h3#color-name  "沙灰"
+       h3 headings in 3 sizes, 16px ("产品主图") to 25px (x1.56)  [390-15-heading-scale.jpg]
+       fix: size headings by level: the h1 largest, one size per level, each level below the one above
+  WARN scroll-reveal   section#strategy > div.wrap > div.approach-grid > figure.scene-frame.mo-pd
+       starts an animation (1.6 s) the moment it is scrolled into view (an IntersectionObserver) on img#scene-image (inside a dealt moment's section, [data-moment]: an enter moment is expected on every kind; its still is judged under reduced motion)  [390-11-scroll-reveal.jpg]
+       fix: show it at rest: no fade, rise or unmask when it is scrolled into view
+  WARN no-visual       section#palette  "从空间与材质， 理解项目参考色。"
+       pictures, effects and mocks cover 23% of this section; a feature section needs a visual (about 25% or more)  [390-13-no-visual.jpg]
+       fix: give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits
+  WARN copy-headline   h1#hero-h  "NED Eric Lamp"
+       "NED Eric Lamp": no category known to check it against (pass --category, or write the <title> as "Name: what it is for whom")  [390-05-copy-headline.jpg]
+       fix: put the category noun in the h1 (and who it is for, or where), in 2 to 8 words
+  WARN copy-headings   div.wrap > ol.content-rows > li:nth-of-type(2) > h3  "A+内容"
+       "A+内容" names no product, part, place or section (3 headings like it; at most one brand line per page) (and 2 more like it: "故事与Banner", "Banner的场景入口")  [390-18-copy-headings.jpg]
+       fix: name the thing in every heading: the product, a part, the place or a section noun
+  WARN copy-buttons    button#language  "EN"
+       "EN" does not start with a verb (book, buy, try, start, get, see...) (and 1 more like it: "复制HEX")  [390-06-copy-buttons.jpg]
+       fix: label buttons with a verb and what the visitor gets ("Book a room", "Start free trial")
+  WARN copy-actions    (the page)
+       the main action "查看完整成果" does not read word for word the same in the closing section
+       fix: few actions, one wording: at most 2 in the hero, the main action word for word in nav, hero and close
+  WARN section-gaps    section#opening / section#background
+       66px between these sections, -51% against the median 134px  [390-07-section-gaps.jpg]
+       fix: use one gap between sections (all within 25% of each other)
+  WARN proximity       section#palette > div.wrap > div.color-board > div.material-column  "骨白 #F4F1EB RGB 244 / 241 / 235 沙灰 #D8CAB"
+       stacked at this width, the visual starts 0px under the text and buttons above it ("骨白 #F4F1EB RGB 244 / 241 / 235"): it reads glued to them  [390-14-proximity.jpg]
+       fix: give the stacked split the section's own gap between text and visual (40px or more on a phone)
+  WARN links           div.wrap > div.context-grid > div.role-panel > a.link  "查看边界与后续验证"
+       "查看边界与后续验证" goes to #reflection, in the footer  [390-10-links.jpg]
+       fix: point every link at a real section, page or file
+  WARN photo-set       div#gallery > article.gallery-item:nth-of-type(1) > a.gallery-link.m-zoom > img  "00_主图_近白底_V01.webp"
+       16 photographs in more than one look: lightness from 0.33 to 0.95; the odd one out is 00_主图_近白底_V01.webp  [390-19-photo-set.jpg]
+       fix: grade the photographs to one look (light, colour, warmth), or replace the odd one out
+  WARN nav-labels      header.nav > div.wrap.nav__bar > a.nav__logo  "Migo"
+       "Migo" opens a section headed "NED Eric Lamp"  [390-08-nav-labels.jpg]
+       fix: name each nav link after the heading of the section it opens
+  WARN photo-weight    div.wrap > div.aplus-grid > figure.aplus-phone > img  "A%E5%8A%A0%E6%89%8B%E6%9C%BA.webp"
+       a photograph is 3x or more wider than drawn on the phone, with no srcset: A%E5%8A%A0%E6%89%8B%E6%9C%BA.webp is 1440px (259 KB, lazy) for a 300px frame; on a phone it arrives late and its frame shows only its ground until then  [390-20-photo-weight.jpg]
+       fix: give each photograph srcset and sizes (a 800px and a 1600px file), or a smaller file: the frame never shows empty
+  WARN grounds         section#recognition  "先用轮廓建立识别， 再用近景解释细节。 蘑菇形灯罩、顶部旋钮、细灯杆与圆底座，是"
+       5 flat grounds across the page (#d8cabc section x4, #5a463b section x3, #2f302e section x2, #9b6b56 section, #f4f1eb section): three at most (the base, a surface, an inverse)  [390-16-grounds.jpg]
+       fix: three flat grounds at most (the base, one surface, one inverse): lay the other bands on one of them
+  WARN skip-link       header.nav > div.wrap.nav__bar > a.skip-link:nth-of-type(1)  "跳到正文"
+       the first Tab stop is "跳到正文", not a skip link: a keyboard user tabs through the whole nav on every visit
+       fix: add the starter's skip link as the header's first child: <a class="skip-link" href="#top">Skip to content</a>
+  FAIL hero-screen     section#opening  "NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 · AI辅助制作"
+       the hero ends at 712px on a 844px screen, 132px above the fold: it ends at the fold, 1px either way (SR-1)  [390-rhythm-01-hero-screen.jpg]
+       fix: make the hero exactly one screen (height: 100svh, its content fitted inside), never taller or shorter
+  FAIL hero-screen     section#background  "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕前被选择。这个项"
+       132px of the next section shows on the first screen (from 712px on a 844px screen): nothing below the hero shows at load (SR-1)  [390-rhythm-02-hero-screen.jpg]
+       fix: end the hero at the fold so nothing of the next section shows at load (hero height: 100svh)
+  FAIL section-height  section#story-banner  "让故事与入口，延续同一种生活感。品牌故事与Banner共享光线、材质和产品外观；"
+       the section is 1265px tall (1.5 screens), 421px over one screen (844px): every section after the hero is one screen or two, 2px either way (SR-2)  [390-rhythm-03-section-height.jpg]
+       fix: set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit
+  FAIL section-height  section#background  "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕前被选择。这个项"
+       the section is 1106px tall (1.3 screens), 262px over one screen (844px): every section after the hero is one screen or two, 2px either way (SR-2)  [390-rhythm-04-section-height.jpg]
+       fix: set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit
+  FAIL section-height  section#strategy  "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖中性色连接木纹、"
+       the scene's section is 1102px tall (1.3 screens), 258px over one screen (844px): every section after the hero is one screen or two, 2px either way; a pinned scene is (hold + 1) screens tall, so write data-big-scene-opts='{"hold": 1}' (two screens) and keep --h on the section (and 6 more like it: "从空间与材质，理解项目参考色。沿用原项目的五个参", "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、", "把判断落实到一组完整商品图。沿用现有8张商品图，") (SR-2)  [390-rhythm-05-section-height.jpg]
+       fix: set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit
+  FAIL section-height  section#palette  "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面"
+       the section starts at 2919px, 387px below the screen grid (3 x 844px): sections start on whole screens (SR-2)  [390-rhythm-06-section-height.jpg]
+       fix: make every section above it exactly one or two screens tall, so this one starts on a whole screen
+  FAIL section-height  footer#reflection  "已有的判断，与下一步验证。这个项目把产品识别、操作解释与生活情境组织成四类内容。"
+       the section starts at 10696px, 276px above the screen grid (13 x 844px): sections start on whole screens (SR-2)  [390-rhythm-07-section-height.jpg]
+       fix: make every section above it exactly one or two screens tall, so this one starts on a whole screen
+  FAIL section-height  section#recognition  "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆与圆底座，是Er"
+       the section starts at 4852px, 212px above the screen grid (6 x 844px): sections start on whole screens (and 6 more like it: "把判断落实到一组完整商品图。沿用现有8张商品图，", "让故事与入口，延续同一种生活感。品牌故事与Ban", "把生活空间的氛围，转成有用的产品信息。灯在空间里") (SR-2)  [390-rhythm-08-section-height.jpg]
+       fix: make every section above it exactly one or two screens tall, so this one starts on a whole screen
+  FAIL section-height  footer#reflection  "已有的判断，与下一步验证。这个项目把产品识别、操作解释与生活情境组织成四类内容。"
+       the section's content does not fit it: its lowest content ends 731px below its top, past 691px (the section less 64px of bottom padding) (SR-2)  [390-rhythm-09-section-height.jpg]
+       fix: fit the content above the section's bottom padding (--padb), or make it two screens (.g2) in two groups
+  FAIL section-air     section#background > div.wrap > div.context-grid > div.role-panel  "我的工作与AI协作Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI"
+       a top border across 100% of the container, between the section's content: sections and their parts are told apart by air and ground, not lines (SR-3)  [390-rhythm-10-section-air.jpg]
+       fix: take the rule out: sections and their parts are parted by their ground and the air between them
+  FAIL one-section     footer#reflection > div.wrap > div.reflection > h2  "已有的判断，与下一步验证。"
+       the screen at scroll 10128px (stride 12) shows 276px of section 10 and the heading of section 10 whole and the content of 2 sections, over 24px each beside section 9: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)  [390-rhythm-11-one-section.jpg]
+       fix: make each section exactly one screen or two, so a screen shows one section and no neighbour peeks
+  FAIL one-section     h2#recognition-h  "先用轮廓建立识别，再用近景解释细节。"
+       the screen at scroll 4220px (stride 5) shows 212px of section 5 and the heading of section 5 whole and the content of 2 sections, over 24px each beside section 4: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)  [390-rhythm-12-one-section.jpg]
+       fix: make each section exactly one screen or two, so a screen shows one section and no neighbour peeks
+  FAIL one-section     section#background  "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕前被选择。这个项"
+       the screen at scroll 0px (stride 0) shows 132px of section 2 and the content of 2 sections, over 24px each beside section 1: a screen shows one section (another may peek 8px, 24px WARN) (and 5 more like it: scroll 6752px, scroll 7596px, scroll 1688px) (SR-4)  [390-rhythm-13-one-section.jpg]
+       fix: make each section exactly one screen or two, so a screen shows one section and no neighbour peeks
+  FAIL container-edges section#opening  "NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 · AI辅助制作"
+       the section needs exactly one in-flow child .wrap (it has 2 in-flow children, 1 .wrap) (SR-6)  [390-rhythm-14-container-edges.jpg]
+       fix: build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing
+  FAIL container-edges div.wrap > ol.content-rows > li:nth-of-type(1) > p  "这是什么、怎么使用？把识别、操作、尺度与场景拆成可快速阅读的图片。"
+       3 text blocks start on a left line at x 64, 40px from the container's left: text starts on the container's left, or on one split line (x 177, 207, 238) (also "在连续模块中展开材质、操作和使用体验，兼顾桌面与手机阅读。", "故事交代生活方式，Banner用明确的场景与信息引导继续浏览。") (SR-6)  [390-rhythm-15-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges h3#color-name  "沙灰"
+       3 text blocks start on a left line at x 48, 24px from the container's left: text starts on the container's left, or on one split line (x 177, 207, 238) (also "主要阅读底色，联系暖墙与织物，连接图片和网页。", "#D8CABC") (SR-6)  [390-rhythm-16-container-edges.jpg]
+       fix: start the text on the container's left, or on the one split line every split shares
+  FAIL container-edges div.wrap > div.reflection > div > a.link  "查看项目依据与原始规划"
+       a box over half the container wide runs 24-221px, not on the container's lines at 24-366px (SR-6)  [390-rhythm-17-container-edges.jpg]
+       fix: run the picture or box from the container's left line to its right line, or put it in a row or a split
+  FAIL container-edges div.wrap > div.aplus-grid > figure.aplus-phone > img  "同一光色调节场景的手机适配原图。"
+       a <img> over half the container wide runs 45-345px, not on the container's lines at 24-366px (SR-6)  [390-rhythm-18-container-edges.jpg]
+       fix: run the picture or box from the container's left line to its right line, or put it in a row or a split
+  WARN empty-visual    img (01_%E4%BA%A7%E5%93%81%E5%B1%95%E7%A4%BA_V02.webp)  "01_%E4%BA%A7%E5%93%81%E5%B1%95%E7%A4%BA_"
+       on a phone over a slow mobile line (1.6 Mbit/s) the frame of 01_%E4%BA%A7%E5%93%81%E5%B1%95%E7%A4%BA_V02.webp is still empty 1 s after a tap on "成果" in the menu brings it on screen: the file is 49 KB, 640px wide for a 165px frame  [390-slow-01-empty-visual.jpg]
+       fix: serve the photograph at the size it is drawn (srcset and sizes: an 800px file for the phone), load it before it is reached (no loading=lazy on the next screen), or give the frame a blurred still of it
+  WARN empty-visual    img (03_%E5%85%89%E8%89%B2%E8%B0%83%E8%8A%82_V01.webp)  "03_%E5%85%89%E8%89%B2%E8%B0%83%E8%8A%82_"
+       on a phone over a slow mobile line (1.6 Mbit/s) the frame of 03_%E5%85%89%E8%89%B2%E8%B0%83%E8%8A%82_V01.webp is still empty 1 s after a tap on "成果" in the menu brings it on screen: the file is 31 KB, 640px wide for a 165px frame  [390-slow-02-empty-visual.jpg]
+       fix: serve the photograph at the size it is drawn (srcset and sizes: an 800px file for the phone), load it before it is reached (no loading=lazy on the next screen), or give the frame a blurred still of it
+  (probe error) rhythm: row and card status read at 390px: no desktop read earlier in this run (run 1440 before 390 in one run to judge rows and cards as at the desktop)
+
+first screen at 1280, 1152, 1024, 896, 768  0 FAIL  0 WARN
+
+the page at 320x640, walked for what runs past the screen's edge  0 FAIL
+
+checks
+  PASS assets                 PASS shader-lint            PASS gl-fallback            
+  WARN empty-visual           FAIL hero-fill              PASS flush                  
+  PASS placeholder            PASS sample-label           PASS caption                
+  PASS credit-wall            PASS nav                    PASS nav-covers             
+  PASS spill                  PASS off-viewport           PASS fold-card              
+  PASS hover-spill            PASS overlap-text           PASS collide                
+  PASS tap-size               PASS row-gap                PASS cut-text               
+  FAIL fold-cut               PASS marquee                PASS scroll-linked          
+  WARN scroll-reveal          PASS pinned                 PASS loop-pause             
+  PASS reduced-motion         PASS hidden-content         PASS webgl                  
+  FAIL no-visual              PASS text-only              FAIL card-visual            
+  PASS hidden-visual          PASS card-family            PASS card-layout            
+  PASS nesting                PASS effect-repeat          PASS ui-fit                 
+  PASS ui-centre              PASS dark-ground            FAIL button-styles          
+  PASS button-shape           PASS same-action            PASS button-picture         
+  FAIL cta                    PASS pricing-tiers          WARN copy-headline          
+  FAIL copy-fact              WARN copy-headings          WARN copy-buttons           
+  WARN copy-actions           FAIL heading-scale          PASS stagger                
+  PASS top-stagger            PASS off-grid               PASS col-edge               
+  PASS right-edge             PASS centre-axis            PASS tilt                   
+  PASS contrast               PASS text-contrast          PASS body-size              
+  PASS busy-ground            WARN section-gaps           WARN proximity              
+  PASS hole                   WARN links                  PASS forms                  
+  PASS photo-upscale          WARN photo-set              PASS photo-credit           
+  PASS nav-family             WARN nav-labels             PASS link-styles            
+  PASS heading-align          PASS label-centre           PASS fake-button            
+  PASS stranded-action        PASS orphan                 PASS unit-break             
+  PASS tab-wrap               PASS effects-fit            PASS fade-cut               
+  WARN photo-weight           PASS copy-length            PASS nav-current            
+  PASS progress-bar           PASS photo-repeat           PASS button-contrast        
+  PASS photo-print            WARN grounds                PASS split-align            
+  PASS fact-agree             PASS fold-action            PASS action-count           
+  PASS one-screen             PASS hover                  PASS hover-move             
+  PASS product-shown          PASS same-object            PASS font-load              
+  PASS visual-caption         PASS visual-empty           PASS effect-kind            
+  PASS hero-enter             PASS moment-none            PASS street-number          
+  PASS postcode               PASS coordinates            PASS company-number         
+  PASS phone-number           FAIL hero-screen            FAIL section-height         
+  FAIL section-air            FAIL one-section            PASS one-heading            
+  FAIL container-edges        PASS row-lines              PASS split-pair             
+  SKIP motion-layer           SKIP count-text             SKIP loop-cycle             
+  PASS section-tile           PASS empty-area             PASS a11y-name              
+  PASS img-alt                PASS field-label            PASS heading-order          
+  PASS tabindex               PASS focus-ring             PASS focus-visible          
+  PASS focus-hidden           WARN skip-link              PASS menu-toggle            
+  PASS lang                   PASS page-meta              PASS share-meta             
+  PASS action-repeat          PASS map-link               PASS open-now               
+  PASS assumed                PASS run-on                 PASS form-fields            
+  PASS form-send              
+
+total  27 FAIL  16 WARN  (crops and report.json in /workspace/migo-portfolio/UI设计/NED网页展示/V02/.taste-skill/复查_390)

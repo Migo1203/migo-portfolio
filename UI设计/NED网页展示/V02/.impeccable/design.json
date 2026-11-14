@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T19:09:50.517702Z",
+  "title": "Design System: NED Eric Lamp · V02 局部候选",
+  "extensions": {
+    "colorMeta": {
+      "case-bone": {
+        "role": "neutral",
+        "displayName": "骨白"
+      },
+      "case-sand": {
+        "role": "neutral",
+        "displayName": "沙灰"
+      },
+      "case-walnut": {
+        "role": "primary",
+        "displayName": "深胡桃"
+      },
+      "case-charcoal": {
+        "role": "neutral",
+        "displayName": "炭灰"
+      },
+      "case-terra": {
+        "role": "secondary",
+        "displayName": "陶土"
+      },
+      "on-terra": {
+        "role": "neutral",
+        "displayName": "陶土上纯白文字"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "开篇标题",
+        "purpose": "桌面取实际加载的 --ly-h1-xl；中屏、手机覆盖见 DESIGN.md。"
+      },
+      "headline": {
+        "displayName": "章节标题",
+        "purpose": "章节主层级，不用商品图小标题代替。"
+      },
+      "title": {
+        "displayName": "内容小标题",
+        "purpose": "背景、策略及职责；图库有独立较小尺寸。"
+      },
+      "lead": {
+        "displayName": "章节导语",
+        "purpose": "开放式标题区的说明；手机缩至18px。"
+      },
+      "body": {
+        "displayName": "正文",
+        "purpose": "背景与策略等自然高度阅读，通常最大62ch。"
+      },
+      "label": {
+        "displayName": "边界与状态",
+        "purpose": "项目边界、版本与状态说明；不是通用大写标签。"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "m-in",
+        "value": "150ms",
+        "purpose": "实际主按钮及链接 hover 进入。"
+      },
+      {
+        "name": "m-out",
+        "value": "120ms",
+        "purpose": "实际主按钮及链接 hover 离开。"
+      },
+      {
+        "name": "m-press",
+        "value": "90ms",
+        "purpose": "主按钮按下位移与缩放。"
+      },
+      {
+        "name": "m-ease",
+        "value": "cubic-bezier(.2, .8, .2, 1)",
+        "purpose": "当前控件状态变化使用的缓动；解析自 --ease。"
+      },
+      {
+        "name": "m-ease-enter",
+        "value": "cubic-bezier(.22, 1, .36, 1)",
+        "purpose": "官方开篇入场，以及本页商品图悬停缩放。"
+      },
+      {
+        "name": "hero-word-enter",
+        "value": "700ms",
+        "purpose": "开篇标题一次入场，脚本有静态回显保护。"
+      },
+      {
+        "name": "hero-support-enter",
+        "value": "520ms",
+        "purpose": "开篇配套内容一次淡入。"
+      },
+      {
+        "name": "picture-develops-film",
+        "value": "1600ms cubic-bezier(.3, .2, .3, 1)",
+        "purpose": "仅用于策略主图一次显影。"
+      },
+      {
+        "name": "gallery-zoom",
+        "value": ".6s cubic-bezier(.22,1,.36,1)",
+        "purpose": "原图链接内图片在 hover 时缩放至1.03。"
+      },
+      {
+        "name": "reduced-motion-duration",
+        "value": ".01ms",
+        "purpose": "当前本页减少动态效果规则的动画与过渡时长；显影恢复静态。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "(min-width:1600px)"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "(max-width:1200px)"
+      },
+      {
+        "name": "tablet",
+        "value": "(max-width:1023px)"
+      },
+      {
+        "name": "phone",
+        "value": "(max-width:639px)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "查看完整成果",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "开篇的真实成果锚点；内联原箭头，包含实际 hover、focus、press 与减少动态效果。",
+      "html": "<a class=\"ds-primary\" href=\"#outcomes\"><span>查看完整成果</span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:48px;padding:12px 24px;border:1px solid var(--case-walnut,#5A463B);border-radius:2px;background:var(--case-walnut,#5A463B);color:var(--case-bone,#F4F1EB);font-size:16px;line-height:1.5;text-decoration:none;white-space:normal;cursor:pointer;font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;transition:background-color 120ms cubic-bezier(.2,.8,.2,1),color 120ms cubic-bezier(.2,.8,.2,1),border-color 120ms cubic-bezier(.2,.8,.2,1),box-shadow 120ms cubic-bezier(.2,.8,.2,1),transform 90ms cubic-bezier(.2,.8,.2,1)}.ds-primary svg{width:20px;height:20px;flex:none;fill:none;stroke-linecap:round;stroke-linejoin:round}.ds-primary:hover{background:color-mix(in oklab,var(--case-walnut,#5A463B) 84%,var(--case-sand,#D8CABC));transition-duration:150ms,150ms,150ms,150ms,90ms}.ds-primary:focus-visible{outline:3px solid var(--case-charcoal,#2F302E);outline-offset:5px;transition:none!important}.ds-primary:active{transform:translateY(1px) scale(.985)}@media(hover:hover) and (pointer:fine){.ds-primary:hover{transform:translateY(-1px)}.ds-primary:active{transform:translateY(1px) scale(.985)}}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-primary:hover,.ds-primary:active{transform:none!important;transition-duration:.01ms!important}.ds-primary:active{background:color-mix(in oklab,var(--case-walnut,#5A463B) 74%,var(--case-sand,#D8CABC))}}"
+    },
+    {
+      "name": "语言切换",
+      "kind": "button",
+      "refersTo": "button-language",
+      "description": "导航中的 EN 按钮；片段只展示已实现的外观与状态，不附翻译脚本。",
+      "html": "<button class=\"ds-language\" type=\"button\" aria-label=\"Switch to English draft\">EN</button>",
+      "css": ".ds-language{border:1px solid #5A463B60;background:transparent;color:var(--case-charcoal,#2F302E);padding:6px 12px;min-width:48px;min-height:44px;font-size:14px;line-height:1.8;border-radius:2px;cursor:pointer;font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-language:hover{background:var(--case-bone,#F4F1EB)}.ds-language:focus-visible{outline:3px solid var(--case-charcoal,#2F302E);outline-offset:5px;transition:none!important}@media(max-width:639px){.ds-language{min-width:44px;padding:6px 8px;line-height:1.85}}"
+    },
+    {
+      "name": "场景选择 · 未选中",
+      "kind": "button",
+      "refersTo": "button-scene",
+      "description": "未选中的真实场景按钮，使用 data-light-scene 避免与 kit 三维场景钩子冲突；仅定义当前已有的 focus，没有补造 hover 改色。",
+      "html": "<button class=\"ds-scene\" type=\"button\" data-light-scene=\"night\" aria-pressed=\"false\">床头 · 夜间</button>",
+      "css": ".ds-scene{min-height:44px;border:1px solid #5A463B80;padding:8px 16px;border-radius:2px;font-size:15px;line-height:1.8;background:transparent;color:var(--case-charcoal,#2F302E);cursor:pointer;font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-scene[aria-pressed=true]{background:var(--case-walnut,#5A463B);color:var(--case-bone,#F4F1EB);border-color:var(--case-walnut,#5A463B)}.ds-scene:focus-visible{outline:3px solid var(--case-charcoal,#2F302E);outline-offset:5px;transition:none!important}@media(max-width:639px){.ds-scene{line-height:1.85}}"
+    },
+    {
+      "name": "场景选择 · 选中",
+      "kind": "button",
+      "refersTo": "button-scene-selected",
+      "description": "data-light-scene 标识暮色场景；aria-pressed 选中态以深胡桃底与骨白文字表达。",
+      "html": "<button class=\"ds-scene\" type=\"button\" data-light-scene=\"dusk\" aria-pressed=\"true\">餐桌 · 暮色</button>",
+      "css": ".ds-scene{min-height:44px;border:1px solid #5A463B80;padding:8px 16px;border-radius:2px;font-size:15px;line-height:1.8;background:transparent;color:var(--case-charcoal,#2F302E);cursor:pointer;font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-scene[aria-pressed=true]{background:var(--case-walnut,#5A463B);color:var(--case-bone,#F4F1EB);border-color:var(--case-walnut,#5A463B)}.ds-scene:focus-visible{outline:3px solid var(--case-charcoal,#2F302E);outline-offset:5px;transition:none!important}@media(max-width:639px){.ds-scene{line-height:1.85}}"
+    },
+    {
+      "name": "复制 HEX",
+      "kind": "button",
+      "refersTo": "button-copy",
+      "description": "深色用途区内的复制按钮；实际复制与失败反馈由页面脚本承担。",
+      "html": "<div class=\"ds-color-detail\"><button class=\"ds-copy\" type=\"button\">复制HEX</button></div>",
+      "css": ".ds-color-detail{background:var(--case-walnut,#5A463B);padding:24px}.ds-copy{background:transparent;color:var(--case-bone,#F4F1EB);border:1px solid var(--case-sand,#D8CABC);font-size:14px;line-height:1.8;min-height:44px;padding:6px 16px;border-radius:2px;cursor:pointer;font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-copy:hover{background:var(--case-charcoal,#2F302E)}.ds-copy:focus-visible{outline:3px solid var(--case-bone,#F4F1EB);outline-offset:5px;transition:none!important}@media(max-width:639px){.ds-copy{line-height:1.85}}"
+    },
+    {
+      "name": "案例锚点导航",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "提取当前三个章节链接及其下划线状态；手机隐藏成果链接，不虚构菜单。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"案例导航\"><a href=\"#background\">项目背景</a><a href=\"#strategy\">设计策略</a><a href=\"#outcomes\">成果</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;align-items:center;background:var(--case-sand,#D8CABC);color:var(--case-charcoal,#2F302E);font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-nav a{min-height:44px;display:inline-flex;align-items:center;font-size:15px;line-height:1.8;text-decoration:none;position:relative;color:inherit}.ds-nav a::after{content:\"\";position:absolute;inset:auto 0 6px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:0 50%;transition:transform .15s}.ds-nav a:hover::after,.ds-nav a:focus-visible::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:3px solid var(--case-charcoal,#2F302E);outline-offset:5px;transition:none!important}@media(max-width:1023px){.ds-nav{gap:24px}}@media(max-width:639px){.ds-nav{gap:16px}.ds-nav a{font-size:13px;line-height:1.85;white-space:nowrap}.ds-nav a:last-child{display:none}}@media(prefers-reduced-motion:reduce){.ds-nav a::after{transition-duration:.01ms!important}}"
+    },
+    {
+      "name": "沙灰色域 · 选中",
+      "kind": "custom",
+      "refersTo": "palette-swatch-sand",
+      "description": "实际五色色谱中的一个按钮；完整色谱见页面，片段不新增色阶。",
+      "html": "<button class=\"ds-swatch\" type=\"button\" aria-pressed=\"true\"><span class=\"ds-swatch-name\">沙灰</span><span class=\"ds-color-values\"><b>#D8CABC</b><span>RGB 216 / 202 / 188</span></span></button>",
+      "css": ".ds-swatch{border:0;border-radius:0;display:flex;justify-content:space-between;align-items:flex-end;text-align:left;gap:12px;padding:24px;background:var(--case-sand,#D8CABC);color:var(--case-charcoal,#2F302E);position:relative;cursor:pointer;font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-swatch::after{content:\"\";position:absolute;inset:8px;border:1px solid transparent;pointer-events:none}.ds-swatch[aria-pressed=true]::after,.ds-swatch:hover::after{border-color:currentColor}.ds-swatch:focus-visible{outline:3px solid currentColor;outline-offset:-5px;transition:none!important}.ds-swatch-name{font-size:17px;white-space:nowrap}.ds-color-values{display:flex;flex-direction:column;text-align:right;font-size:13px;line-height:1.7;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-color-values b{font-size:21px;font-weight:400;letter-spacing:-.02em}@media(max-width:1200px){.ds-swatch{padding:20px 16px;flex-direction:column;align-items:start;gap:8px}.ds-color-values{text-align:left}}@media(max-width:1023px){.ds-swatch{padding:20px 24px;flex-direction:row;align-items:center}.ds-color-values{text-align:right}}@media(max-width:639px){.ds-swatch{padding:24px;min-height:112px}.ds-swatch-name{font-size:18px}.ds-color-values b{font-size:23px}}"
+    },
+    {
+      "name": "内容职责开放行",
+      "kind": "custom",
+      "refersTo": "content-row",
+      "description": "实际内容职责列表首行；开放底与细线分隔，不合成卡片。",
+      "html": "<ol class=\"ds-content\"><li><span class=\"ds-number\">1</span><h3>商品图</h3><p>这是什么、怎么使用？把识别、操作、尺度与场景拆成可快速阅读的图片。</p><a class=\"ds-content-link\" href=\"#outcomes\">查看商品图</a></li></ol>",
+      "css": ".ds-content{padding:0;margin:0;list-style:none;color:var(--case-charcoal,#2F302E);font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-content li{display:grid;grid-template-columns:40px .7fr 1.4fr auto;gap:32px;border-bottom:1px solid #5A463B50;padding:32px 0;align-items:baseline}.ds-content li:first-child{padding-top:0}.ds-number{font-size:17px}.ds-content h3{margin:0;font-size:23px;line-height:1.5;font-weight:400;letter-spacing:-.015em}.ds-content p{margin:0;font-size:17px;line-height:1.8;max-width:62ch}.ds-content-link{display:inline-flex;align-items:center;min-height:44px;font-size:16px;line-height:1.8;white-space:nowrap;color:inherit;text-decoration:underline;text-underline-offset:6px;background-image:linear-gradient(currentColor,currentColor),linear-gradient(color-mix(in oklab,var(--case-charcoal,#2F302E) 20%,transparent),color-mix(in oklab,var(--case-charcoal,#2F302E) 20%,transparent));background-repeat:no-repeat;background-size:0% 1px,calc(100% - 1em - 8px) 1px;background-position:0 100%,0 100%;padding-bottom:2px;transition:background-size 120ms cubic-bezier(.2,.8,.2,1),color 120ms cubic-bezier(.2,.8,.2,1)}.ds-content-link:hover,.ds-content-link:focus-visible{background-size:calc(100% - 1em - 8px) 1px,calc(100% - 1em - 8px) 1px;transition-duration:150ms}.ds-content-link:focus-visible{outline:3px solid var(--case-charcoal,#2F302E);outline-offset:5px;transition:none!important}@media(max-width:1200px){.ds-content li{grid-template-columns:24px .7fr 1.3fr;gap:24px}.ds-content-link{grid-column:3}}@media(max-width:639px){.ds-content li{grid-template-columns:24px 1fr;gap:12px 16px;padding:24px 0;align-items:start}.ds-content h3{font-size:22px}.ds-content p{grid-column:2;font-size:16px;line-height:1.85}.ds-content-link{grid-column:2;line-height:1.85}.ds-number{font-size:18px;line-height:1.8}}@media(prefers-reduced-motion:reduce){.ds-content-link{transition-duration:.01ms!important}}"
+    },
+    {
+      "name": "原图查看器控件",
+      "kind": "button",
+      "refersTo": "viewer-control",
+      "description": "真实上一张／下一张样式与计数；网格预览按屏幕选择缩略图，页内放大仍使用完整原图。预览仅显示控件、不虚构图像；资源来源与构建事实见素材来源.json及构建记录.json。",
+      "html": "<div class=\"ds-viewer\"><div class=\"ds-viewer-controls\"><button type=\"button\">上一张</button><p>1 / 8</p><button type=\"button\">下一张</button></div></div>",
+      "css": ".ds-viewer{background:var(--case-charcoal,#2F302E);padding:24px}@media(max-width:639px){.ds-viewer{padding:16px}}.ds-viewer-controls{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:16px;color:var(--case-bone,#F4F1EB);font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-viewer-controls button{min-height:44px;border:1px solid #D8CABC80;background:transparent;color:var(--case-bone,#F4F1EB);padding:8px 16px;font-size:15px;line-height:1.8;flex:none;cursor:pointer;font-family:var(--site-font,'NED Latin','NED Chinese',sans-serif);font-weight:400;}.ds-viewer-controls button:hover{background:var(--case-walnut,#5A463B)}.ds-viewer-controls button:focus-visible{outline:3px solid var(--case-bone,#F4F1EB);outline-offset:5px;transition:none!important}.ds-viewer-controls p{margin:0;font-size:15px;line-height:1.8;font-variant-numeric:tabular-nums}@media(max-width:639px){.ds-viewer-controls{gap:12px}.ds-viewer-controls button{font-size:14px;padding:8px 12px;line-height:1.85}.ds-viewer-controls p{line-height:1.85}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "从空间氛围到购买信息",
+    "overview": "“从空间氛围到购买信息”沿用本候选设计规划的方向摘要：暖墙、木纹、织物和局部灯光既构成作品氛围，也为网页阅读提供连续的色域。沙灰承接主要文字，深胡桃与炭灰建立深色章节，陶土承担局部暖色；骨白用于成果区域、浅色文字和有限的明亮表面。\n\n这份文档是对 NED V02 当前 HTML／CSS／JavaScript 的扫描记录，只约束本目录内的候选案例页。它不是 NED 官方规范、实物校色结果或 Migo 全站 VI；Migo 是设计师主体，Beedog 是 Migo 的品牌角色。本次直接从已有作品与代码深化，不新增方向种子，也不把独立审阅者在局部契约范围内的 ship 结论记为用户批准。",
+    "keyCharacteristics": [
+      "以通栏色域和开放式排版衔接图像与文字。",
+      "直角图片、轻微圆角控件，默认无卡片浮起阴影。",
+      "中文为主，原项目西文字体延续到网页；英文仍为审阅草稿。",
+      "正文自然增高，场景可取景，完整成果可查看原构图。"
+    ],
+    "rules": [
+      {
+        "name": "The Local Scope Rule",
+        "body": "项目色通过 --case-* 管理，网站字体与文字入口通过 --site-* 管理；这里只记录 NED V02 已实现的局部候选，不把它升格为全站品牌规则。",
+        "section": "colors"
+      },
+      {
+        "name": "The Ground Pairing Rule",
+        "body": "沙灰／骨白底使用炭灰正文，深胡桃／炭灰底使用骨白正文，陶土底使用纯白正文；修改底色时同时复核文字与焦点颜色。",
+        "section": "colors"
+      },
+      {
+        "name": "The Live Text Rule",
+        "body": "背景说明、策略、参考色名、HEX、RGB 和用途保持网页文字；原作品内的文字属于成果内容，不能用缩小长图替代网页正文。",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "深度由色域、照片和细分隔线建立；当前候选没有被使用的卡片阴影，不从已加载的 kit 中搬入未使用的浮起卡片。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do 延续五个已有参考色的实际分工，并保留“非 NED 官方规范／非 Migo 最终 VI”的范围说明。",
+      "Do 使用自然高度的正文与当前响应式堆叠，保留中英文内容和完整成果入口。",
+      "Do 让场景取景保护 Eric 的灯罩、旋钮、灯杆和底座；商品图与透明产品图使用 contain 保留识别。材质特写按源图尺寸居中显示。",
+      "Do 保持可见键盘焦点、aria-pressed、复制反馈、对话框关闭与焦点返回，以及减少动态效果和无 JavaScript 的阅读路径。",
+      "Do 随字体子集保留 OFL 文件；新增文字或改字体后复查字形覆盖、换行和页面高度。"
+    ],
+    "donts": [
+      "Don't 把参考色或当前候选字体写成 NED 官方 VI、实物色号或 Migo 已定稿品牌规范。",
+      "Don't 用重复白色圆角卡片替代本候选的通栏色域和开放排版；原成果里的浅色背景仍属于作品。",
+      "Don't 把所有照片统一染成橙黄色，或为装饰裁掉完整商品图和产品轮廓。",
+      "Don't 为机械整屏高度隐藏正文、删减策略或遮挡成果；不加入循环背景和滚动劫持。",
+      "Don't 虚构色阶、表单、图像、设计种子或商业效果，也不把代码记录与检查结果写成用户终审。"
+    ]
+  }
+}

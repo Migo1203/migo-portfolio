@@ -1,0 +1,23 @@
+hero: photo (Full-bleed photograph, the words on its calm side)  demo: <skill>/assets/layout/hero-photo.html
+  A place or a product with one strong photograph that has a calm area for the words: sky, a wall, cloud, shadow. Never for a software product (its own UI leads); a game with key art is dealt it, and a game without art files is printed it (--has setting): the game's name as the h1, set large in the box or straight on a dark calm part of a stand-in photograph of its setting (photos.mjs search), never an effect in its place.
+  h1: --ly-h1-xl 80 / 44px, leading 1.02, at most 3 / 3 lines, 32 characters
+  grid:
+    text: the left six columns (628) on the calm side, the words in a solid box of the page's colours (padding 48); data-calm=left|right|top moves the box; data-box=none sets the words straight on a calm part that is dark (data-tone=dark) or light and empty at the desktop crop
+    facts: with data-box=none only: a hairline and four facts on span-3, docked 48 above the photograph's foot (beside a box they are not shown)
+  at 1440:
+    hero: 1440x900: the photograph edge to edge under the fixed header (full bleed is symmetric)
+    text: in its box: h1 80 (89.6 after the pairing's scale) on 3 lines from y 231; lead 20/30 on 3 or 4 lines, max 42ch; buttons 44, the page's own pair
+    photo: at least 1920 wide; object-position keeps the subject off the words
+    measured: hero 900/900, h1 90px (weight 400) on 3 lines, its box from y 231, the visual 1440x900 at x 0, y 0
+    box: a solid box in the page's ground colour, radius --r-lg, never a scrim, gradient, veil or blurred panel (PH-31, VI-49)
+  at 390:
+    hero: 844: the photograph a layer under the header (42svh: 354 here), the words under it on the page ground; from 1023 down the same (56vw, at most 46svh)
+    text: h1 44 (49) on 2 lines from y 450, lead 17 on 4 lines, buttons stacked
+    facts: not shown below 1024 (a desktop line); the next section carries them
+    measured: hero 844/844, h1 49px on 2 lines from y 450, the visual 390x354 at y 56
+  moment: none: the photograph is the hero
+  grounds and effects: none (kind other: flat colour, photographs, type; --kind tech for hardware); moments: one or two photo- and type-led ones (moments.mjs pick --page <kind>)
+  grounds: photo
+  mistakes: words over a busy part of the picture; a box behind the words; a photograph that does not show the place or the product; a blown-up photograph under 1920px; a carousel; a scrim, gradient or veil over the photograph; words straight on a busy or pale part of the photograph; this hero on a place (a place has hero-place)
+
+type: the pairing start.mjs dealt (VI-02); keep its :root lines as printed (headlines 400; 400 to 500 on tech).

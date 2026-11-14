@@ -1,0 +1,187 @@
+
+1440x900  lines x 80 and 1360, nav 72px, one screen 900px
+  hero 900 tall; h1 80px/1.02, 2 lines, 406x163 at 112,168; lead 20/34, 1 lines, 406 wide; buttons 1 x 48; visual -
+  stress: photo h1 at 32 of 32 characters takes 6 lines, hero 900 tall
+  section #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。 y     0  h   900  content 828
+  section #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间 y   900  h   704  content 496
+  section #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究 y  1604  h   861  content 653
+  section #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原 y  2465  h  1119  content 911
+  section #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。 y  3585  h   828  content 620
+  section #content-system section.section.content-map "按浏览中的问题，分配每一种内容 y  4413  h   683  content 475
+  section #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图， y  5096  h  1227  content 1019
+  section #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与 y  6323  h   957  content 749
+  section #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。 y  7280  h   918  content 710
+  edge-left        #background p.lead "灯在空间里被感受，也在屏幕前被选择。这个项目探索如何让氛围与产品": starts at x 752; the lines are 80 and the column starts
+  edge-left        #background h3 "我的工作与AI协作": starts at x 831.4; the lines are 80 and the column starts
+  edge-left        #background dl.role-list "Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅": starts at x 831.4; the lines are 80 and the column starts
+  edge-left        #strategy p.lead "依据官网调性研究与已有场景，以暖中性色连接木纹、织物和墙面；通过": starts at x 752; the lines are 80 and the column starts
+  edge-left        #strategy figure.scene-frame.mo-pd: starts at x 650.7; the lines are 80 and the column starts
+  edge-left        #palette p.lead "沿用原项目的五个参考色，解释它们在空间、产品和页面中的职责。它们": starts at x 752; the lines are 80 and the column starts
+  edge-right       #palette figure.color-photo: ends at x 625.6; the right line is 1360
+  edge-left        #palette figure.finish-photo: starts at x 1045.2; the lines are 80 and the column starts
+  edge-left        #palette h3 "沙灰": starts at x 1069.2; the lines are 80 and the column starts
+  edge-left        #palette p "主要阅读底色，联系暖墙与织物，连接图片和网页。": starts at x 1069.2; the lines are 80 and the column starts
+  edge-left        #palette p.color-number "#D8CABC": starts at x 1069.2; the lines are 80 and the column starts
+  edge-left        #palette p.small: starts at x 1069.2; the lines are 80 and the column starts
+  edge-left        #recognition figure.product-stage: starts at x 908.9; the lines are 80 and the column starts
+  edge-left        #content-system p.lead "统一视觉不等于重复同一句话。商品图、A+、品牌故事与Banner": starts at x 752; the lines are 80 and the column starts
+  edge-left        #outcomes p.lead "沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中": starts at x 752; the lines are 80 and the column starts
+  edge-left        #extended p.lead "A+展开操作、材质与情境。这一段把已有光色调节画面与网页文字重新": starts at x 752; the lines are 80 and the column starts
+  edge-left        #extended figure.aplus-phone: starts at x 975; the lines are 80 and the column starts
+  edge-left        #story-banner p.lead "品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与": starts at x 752; the lines are 80 and the column starts
+  edge-left        #story-banner h3 "Banner的场景入口": starts at x 744; the lines are 80 and the column starts
+  edge-left        #story-banner p "以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配": starts at x 744; the lines are 80 and the column starts
+  screen-short     #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": 704px tall; one screen under the nav is 900px
+  screen-height    #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": 704px, 0.78 screens; a section is exactly one or two (--h)
+  neighbour        #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": framed, 84px of #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖" shows
+  screen-short     #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖": 861px tall; one screen under the nav is 900px
+  screen-height    #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖": 861px, 0.96 screens; a section is exactly one or two (--h)
+  neighbour-ground #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖": framed, 39px of #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在"'s ground shows
+  screen-height    #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解: 1119px, 1.24 screens; a section is exactly one or two (--h)
+  screen-short     #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮: 828px tall; one screen under the nav is 900px
+  screen-height    #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮: 828px, 0.92 screens; a section is exactly one or two (--h)
+  screen-short     #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复: 683px tall; one screen under the nav is 900px
+  screen-height    #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复: 683px, 0.76 screens; a section is exactly one or two (--h)
+  neighbour        #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复: framed, 105px of #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点" shows
+  screen-height    #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点": 1227px, 1.36 screens; a section is exactly one or two (--h)
+  screen-height    #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已": 957px, 1.06 screens; a section is exactly one or two (--h)
+  screen-height    #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。品牌故事与Banne: 918px, 1.02 screens; a section is exactly one or two (--h)
+  hero-lines       section.hero h1: the check fills the h1 to 32 characters (this hero's maxChars in heroes.json), not the page's own: it takes 6 lines at 1440, 3 at most
+
+1024x768  lines x 48 and 976, nav 72px, one screen 768px
+  hero 768 tall; h1 65.743px/1.02, 2 lines, 356x134 at 80,168; lead 20/34, 1 lines, 356 wide; buttons 1 x 48; visual -
+  stress: photo h1 at 32 of 32 characters takes 6 lines, hero 768 tall
+  section #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。 y     0  h   768  content 696
+  section #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间 y   768  h   747  content 539
+  section #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究 y  1515  h   777  content 569
+  section #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原 y  2292  h  1162  content 954
+  section #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。 y  3454  h   828  content 620
+  section #content-system section.section.content-map "按浏览中的问题，分配每一种内容 y  4282  h   871  content 663
+  section #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图， y  5154  h  1017  content 809
+  section #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与 y  6171  h   839  content 631
+  section #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。 y  7010  h   792  content 584
+  edge-left        #background p.lead "灯在空间里被感受，也在屏幕前被选择。这个项目探索如何让氛围与产品": starts at x 536; the lines are 48 and the column starts
+  edge-left        #background h3 "我的工作与AI协作": starts at x 579.7; the lines are 48 and the column starts
+  edge-left        #background dl.role-list "Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅": starts at x 579.7; the lines are 48 and the column starts
+  edge-left        #strategy p.lead "依据官网调性研究与已有场景，以暖中性色连接木纹、织物和墙面；通过": starts at x 536; the lines are 48 and the column starts
+  edge-left        #strategy figure.scene-frame.mo-pd: starts at x 472; the lines are 48 and the column starts
+  edge-left        #palette p.lead "沿用原项目的五个参考色，解释它们在空间、产品和页面中的职责。它们": starts at x 536; the lines are 48 and the column starts
+  edge-right       #palette figure.color-photo: ends at x 400; the right line is 976
+  edge-left        #palette figure.finish-photo: starts at x 720; the lines are 48 and the column starts
+  edge-left        #palette h3 "沙灰": starts at x 744; the lines are 48 and the column starts
+  edge-left        #palette p "主要阅读底色，联系暖墙与织物，连接图片和网页。": starts at x 744; the lines are 48 and the column starts
+  edge-left        #palette p.color-number "#D8CABC": starts at x 744; the lines are 48 and the column starts
+  edge-left        #palette p.small: starts at x 744; the lines are 48 and the column starts
+  edge-left        #recognition figure.product-stage: starts at x 640.8; the lines are 48 and the column starts
+  edge-left        #content-system p.lead "统一视觉不等于重复同一句话。商品图、A+、品牌故事与Banner": starts at x 536; the lines are 48 and the column starts
+  edge-left        #outcomes p.lead "沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中": starts at x 536; the lines are 48 and the column starts
+  edge-left        #extended p.lead "A+展开操作、材质与情境。这一段把已有光色调节画面与网页文字重新": starts at x 536; the lines are 48 and the column starts
+  edge-left        #extended figure.aplus-phone: starts at x 701; the lines are 48 and the column starts
+  edge-left        #story-banner p.lead "品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与": starts at x 536; the lines are 48 and the column starts
+  edge-left        #story-banner h3 "Banner的场景入口": starts at x 536; the lines are 48 and the column starts
+  edge-left        #story-banner p "以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配": starts at x 536; the lines are 48 and the column starts
+  screen-short     #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": 747px tall; one screen under the nav is 768px
+  neighbour        #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解: framed, 262px of #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆" shows
+
+820x1180  lines x 40 and 780, nav 64px, one screen 1180px
+  hero 1180 tall; h1 57.4px/1.02, 1 lines, 538x59 at 40,112; lead 20/34, 1 lines, 689 wide; buttons 1 x 48; visual -
+  stress: photo h1 at 32 of 32 characters takes 3 lines, hero 1180 tall
+  section #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。 y     0  h  1180  content 1068
+  section #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间 y  1180  h   883  content 707
+  section #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究 y  2063  h  1097  content 921
+  section #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原 y  3161  h  1353  content 1177
+  section #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。 y  4514  h   716  content 540
+  section #content-system section.section.content-map "按浏览中的问题，分配每一种内容 y  5230  h   983  content 807
+  section #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图， y  6212  h  2296  content 2120
+  section #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与 y  8508  h   851  content 675
+  section #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。 y  9359  h   812  content 636
+  edge-left        #background h3 "我的工作与AI协作": starts at x 467; the lines are 40 and the column starts
+  edge-left        #background dl.role-list "Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅": starts at x 467; the lines are 40 and the column starts
+  edge-left        #strategy h3 "对应成果": starts at x 426; the lines are 40 and the column starts
+  edge-left        #strategy p "餐桌暮色用于建立生活氛围，床头夜间展示另一种环境层次；同样的判断": starts at x 426; the lines are 40 and the column starts
+  edge-left        #strategy p.small.scene-note "餐桌暮色：暖木与局部灯光形成生活氛围。": starts at x 426; the lines are 40 and the column starts
+  edge-right       #palette figure.color-photo: ends at x 410; the right line is 780
+  edge-right       #palette figure.finish-photo: ends at x 280; the right line is 780
+  edge-left        #palette h3 "沙灰": starts at x 318.7; the lines are 40 and the column starts
+  edge-left        #palette p "主要阅读底色，联系暖墙与织物，连接图片和网页。": starts at x 318.7; the lines are 40 and the column starts
+  edge-left        #palette p.color-number "#D8CABC": starts at x 318.7; the lines are 40 and the column starts
+  edge-left        #palette p.small: starts at x 318.7; the lines are 40 and the column starts
+  edge-left        #recognition figure.product-stage: starts at x 525.5; the lines are 40 and the column starts
+  edge-left        #extended figure.aplus-phone: starts at x 507.7; the lines are 40 and the column starts
+  edge-left        #story-banner h3 "Banner的场景入口": starts at x 426; the lines are 40 and the column starts
+  edge-left        #story-banner p "以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配": starts at x 426; the lines are 40 and the column starts
+  one-sided        #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解: its visuals end at x 410, short of the right line 780
+  screen-short     #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": 883px tall; one screen under the nav is 1180px
+  neighbour        #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": framed, 88px of #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖" shows
+  screen-short     #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖": 1097px tall; one screen under the nav is 1180px
+  neighbour-ground #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖": framed, 83px of #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在"'s ground shows
+  screen-short     #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮: 716px tall; one screen under the nav is 1180px
+  neighbour        #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮: framed, 124px of #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品" shows
+  screen-short     #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复: 983px tall; one screen under the nav is 1180px
+  neighbour        #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复: framed, 88px of #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点" shows
+  neighbour-ground #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点": framed, 64px of #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已"'s ground shows
+  screen-short     #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已": 851px tall; one screen under the nav is 1180px
+  neighbour        #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已": framed, 88px of #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。品牌故事与Banner共享光线、" shows
+  screen-short     #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。品牌故事与Banne: 812px tall; one screen under the nav is 1180px
+  neighbour        #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。品牌故事与Banne: framed, 368px of the footer shows
+
+768x1024  lines x 40 and 728, nav 64px, one screen 1024px
+  hero 1024 tall; h1 53.76px/1.02, 1 lines, 503x55 at 40,112; lead 20/34, 1 lines, 688 wide; buttons 1 x 48; visual -
+  stress: photo h1 at 32 of 32 characters takes 3 lines, hero 1024 tall
+  section #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。 y     0  h  1024  content 912
+  section #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间 y  1024  h   883  content 707
+  section #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究 y  1907  h  1068  content 892
+  section #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原 y  2976  h  1353  content 1177
+  section #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。 y  4328  h   716  content 540
+  section #content-system section.section.content-map "按浏览中的问题，分配每一种内容 y  5044  h   983  content 807
+  section #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图， y  6027  h  2192  content 2016
+  section #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与 y  8219  h   838  content 662
+  section #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。 y  9057  h   829  content 653
+  edge-left        #background h3 "我的工作与AI协作": starts at x 441; the lines are 40 and the column starts
+  edge-left        #background dl.role-list "Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅": starts at x 441; the lines are 40 and the column starts
+  edge-left        #strategy h3 "对应成果": starts at x 400; the lines are 40 and the column starts
+  edge-left        #strategy p "餐桌暮色用于建立生活氛围，床头夜间展示另一种环境层次；同样的判断": starts at x 400; the lines are 40 and the column starts
+  edge-left        #strategy p.small.scene-note "餐桌暮色：暖木与局部灯光形成生活氛围。": starts at x 400; the lines are 40 and the column starts
+  edge-right       #palette figure.color-photo: ends at x 384; the right line is 728
+  edge-right       #palette figure.finish-photo: ends at x 269.3; the right line is 728
+  edge-left        #palette h3 "沙灰": starts at x 301.3; the lines are 40 and the column starts
+  edge-left        #palette p "主要阅读底色，联系暖墙与织物，连接图片和网页。": starts at x 301.3; the lines are 40 and the column starts
+  edge-left        #palette p.color-number "#D8CABC": starts at x 301.3; the lines are 40 and the column starts
+  edge-left        #palette p.small: starts at x 301.3; the lines are 40 and the column starts
+  edge-left        #recognition figure.product-stage: starts at x 492.4; the lines are 40 and the column starts
+  edge-left        #extended figure.aplus-phone: starts at x 475.7; the lines are 40 and the column starts
+  edge-left        #story-banner h3 "Banner的场景入口": starts at x 400; the lines are 40 and the column starts
+  edge-left        #story-banner p "以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配": starts at x 400; the lines are 40 and the column starts
+  one-sided        #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解: its visuals end at x 384, short of the right line 728
+  screen-short     #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": 883px tall; one screen under the nav is 1024px
+  neighbour        #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": framed, 45px of #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖" shows
+  screen-short     #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮: 716px tall; one screen under the nav is 1024px
+  neighbour        #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮: framed, 88px of #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品" shows
+  screen-short     #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复: 983px tall; one screen under the nav is 1024px
+  neighbour-ground #content-system section.section.content-map "按浏览中的问题，分配每一种内容。统一视觉不等于重复: framed, 41px of #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点"'s ground shows
+  screen-height    #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点": 2192px, 2.14 screens; a section is exactly one or two (--h)
+  screen-short     #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已": 838px tall; one screen under the nav is 1024px
+  neighbour        #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已": framed, 88px of #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。品牌故事与Banner共享光线、" shows
+  screen-short     #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。品牌故事与Banne: 829px tall; one screen under the nav is 1024px
+  neighbour        #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。品牌故事与Banne: framed, 195px of the footer shows
+
+390x844  lines x 24 and 366, nav 64px, one screen 844px
+  hero 712 tall; h1 46.8px/1.08, 2 lines, 342x101 at 24,104; lead 18/30.6, 1 lines, 342 wide; buttons 1 x 48; visual -
+  stress: photo h1 at 32 of 32 characters takes 5 lines, hero 864 tall
+  section #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。 y     0  h   712  content 608
+  section #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间 y   712  h  1106  content 978
+  section #strategy section.section.approach "同一套材质基调，保留昼夜的变化。依据官网调性研究 y  1818  h  1102  content 974
+  section #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原 y  2919  h  1933  content 1805
+  section #recognition section.section.recognition "先用轮廓建立识别，再用近景解释细节。 y  4852  h  1078  content 950
+  section #content-system section.section.content-map "按浏览中的问题，分配每一种内容 y  5930  h   989  content 861
+  section #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图， y  6918  h  1454  content 1326
+  section #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与 y  8372  h  1058  content 930
+  section #story-banner section.section.story-banner "让故事与入口，延续同一种生活感。 y  9430  h  1265  content 1137
+  screen-short     #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 ": 712px tall; one screen under the nav is 844px
+  neighbour        #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 ": framed, 68px of #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕" shows
+  screen-height    #palette section.section.palette-section "从空间与材质，理解项目参考色。沿用原项目的五个参考色，解: 1933px, 2.29 screens; a section is exactly one or two (--h), or on a phone at least one that its content fills
+  neighbour        #outcomes section.section.outcomes "把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点": framed, 87px of #extended section.section.extended "从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已" shows
+  hero-fold        #opening section.hero.hero--photo "NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 ": ends at y 712, above the fold (844)
+  hero-fold        #background section.section.context "把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕": shows on the first screen from y 776
+  hero-maxchars    #opening section.hero.hero--photo "NEDEric Lamp 无线氛围灯的电商视觉设计 无线氛围灯的": with a 32-character h1 (heroes.json maxChars): ends at y 864, past the fold (844): 1.02 screens tall
+  hero-lines       section.hero h1: the check fills the h1 to 32 characters (this hero's maxChars in heroes.json), not the page's own: it takes 5 lines at 390, 3 at most

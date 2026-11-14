@@ -1,0 +1,5 @@
+
+== index.html  (171 words)  0 FAIL, 1 WARN
+  WARN copy-stat-strip      stat strip x1
+       - 1 / 2 / 3
+       fix: a strip only of figures the brief gives (a price, hours, a count); otherwise put each number in the sentence it proves, or leave it out

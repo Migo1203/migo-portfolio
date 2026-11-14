@@ -1,0 +1,9 @@
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/00_主图_近白底_V01.webp.json (sidecar fallback for this format)
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/01_产品展示_V02.webp.json (sidecar fallback for this format)
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/02_旋钮操作_V02.webp.json (sidecar fallback for this format)
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/03_光色调节_V01.webp.json (sidecar fallback for this format)
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/04_夜间无线续航_V02.webp.json (sidecar fallback for this format)
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/05_尺寸材质_V02.webp.json (sidecar fallback for this format)
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/06_户外使用_V02.webp.json (sidecar fallback for this format)
+EMBEDDED: /workspace/migo-portfolio/UI设计/NED网页展示/V02/assets/缩略图/07_多场景使用_V02.webp.json (sidecar fallback for this format)
+SCAN: 8 rasters, 0 missing

@@ -1,0 +1,11 @@
+# 只忽略本地浏览器临时档案与重复的机检裁图；保留门禁状态及JSON报告。
+.taste-skill/chrome-*/
+.taste-skill/consistency/*.jpg
+.taste-skill/consistency/rendered.html
+.taste-skill/复查_390/*.jpg
+.taste-skill/复查_390/rendered.html
+.taste-skill/layout-shots/
+.taste-skill/shots/
+.taste-skill/gate/**/*.jpg
+.taste-skill/gate/**/rendered.html
+__pycache__/

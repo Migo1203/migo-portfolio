@@ -1,0 +1,18 @@
+[
+  {
+    "名称": "项目西文.woff",
+    "来源": "/workspace/AIGC/作品项目/NED_Eric_Lamp_氛围灯/制作交付/作品集展示/成果展示/V04/02_高级A+/02_可编辑SVG/DMSans-VF.ttf",
+    "源SHA256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+    "输出SHA256": "4b50387180bde04f463a50471bf791e82faf46fe600bb701b302825d7bf044af",
+    "字节数": 58696,
+    "格式": "WOFF，变量字体子集；不是WOFF2"
+  },
+  {
+    "名称": "网页中文.woff",
+    "来源": "/workspace/design-resources/素材与工具/字体/Noto_Sans_SC/简体无衬线可变.ttf",
+    "源SHA256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "输出SHA256": "e5583187e604c22c8f73d24ef4f39bca391b7d511da7460937e409952e48c2ca",
+    "字节数": 222768,
+    "格式": "WOFF，变量字体子集；不是WOFF2"
+  }
+]

@@ -1,0 +1,2166 @@
+{
+  "日期": "2026-11-15",
+  "引擎": "Chromium / Playwright，桌面浏览器及触控模拟；未用实体手机",
+  "布局": [
+    {
+      "宽度": 1440,
+      "语言": "zh",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 900,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 1440,
+          "shownWidth": 1440
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 970,
+          "shownWidth": 709
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 720,
+          "shownWidth": 546
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 720,
+          "shownWidth": 451
+        },
+        {
+          "source": "/assets/响应式/缩略320/00_主图_近白底_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/01_产品展示_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/02_旋钮操作_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/03_光色调节_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/04_夜间无线续航_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/05_尺寸材质_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/06_户外使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/07_多场景使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/800/A加操作.webp",
+          "naturalWidth": 720,
+          "shownWidth": 847
+        },
+        {
+          "source": "/assets/响应式/400/A加手机.webp",
+          "naturalWidth": 388,
+          "shownWidth": 385
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 790,
+          "shownWidth": 616
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 648,
+          "shownWidth": 616
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 900,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 704,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 861,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1119,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 828,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 683,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1227,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 957,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 918,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 624,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 1440,
+      "语言": "en",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 900,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 1440,
+          "shownWidth": 1440
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 970,
+          "shownWidth": 709
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 720,
+          "shownWidth": 546
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 720,
+          "shownWidth": 451
+        },
+        {
+          "source": "/assets/响应式/缩略320/00_主图_近白底_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/01_产品展示_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/02_旋钮操作_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/03_光色调节_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/04_夜间无线续航_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/05_尺寸材质_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/06_户外使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/07_多场景使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/800/A加操作.webp",
+          "naturalWidth": 720,
+          "shownWidth": 847
+        },
+        {
+          "source": "/assets/响应式/400/A加手机.webp",
+          "naturalWidth": 388,
+          "shownWidth": 385
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 790,
+          "shownWidth": 616
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 648,
+          "shownWidth": 616
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 900,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 821,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 861,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1145,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 828,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 730,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1196,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 938,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 918,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 692,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 2048,
+      "语言": "zh",
+      "viewport": 2048,
+      "scrollWidth": 2048,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 1080,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 2048,
+          "shownWidth": 2048
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 1379,
+          "shownWidth": 709
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 546
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 451
+        },
+        {
+          "source": "/assets/响应式/缩略320/00_主图_近白底_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/01_产品展示_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/02_旋钮操作_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/03_光色调节_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/04_夜间无线续航_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/05_尺寸材质_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/06_户外使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/07_多场景使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 847
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 552,
+          "shownWidth": 385
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 790,
+          "shownWidth": 616
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 648,
+          "shownWidth": 616
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 1080,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 704,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 861,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1119,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 828,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 683,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1227,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 957,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 918,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 624,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 2048,
+      "语言": "en",
+      "viewport": 2048,
+      "scrollWidth": 2048,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 1080,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 2048,
+          "shownWidth": 2048
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 1379,
+          "shownWidth": 709
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 546
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 451
+        },
+        {
+          "source": "/assets/响应式/缩略320/00_主图_近白底_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/01_产品展示_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/02_旋钮操作_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/03_光色调节_V01.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/04_夜间无线续航_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/05_尺寸材质_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/06_户外使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/响应式/缩略320/07_多场景使用_V02.webp",
+          "naturalWidth": 302,
+          "shownWidth": 302
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 847
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 552,
+          "shownWidth": 385
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 790,
+          "shownWidth": 616
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 648,
+          "shownWidth": 616
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 1080,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 821,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 861,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1145,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 828,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 730,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1196,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 938,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 918,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 692,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 1024,
+      "语言": "zh",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 768,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 1024
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 689,
+          "shownWidth": 504
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 512,
+          "shownWidth": 352
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 512,
+          "shownWidth": 335
+        },
+        {
+          "source": "/assets/响应式/缩略320/00_主图_近白底_V01.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/01_产品展示_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/02_旋钮操作_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/03_光色调节_V01.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/04_夜间无线续航_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/05_尺寸材质_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/06_户外使用_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/07_多场景使用_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 512,
+          "shownWidth": 605
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 276,
+          "shownWidth": 275
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 564,
+          "shownWidth": 440
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 463,
+          "shownWidth": 440
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 768,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 747,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 777,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1162,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 828,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 871,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1017,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 839,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 792,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 662,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 1024,
+      "语言": "en",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 768,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 1024,
+          "shownWidth": 1024
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 689,
+          "shownWidth": 504
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 512,
+          "shownWidth": 352
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 512,
+          "shownWidth": 335
+        },
+        {
+          "source": "/assets/响应式/缩略320/00_主图_近白底_V01.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/01_产品展示_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/02_旋钮操作_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/03_光色调节_V01.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/04_夜间无线续航_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/05_尺寸材质_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/06_户外使用_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/响应式/缩略320/07_多场景使用_V02.webp",
+          "naturalWidth": 214,
+          "shownWidth": 214
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 512,
+          "shownWidth": 605
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 276,
+          "shownWidth": 275
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 564,
+          "shownWidth": 440
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 463,
+          "shownWidth": 440
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 768,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 932,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 907,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1226,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 828,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 971,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1058,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 908,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 875,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 799,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 820,
+      "语言": "zh",
+      "viewport": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 1180,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 820,
+          "shownWidth": 820
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 751,
+          "shownWidth": 740
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 740,
+          "shownWidth": 370
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 740,
+          "shownWidth": 255
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 740,
+          "shownWidth": 436
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 221,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 454,
+          "shownWidth": 354
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 372,
+          "shownWidth": 354
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 1180,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 883,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1097,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1353,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 716,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 983,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 2296,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 851,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 812,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 712,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 820,
+      "语言": "en",
+      "viewport": 820,
+      "scrollWidth": 820,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 1180,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 820,
+          "shownWidth": 820
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 751,
+          "shownWidth": 740
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 740,
+          "shownWidth": 370
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 740,
+          "shownWidth": 255
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 358,
+          "shownWidth": 358
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 740,
+          "shownWidth": 436
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 221,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 454,
+          "shownWidth": 354
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 372,
+          "shownWidth": 354
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 1180,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 1044,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1122,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1401,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 770,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 984,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 2277,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 875,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 867,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 737,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 768,
+      "语言": "zh",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 1024,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 768,
+          "shownWidth": 768
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 698,
+          "shownWidth": 688
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 688,
+          "shownWidth": 344
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 688,
+          "shownWidth": 236
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 688,
+          "shownWidth": 404
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 207,
+          "shownWidth": 252
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 421,
+          "shownWidth": 328
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 345,
+          "shownWidth": 328
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 1024,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 883,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1068,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1353,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 716,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 983,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 2192,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 838,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 829,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 712,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 768,
+      "语言": "en",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 1024,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 768,
+          "shownWidth": 768
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 698,
+          "shownWidth": 688
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 688,
+          "shownWidth": 344
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 688,
+          "shownWidth": 236
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 332,
+          "shownWidth": 332
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 688,
+          "shownWidth": 404
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 207,
+          "shownWidth": 252
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 421,
+          "shownWidth": 328
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 345,
+          "shownWidth": 328
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 1024,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 1069,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1129,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1401,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 808,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 988,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 2173,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 862,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 897,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 737,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 390,
+      "语言": "zh",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 711.984375,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 600,
+          "shownWidth": 390
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 493,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 342,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 342,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 342,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 300,
+          "shownWidth": 300
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 556,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 455,
+          "shownWidth": 342
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 712,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 1106,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1102,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1933,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 1078,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 989,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1454,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 1058,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 1265,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 755,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 390,
+      "语言": "en",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 742.578125,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 600,
+          "shownWidth": 390
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 493,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 342,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 342,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 165,
+          "shownWidth": 165
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 342,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 300,
+          "shownWidth": 300
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 556,
+          "shownWidth": 342
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 455,
+          "shownWidth": 342
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 743,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 1433,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1228,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1994,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 1201,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 1153,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1540,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 1155,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 1503,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 882,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 320,
+      "语言": "zh",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 663.796875,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 600,
+          "shownWidth": 320
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 392,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 272,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 272,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 272,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 300,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 442,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 362,
+          "shownWidth": 272
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 664,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 1304,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1113,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 1956,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 1137,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 1086,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1339,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 1076,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 1269,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 789,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    },
+    {
+      "宽度": 320,
+      "语言": "en",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "broken": [],
+      "fonts": [
+        true,
+        true
+      ],
+      "overflow": [],
+      "hero": 694.390625,
+      "selectedImages": [
+        {
+          "source": "/assets/图片/封面_原场景裁切.webp",
+          "naturalWidth": 600,
+          "shownWidth": 320
+        },
+        {
+          "source": "/assets/图片/策略_餐桌暮色.webp",
+          "naturalWidth": 392,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/图片/品牌生活.webp",
+          "naturalWidth": 272,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/图片/材质特写.webp",
+          "naturalWidth": 176,
+          "shownWidth": 176
+        },
+        {
+          "source": "/assets/图片/策略_产品透明抠图.webp",
+          "naturalWidth": 272,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/缩略图/00_主图_近白底_V01.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/01_产品展示_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/02_旋钮操作_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/03_光色调节_V01.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/04_夜间无线续航_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/05_尺寸材质_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/06_户外使用_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/缩略图/07_多场景使用_V02.webp",
+          "naturalWidth": 129,
+          "shownWidth": 130
+        },
+        {
+          "source": "/assets/图片/A加操作.webp",
+          "naturalWidth": 272,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/A加手机.webp",
+          "naturalWidth": 300,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/夜间场景.webp",
+          "naturalWidth": 442,
+          "shownWidth": 272
+        },
+        {
+          "source": "/assets/响应式/800/Banner场景.webp",
+          "naturalWidth": 362,
+          "shownWidth": 272
+        }
+      ],
+      "verticalSpill": [],
+      "sections": [
+        {
+          "id": "opening",
+          "height": 694,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "background",
+          "height": 1713,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "strategy",
+          "height": 1376,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "palette",
+          "height": 2129,
+          "background": "rgb(47, 48, 46)"
+        },
+        {
+          "id": "recognition",
+          "height": 1371,
+          "background": "rgb(155, 107, 86)"
+        },
+        {
+          "id": "content-system",
+          "height": 1346,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "outcomes",
+          "height": 1485,
+          "background": "rgb(244, 241, 235)"
+        },
+        {
+          "id": "extended",
+          "height": 1244,
+          "background": "rgb(90, 70, 59)"
+        },
+        {
+          "id": "story-banner",
+          "height": 1507,
+          "background": "rgb(216, 202, 188)"
+        },
+        {
+          "id": "reflection",
+          "height": 1007,
+          "background": "rgb(47, 48, 46)"
+        }
+      ]
+    }
+  ],
+  "交互": {
+    "场景切换": true,
+    "五色用途切换": true,
+    "复制或可选文字回退": true,
+    "八张原图及前后切换Esc焦点返回": true,
+    "对话框焦点约束": true,
+    "双语切换": true,
+    "无JS静态阅读与原图链接": true,
+    "孤立HTML图片字体动效模块与切图": true,
+    "模拟触控切场景色谱及原图": true
+  },
+  "错误": [],
+  "本地文件协议": "曾实际尝试file://，环境浏览器策略返回ERR_BLOCKED_BY_ADMINISTRATOR；改用空目录HTTP验证便携性，不冒称双击已验证。",
+  "便携模块": {
+    "ready": "1",
+    "failed": null
+  },
+  "布局通过": true
+}

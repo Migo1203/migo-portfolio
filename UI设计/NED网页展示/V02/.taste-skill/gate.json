@@ -1,0 +1,2291 @@
+{
+ "start": "2026-11-14T18:10:40.551Z",
+ "round": 3,
+ "idle": 0,
+ "errors": 0,
+ "status": "open",
+ "history": [
+  {
+   "at": "2026-11-14T19:00:38.359Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 62,
+   "round": 1,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-14T19:05:19.066Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 64,
+   "round": 2,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-14T19:09:47.450Z",
+   "mode": "manual",
+   "status": "open",
+   "fails": 63,
+   "round": 3,
+   "reused": false,
+   "stopHookActive": false
+  }
+ ],
+ "max": 3,
+ "marker": {
+  "page": "index.html",
+  "url": null,
+  "root": null,
+  "kind": "service",
+  "category": "Migo独立设计师作品集NED案例",
+  "primary": "查看完整成果",
+  "rounds": 3,
+  "start": "2026-11-14T18:10:40.551Z",
+  "by": "gate.mjs --start"
+ },
+ "manual": true,
+ "roundKey": "f717f273612ead65:da39a3ee",
+ "roundFree": false,
+ "idleFree": false,
+ "blockKey": null,
+ "fp": "f717f273612ead65",
+ "page": "index.html",
+ "found": {
+  "fails": [
+   {
+    "check": "no-visual",
+    "where": "section#background \"把生活空间的氛围， 转成有用的产品信息。\"",
+    "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "no-visual"
+    ],
+    "wheres": [
+     "section#background \"把生活空间的氛围， 转成有用的产品信息。\""
+    ]
+   },
+   {
+    "check": "no-visual",
+    "where": "section#content-system \"按浏览中的问题， 分配每一种内容。\"",
+    "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "no-visual"
+    ],
+    "wheres": [
+     "section#content-system \"按浏览中的问题， 分配每一种内容。\""
+    ]
+   },
+   {
+    "check": "card-visual",
+    "where": "section#palette > div.wrap > div.color-board > div.swatch-stack \"骨白 #F4F1EB RGB 244 / 241 / 235 沙灰 #D8CAB\"",
+    "msg": "5 cards hold only text: no picture, icon, UI fragment or effect in any of them",
+    "fix": "give the cards a visual: an inset panel with a UI fragment, a photograph or real icons",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "card-visual"
+    ],
+    "wheres": [
+     "section#palette > div.wrap > div.color-board > div.swatch-stack \"骨白 #F4F1EB RGB 244 / 241 / 235 沙灰 #D8CAB\""
+    ]
+   },
+   {
+    "check": "button-styles",
+    "where": "(the page)",
+    "msg": "3 button styles on the page: square, outline #5a463b x1 (\"EN\"); square, fill #5a463b, outline #5a463b x1 (\"查看完整成果\"); square, outline #d8cabc x1 (\"复制HEX\")",
+    "fix": "one primary and one secondary button: one shape, one height per size, one label size",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "button-styles"
+    ],
+    "wheres": [
+     "(the page)"
+    ]
+   },
+   {
+    "check": "cta",
+    "where": "section#story-banner \"让故事与入口， 延续同一种生活感。\"",
+    "msg": "the last section before the footer ends with no button",
+    "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "cta"
+    ],
+    "wheres": [
+     "section#story-banner \"让故事与入口， 延续同一种生活感。\""
+    ]
+   },
+   {
+    "check": "copy-fact",
+    "where": "h1#hero-h \"NED Eric Lamp\"",
+    "msg": "the first screen holds no number, price, date, place, platform or genre",
+    "fix": "put one hard fact from the brief on the first screen: a number, a price, a date, the place, the platforms it runs on or a game's genre; take it from the brief or remove the claim",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "copy-fact"
+    ],
+    "wheres": [
+     "h1#hero-h \"NED Eric Lamp\""
+    ]
+   },
+   {
+    "check": "copy-headings",
+    "where": "div.wrap > ol.content-rows > li:nth-of-type(2) > h3 \"A+内容\"",
+    "msg": "\"A+内容\" names no product, part, place or section (3 headings like it; at most one brand line per page) (and 2 more like it: \"故事与Banner\", \"Banner的场景入口\")",
+    "fix": "name the thing in every heading: the product, a part, the place or a section noun",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "copy-headings"
+    ],
+    "wheres": [
+     "div.wrap > ol.content-rows > li:nth-of-type(2) > h3 \"A+内容\""
+    ]
+   },
+   {
+    "check": "heading-scale",
+    "where": "div.wrap > div.context-grid > div.context-copy > h3:nth-of-type(1) \"项目任务\"",
+    "msg": "h3 headings in 3 sizes, 18px (\"产品主图\") to 24px (x1.33)",
+    "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "heading-scale"
+    ],
+    "wheres": [
+     "div.wrap > div.context-grid > div.context-copy > h3:nth-of-type(1) \"项目任务\""
+    ]
+   },
+   {
+    "check": "off-grid",
+    "where": "section#outcomes > div.wrap > div.section-head > p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中切换。\"",
+    "msg": "left edge at 752px, 20px off a common edge of its section at 732px (6 elements)",
+    "fix": "move it onto the page margin, or the column edge its section uses",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-grid"
+    ],
+    "wheres": [
+     "section#outcomes > div.wrap > div.section-head > p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中切换。\""
+    ]
+   },
+   {
+    "check": "off-grid",
+    "where": "section#story-banner > div.wrap > div.section-head > p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与取景，随任务和屏\"",
+    "msg": "left edge at 752px, 8px off a common edge of its section at 744px (4 elements)",
+    "fix": "move it onto the page margin, or the column edge its section uses",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "off-grid"
+    ],
+    "wheres": [
+     "section#story-banner > div.wrap > div.section-head > p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与取景，随任务和屏\""
+    ]
+   },
+   {
+    "check": "section-tile",
+    "where": "section#background \"把生活空间的氛围， 转成有用的产品信息。\"",
+    "msg": "the section is 704px tall (0.78 screens at 1440x900), shorter than the screen: its tile (the screen from its top) shows 632px of it and 196px of the next section, its heading \"同一套材质基调， 保留昼夜的变化。\" on screen",
+    "fix": "set every section after the hero to one screen or two (height: calc(var(--h,1) * 100vh)) and fit its content above --padb",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-tile"
+    ],
+    "wheres": [
+     "section#background \"把生活空间的氛围， 转成有用的产品信息。\""
+    ]
+   },
+   {
+    "check": "section-tile",
+    "where": "section#extended \"从认识产品， 到理解使用体验。\"",
+    "msg": "the section is 957px tall (1.06 screens at 1440x900), not one screen or two: the screen one screen on from its top (scroll 7223px) shows none of it and 828px of the next section, its heading \"让故事与入口， 延续同一种生活感。\" on screen",
+    "fix": "set every section after the hero to one screen or two (height: calc(var(--h,1) * 100vh)) and fit its content above --padb",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-tile"
+    ],
+    "wheres": [
+     "section#extended \"从认识产品， 到理解使用体验。\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+    "msg": "the section is 1227px tall (1.4 screens), 327px over one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+    "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height",
+     "screen-height"
+    ],
+    "wheres": [
+     "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+     "#outcomes section.section.outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "footer#reflection \"已有的判断，与下一步验证。这个项目把产品识别、操作解释与生活情境组织成四类内容。\"",
+    "msg": "the section is 624px tall (0.7 screens), 276px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+    "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "footer#reflection \"已有的判断，与下一步验证。这个项目把产品识别、操作解释与生活情境组织成四类内容。\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\"",
+    "msg": "the section is 1119px tall (1.2 screens), 219px over one screen (900px): every section after the hero is one screen or two, 2px either way (and 6 more like it: \"按浏览中的问题，分配每一种内容。统一视觉不等于重\", \"把生活空间的氛围，转成有用的产品信息。灯在空间里\", \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、\") (SR-2)",
+    "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height",
+     "screen-height"
+    ],
+    "wheres": [
+     "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\"",
+     "#palette section.section.palette-section \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "section#strategy \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖中性色连接木纹、\"",
+    "msg": "the section starts at 1604px, 196px above the screen grid (2 x 900px): sections start on whole screens (and 5 more like it: \"已有的判断，与下一步验证。这个项目把产品识别、操\", \"按浏览中的问题，分配每一种内容。统一视觉不等于重\", \"让故事与入口，延续同一种生活感。品牌故事与Ban\") (SR-2)",
+    "fix": "make every section above it exactly one or two screens tall, so this one starts on a whole screen",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height",
+     "screen-short",
+     "screen-height"
+    ],
+    "wheres": [
+     "section#strategy \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖中性色连接木纹、\"",
+     "#strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\""
+    ]
+   },
+   {
+    "check": "one-section",
+    "where": "h2#outcomes-h \"把判断落实到一组完整商品图。\"",
+    "msg": "the screen at scroll 4500px (stride 5) shows 304px of section 7 and the heading of section 7 whole and the content of 2 sections, over 24px each beside section 6: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+    "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "one-section"
+    ],
+    "wheres": [
+     "h2#outcomes-h \"把判断落实到一组完整商品图。\""
+    ]
+   },
+   {
+    "check": "one-section",
+    "where": "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\"",
+    "msg": "the screen at scroll 1800px (stride 2) shows 235px of section 4 and the content of 2 sections, over 24px each beside section 3: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+    "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "one-section"
+    ],
+    "wheres": [
+     "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\""
+    ]
+   },
+   {
+    "check": "one-section",
+    "where": "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+    "msg": "the screen at scroll 4413px (the top of section 6) shows 217px of section 7 and the content of 2 sections, over 24px each beside section 6: a screen shows one section (another may peek 8px, 24px WARN) (and 6 more like it: scroll 7922px, scroll 3600px, scroll 3585px) (SR-4)",
+    "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "one-section",
+     "neighbour"
+    ],
+    "wheres": [
+     "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+     "#outcomes section.section.outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "section#opening > img.hero__bg \"沙色Eric台灯置于木桌，暖墙、绿植与织物构成客厅场景。\"",
+    "msg": "a child of section 1 beside its .wrap is no valid background layer: z-index -1, not 0 (SR-6)",
+    "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "section#opening > img.hero__bg \"沙色Eric台灯置于木桌，暖墙、绿植与织物构成客厅场景。\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div.wrap > div.reflection > div > p.lead \"这个项目把产品识别、操作解释与生活情境组织成四类内容。它的证据是设计判断与具体成\"",
+    "msg": "2 text blocks start on a left line at x 752, 672px from the container's left: text starts on the container's left, or on one split line (x 623, 732, 841) (also \"目前没有商业表现验证。后续需要复核英文、功能资料与素材公开条件，\") (SR-6)",
+    "fix": "start the text on the container's left, or on the one split line every split shares",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div.wrap > div.reflection > div > p.lead \"这个项目把产品识别、操作解释与生活情境组织成四类内容。它的证据是设计判断与具体成\""
+    ]
+   },
+   {
+    "check": "split-pair",
+    "where": "section#extended > div.wrap > div.aplus-grid \"用动作解释操作手部与旋钮在同一画面中建立联系，再用网页文字解释信息任务。具体功能\"",
+    "msg": "the split's left column starts with a picture or a box, not text: text left, the visual right, on every split (SR-8)",
+    "fix": "put the text in the left column and the visual in the right, on every split",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "split-pair"
+    ],
+    "wheres": [
+     "section#extended > div.wrap > div.aplus-grid \"用动作解释操作手部与旋钮在同一画面中建立联系，再用网页文字解释信息任务。具体功能\""
+    ]
+   },
+   {
+    "check": "split-pair",
+    "where": "section#recognition > div.wrap.recognition-grid \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆与圆底座，是Er\"",
+    "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 909, the first split's at 752; its right column starts at x 909, on none of the split lines 623 (k=5), 732 (k=6), 841 (k=7) (SR-8)",
+    "fix": "start every split's right column on one shared line (wrap.left + k x (width + 24) / 12, k 5, 6 or 7; 6 on a place page) and end the left one 24px before it",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "split-pair"
+    ],
+    "wheres": [
+     "section#recognition > div.wrap.recognition-grid \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆与圆底座，是Er\""
+    ]
+   },
+   {
+    "check": "split-pair",
+    "where": "section#background > div.wrap > div.context-grid \"项目任务以NED Eric无线桌灯为对象，模拟亚马逊美国站的内容需求，规划商品图\"",
+    "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 782, the first split's at 752; its right column starts at x 782, on none of the split lines 623 (k=5), 732 (k=6), 841 (k=7) (and 9 more like it: \"视觉选择让自然材质可见，让局部暖光与环境形成关系\", \"把生活空间的氛围，转成有用的产品信息。灯在空间里\", \"同一套材质基调，保留昼夜的变化。依据官网调性研究\") (SR-8)",
+    "fix": "start every split's right column on one shared line (wrap.left + k x (width + 24) / 12, k 5, 6 or 7; 6 on a place page) and end the left one 24px before it",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "split-pair"
+    ],
+    "wheres": [
+     "section#background > div.wrap > div.context-grid \"项目任务以NED Eric无线桌灯为对象，模拟亚马逊美国站的内容需求，规划商品图\""
+    ]
+   },
+   {
+    "check": "hero-fill",
+    "where": "section#background \"把生活空间的氛围， 转成有用的产品信息。\"",
+    "msg": "the next section shows on the first screen: it starts at 712px on a 844px screen (the hero ends at 712px)",
+    "fix": "let the hero fill the first screen alone (min-height: 100svh, less above it): nothing of the next section on load",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "hero-fill"
+    ],
+    "wheres": [
+     "section#background \"把生活空间的氛围， 转成有用的产品信息。\""
+    ]
+   },
+   {
+    "check": "fold-cut",
+    "where": "h2#background-h \"把生活空间的氛围， 转成有用的产品信息。\"",
+    "msg": "a 30px line is sliced by the bottom of the first screen (16px of it below the fold)",
+    "fix": "size the hero so the heading ends above the fold, or starts below it",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "fold-cut"
+    ],
+    "wheres": [
+     "h2#background-h \"把生活空间的氛围， 转成有用的产品信息。\""
+    ]
+   },
+   {
+    "check": "heading-scale",
+    "where": "h3#color-name \"沙灰\"",
+    "msg": "h3 headings in 3 sizes, 16px (\"产品主图\") to 25px (x1.56)",
+    "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "heading-scale"
+    ],
+    "wheres": [
+     "h3#color-name \"沙灰\""
+    ]
+   },
+   {
+    "check": "photo-upscale",
+    "where": "div.wrap > div.story-grid > div.story-item:nth-of-type(1) > img \"img: 床头夜间场景原图，灯光与蓝灰织物形成层次。\"",
+    "msg": "夜间场景.webp: 342x140 shown at 342x228, blown up 1.63x",
+    "fix": "use a source at least as wide as the picture is shown (twice that for sharp screens)",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "photo-upscale"
+    ],
+    "wheres": [
+     "div.wrap > div.story-grid > div.story-item:nth-of-type(1) > img \"img: 床头夜间场景原图，灯光与蓝灰织物形成层次。\""
+    ]
+   },
+   {
+    "check": "section-tile",
+    "where": "section#opening \"NED Eric Lamp\"",
+    "msg": "the first section is 712px tall (0.84 screens at 390x844), shorter than the screen: the first screen shows 648px of it and 132px of the next section, its heading \"把生活空间的氛围， 转成有用的产品信息。\" on screen",
+    "fix": "make the hero exactly one screen (height: 100svh) with its content between the nav and 24px above the fold",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-tile"
+    ],
+    "wheres": [
+     "section#opening \"NED Eric Lamp\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#background p.lead \"灯在空间里被感受，也在屏幕前被选择。这个项目探索如何让氛围与产品\"",
+    "msg": "starts at x 752; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#background p.lead \"灯在空间里被感受，也在屏幕前被选择。这个项目探索如何让氛围与产品\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#background h3 \"我的工作与AI协作\"",
+    "msg": "starts at x 831.4; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#background h3 \"我的工作与AI协作\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#background dl.role-list \"Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅\"",
+    "msg": "starts at x 831.4; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#background dl.role-list \"Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#strategy p.lead \"依据官网调性研究与已有场景，以暖中性色连接木纹、织物和墙面；通过\"",
+    "msg": "starts at x 752; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#strategy p.lead \"依据官网调性研究与已有场景，以暖中性色连接木纹、织物和墙面；通过\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#strategy figure.scene-frame.mo-pd",
+    "msg": "starts at x 650.7; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#strategy figure.scene-frame.mo-pd"
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#palette p.lead \"沿用原项目的五个参考色，解释它们在空间、产品和页面中的职责。它们\"",
+    "msg": "starts at x 752; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#palette p.lead \"沿用原项目的五个参考色，解释它们在空间、产品和页面中的职责。它们\""
+    ]
+   },
+   {
+    "check": "edge-right",
+    "where": "#palette figure.color-photo",
+    "msg": "ends at x 625.6; the right line is 1360",
+    "fix": "end it on the .wrap right line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-right"
+    ],
+    "wheres": [
+     "#palette figure.color-photo"
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#palette figure.finish-photo",
+    "msg": "starts at x 1045.2; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#palette figure.finish-photo"
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#palette h3 \"沙灰\"",
+    "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#palette h3 \"沙灰\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#palette p \"主要阅读底色，联系暖墙与织物，连接图片和网页。\"",
+    "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#palette p \"主要阅读底色，联系暖墙与织物，连接图片和网页。\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#palette p.color-number \"#D8CABC\"",
+    "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#palette p.color-number \"#D8CABC\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#palette p.small",
+    "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#palette p.small"
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#recognition figure.product-stage",
+    "msg": "starts at x 908.9; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#recognition figure.product-stage"
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#content-system p.lead \"统一视觉不等于重复同一句话。商品图、A+、品牌故事与Banner\"",
+    "msg": "starts at x 752; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#content-system p.lead \"统一视觉不等于重复同一句话。商品图、A+、品牌故事与Banner\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#outcomes p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中\"",
+    "msg": "starts at x 752; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#outcomes p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#extended p.lead \"A+展开操作、材质与情境。这一段把已有光色调节画面与网页文字重新\"",
+    "msg": "starts at x 752; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#extended p.lead \"A+展开操作、材质与情境。这一段把已有光色调节画面与网页文字重新\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#extended figure.aplus-phone",
+    "msg": "starts at x 975; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#extended figure.aplus-phone"
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#story-banner p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与\"",
+    "msg": "starts at x 752; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#story-banner p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#story-banner h3 \"Banner的场景入口\"",
+    "msg": "starts at x 744; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#story-banner h3 \"Banner的场景入口\""
+    ]
+   },
+   {
+    "check": "edge-left",
+    "where": "#story-banner p \"以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配\"",
+    "msg": "starts at x 744; the lines are 80 and the column starts",
+    "fix": "start it on the .wrap left line",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "edge-left"
+    ],
+    "wheres": [
+     "#story-banner p \"以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配\""
+    ]
+   },
+   {
+    "check": "screen-short",
+    "where": "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\"",
+    "msg": "704px tall; one screen under the nav is 900px",
+    "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "screen-short",
+     "screen-height"
+    ],
+    "wheres": [
+     "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\""
+    ]
+   },
+   {
+    "check": "neighbour",
+    "where": "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\"",
+    "msg": "framed, 84px of #strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\" shows",
+    "fix": "keep the next section's heading and picture out of this screen",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "neighbour"
+    ],
+    "wheres": [
+     "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\""
+    ]
+   },
+   {
+    "check": "neighbour-ground",
+    "where": "#strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\"",
+    "msg": "framed, 39px of #palette section.section.palette-section \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在\"'s ground shows",
+    "fix": "end the ground with the section",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "neighbour-ground"
+    ],
+    "wheres": [
+     "#strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\""
+    ]
+   },
+   {
+    "check": "screen-short",
+    "where": "#recognition section.section.recognition \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆\"",
+    "msg": "828px tall; one screen under the nav is 900px",
+    "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "screen-short",
+     "screen-height"
+    ],
+    "wheres": [
+     "#recognition section.section.recognition \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆\""
+    ]
+   },
+   {
+    "check": "screen-short",
+    "where": "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\"",
+    "msg": "683px tall; one screen under the nav is 900px",
+    "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "screen-short",
+     "screen-height"
+    ],
+    "wheres": [
+     "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\""
+    ]
+   },
+   {
+    "check": "neighbour",
+    "where": "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\"",
+    "msg": "framed, 105px of #outcomes section.section.outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点\" shows",
+    "fix": "keep the next section's heading and picture out of this screen",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "neighbour"
+    ],
+    "wheres": [
+     "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\""
+    ]
+   },
+   {
+    "check": "screen-height",
+    "where": "#extended section.section.extended \"从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已\"",
+    "msg": "957px, 1.06 screens; a section is exactly one or two (--h)",
+    "fix": "make the section exactly one or two screens (--h: 1 or 2)",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "screen-height"
+    ],
+    "wheres": [
+     "#extended section.section.extended \"从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已\""
+    ]
+   },
+   {
+    "check": "screen-height",
+    "where": "#story-banner section.section.story-banner \"让故事与入口，延续同一种生活感。品牌故事与Banner共享光线、\"",
+    "msg": "918px, 1.02 screens; a section is exactly one or two (--h)",
+    "fix": "make the section exactly one or two screens (--h: 1 or 2)",
+    "widths": [
+     1440
+    ],
+    "from": "layout",
+    "ids": [
+     "screen-height"
+    ],
+    "wheres": [
+     "#story-banner section.section.story-banner \"让故事与入口，延续同一种生活感。品牌故事与Banner共享光线、\""
+    ]
+   },
+   {
+    "check": "hero-lines",
+    "where": "section.hero h1",
+    "msg": "the check fills the h1 to 32 characters (this hero's maxChars in heroes.json), not the page's own: it takes 6 lines at 1440, 3 at most",
+    "fix": "the check fills the h1 to this hero's maxChars, not your own: take the next type pairing the deal printed (start.mjs); when the h1 is final and fits, waive it (target: section.hero h1)",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "hero-lines"
+    ],
+    "wheres": [
+     "section.hero h1"
+    ]
+   },
+   {
+    "check": "screen-short",
+    "where": "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \"",
+    "msg": "712px tall; one screen under the nav is 844px",
+    "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+    "widths": [
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "screen-short"
+    ],
+    "wheres": [
+     "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \""
+    ]
+   },
+   {
+    "check": "neighbour",
+    "where": "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \"",
+    "msg": "framed, 68px of #background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\" shows",
+    "fix": "keep the next section's heading and picture out of this screen",
+    "widths": [
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "neighbour"
+    ],
+    "wheres": [
+     "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \""
+    ]
+   },
+   {
+    "check": "hero-fold",
+    "where": "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \"",
+    "msg": "ends at y 712, above the fold (844)",
+    "fix": "the hero fills the first screen alone, its button inside it",
+    "widths": [
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "hero-fold"
+    ],
+    "wheres": [
+     "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \""
+    ]
+   },
+   {
+    "check": "hero-fold",
+    "where": "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\"",
+    "msg": "shows on the first screen from y 776",
+    "fix": "the hero fills the first screen alone, its button inside it",
+    "widths": [
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "hero-fold"
+    ],
+    "wheres": [
+     "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\""
+    ]
+   },
+   {
+    "check": "hero-maxchars",
+    "where": "#opening section.hero.hero--photo \"NEDEric Lamp 无线氛围灯的电商视觉设计 无线氛围灯的\"",
+    "msg": "with a 32-character h1 (heroes.json maxChars): ends at y 864, past the fold (844): 1.02 screens tall",
+    "fix": "shorten the h1 or give the hero room for the longest headline",
+    "widths": [
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "hero-maxchars"
+    ],
+    "wheres": [
+     "#opening section.hero.hero--photo \"NEDEric Lamp 无线氛围灯的电商视觉设计 无线氛围灯的\""
+    ]
+   }
+  ],
+  "warns": [
+   {
+    "check": "scroll-reveal",
+    "where": "section#strategy > div.wrap > div.approach-grid > figure.scene-frame.mo-pd",
+    "msg": "starts an animation (1.6 s) the moment it is scrolled into view (an IntersectionObserver) on img#scene-image (inside a dealt moment's section, [data-moment]: an enter moment is expected on every kind; its still is judged under reduced motion)",
+    "fix": "show it at rest: no fade, rise or unmask when it is scrolled into view",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-buttons",
+    "where": "button#language \"EN\"",
+    "msg": "\"EN\" does not start with a verb (book, buy, try, start, get, see...) (and 1 more like it: \"复制HEX\")",
+    "fix": "label buttons with a verb and what the visitor gets (\"Book a room\", \"Start free trial\")",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-actions",
+    "where": "(the page)",
+    "msg": "the main action \"查看完整成果\" does not read word for word the same in the closing section",
+    "fix": "few actions, one wording: at most 2 in the hero, the main action word for word in nav, hero and close",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#opening / section#background",
+    "msg": "113px between these sections, -47% against the median 213px",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "links",
+    "where": "div.wrap > div.context-grid > div.role-panel > a.link \"查看边界与后续验证\"",
+    "msg": "\"查看边界与后续验证\" goes to #reflection, in the footer",
+    "fix": "point every link at a real section, page or file",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "photo-set",
+    "where": "div#gallery > article.gallery-item:nth-of-type(1) > a.gallery-link.m-zoom > img \"00_主图_近白底_V01.webp\"",
+    "msg": "13 photographs in more than one look: lightness from 0.33 to 0.92; the odd one out is 00_主图_近白底_V01.webp",
+    "fix": "grade the photographs to one look (light, colour, warmth), or replace the odd one out",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.nav > div.wrap.nav__bar > a.nav__logo \"Migo / 作品案例\"",
+    "msg": "\"Migo / 作品案例\" opens a section headed \"NED Eric Lamp\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-current",
+    "where": "header.nav",
+    "msg": "the nav stays on screen with 3 links to the page's sections, but never marks the one you are in (no link changes as the page scrolls)",
+    "fix": "mark the link of the section on screen (a colour, a weight or a line under it) as the visitor scrolls",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "grounds",
+    "where": "section#recognition \"先用轮廓建立识别， 再用近景解释细节。 蘑菇形灯罩、顶部旋钮、细灯杆与圆底座，是\"",
+    "msg": "5 flat grounds across the page (#d8cabc section x4, #5a463b section x2, #2f302e section x2, #9b6b56 section, #f4f1eb section): three at most (the base, a surface, an inverse)",
+    "fix": "three flat grounds at most (the base, one surface, one inverse): lay the other bands on one of them",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "one-screen",
+    "where": "section#background \"把生活空间的氛围， 转成有用的产品信息。\"",
+    "msg": "2 sections are shorter than the screen, so the next one's heading or picture shows with them: \"把生活空间的氛围， 转成有用的产品信息。\" is 704px of the 828px under the nav, and \"同一套材质基调， 保留昼夜的变化。\" shows below it (\"按浏览中的问题， 分配每一种内容。\")",
+    "fix": "give each section the screen (min-height: 100svh less the nav, its content centred), or join two short ones into one",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "visual-caption",
+    "where": "section#palette > div.wrap > p.palette-footnote \"参考色描述设计方向，不要求照片逐像素匹配，也不代表实物校色结果；未做ICC转换，\"",
+    "msg": "a muted 14px line of 1 row sits 24px under the picture %E5%93%81%E7%89%8C%E7%94%9F%E6%B4%BB.webp: it reads as a caption: \"参考色描述设计方向，不要求照片逐像素匹配，也不代表实物校色结果；未做ICC转换，...\"; no caption or description under any image, render or visual (house rule)",
+    "fix": "take the line away: no caption or description under, over or on any image, render or visual; a licence credit goes in one footer line",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-tile",
+    "where": "section#recognition \"先用轮廓建立识别， 再用近景解释细节。\"",
+    "msg": "the section is 828px tall (0.92 screens at 1440x900), shorter than the screen: its tile (the screen from its top) shows 756px of it and only 72px of the next section's ground (\"按浏览中的问题， 分配每一种内容。\"), none of its content",
+    "fix": "set every section after the hero to one screen or two (height: calc(var(--h,1) * 100vh)) and fit its content above --padb",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "skip-link",
+    "where": "header.nav > div.wrap.nav__bar > a.skip-link:nth-of-type(1) \"跳到正文\"",
+    "msg": "the first Tab stop is \"跳到正文\", not a skip link: a keyboard user tabs through the whole nav on every visit",
+    "fix": "add the starter's skip link as the header's first child: <a class=\"skip-link\" href=\"#top\">Skip to content</a>",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "no-visual",
+    "where": "section#palette \"从空间与材质， 理解项目参考色。\"",
+    "msg": "pictures, effects and mocks cover 23% of this section; a feature section needs a visual (about 25% or more)",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "proximity",
+    "where": "section#palette > div.wrap > div.color-board > div.material-column \"骨白 #F4F1EB RGB 244 / 241 / 235 沙灰 #D8CAB\"",
+    "msg": "stacked at this width, the visual starts 0px under the text and buttons above it (\"骨白 #F4F1EB RGB 244 / 241 / 235\"): it reads glued to them",
+    "fix": "give the stacked split the section's own gap between text and visual (40px or more on a phone)",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-stat-strip",
+    "msg": "stat strip x1",
+    "fix": "a strip only of figures the brief gives (a price, hours, a count); otherwise put each number in the sentence it proves, or leave it out (references/copy-tells.md)",
+    "widths": [],
+    "from": "copy",
+    "where": "copy x1: \"1 / 2 / 3\"",
+    "exact": false
+   }
+  ],
+  "crashed": [],
+  "seconds": {
+   "consistency": 142,
+   "layout": 14
+  }
+ },
+ "open": [
+  {
+   "check": "no-visual",
+   "where": "section#background \"把生活空间的氛围， 转成有用的产品信息。\"",
+   "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+   "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "no-visual"
+   ],
+   "wheres": [
+    "section#background \"把生活空间的氛围， 转成有用的产品信息。\""
+   ]
+  },
+  {
+   "check": "no-visual",
+   "where": "section#content-system \"按浏览中的问题， 分配每一种内容。\"",
+   "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+   "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "no-visual"
+   ],
+   "wheres": [
+    "section#content-system \"按浏览中的问题， 分配每一种内容。\""
+   ]
+  },
+  {
+   "check": "card-visual",
+   "where": "section#palette > div.wrap > div.color-board > div.swatch-stack \"骨白 #F4F1EB RGB 244 / 241 / 235 沙灰 #D8CAB\"",
+   "msg": "5 cards hold only text: no picture, icon, UI fragment or effect in any of them",
+   "fix": "give the cards a visual: an inset panel with a UI fragment, a photograph or real icons",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "card-visual"
+   ],
+   "wheres": [
+    "section#palette > div.wrap > div.color-board > div.swatch-stack \"骨白 #F4F1EB RGB 244 / 241 / 235 沙灰 #D8CAB\""
+   ]
+  },
+  {
+   "check": "button-styles",
+   "where": "(the page)",
+   "msg": "3 button styles on the page: square, outline #5a463b x1 (\"EN\"); square, fill #5a463b, outline #5a463b x1 (\"查看完整成果\"); square, outline #d8cabc x1 (\"复制HEX\")",
+   "fix": "one primary and one secondary button: one shape, one height per size, one label size",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "button-styles"
+   ],
+   "wheres": [
+    "(the page)"
+   ]
+  },
+  {
+   "check": "cta",
+   "where": "section#story-banner \"让故事与入口， 延续同一种生活感。\"",
+   "msg": "the last section before the footer ends with no button",
+   "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "cta"
+   ],
+   "wheres": [
+    "section#story-banner \"让故事与入口， 延续同一种生活感。\""
+   ]
+  },
+  {
+   "check": "copy-fact",
+   "where": "h1#hero-h \"NED Eric Lamp\"",
+   "msg": "the first screen holds no number, price, date, place, platform or genre",
+   "fix": "put one hard fact from the brief on the first screen: a number, a price, a date, the place, the platforms it runs on or a game's genre; take it from the brief or remove the claim",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "copy-fact"
+   ],
+   "wheres": [
+    "h1#hero-h \"NED Eric Lamp\""
+   ]
+  },
+  {
+   "check": "copy-headings",
+   "where": "div.wrap > ol.content-rows > li:nth-of-type(2) > h3 \"A+内容\"",
+   "msg": "\"A+内容\" names no product, part, place or section (3 headings like it; at most one brand line per page) (and 2 more like it: \"故事与Banner\", \"Banner的场景入口\")",
+   "fix": "name the thing in every heading: the product, a part, the place or a section noun",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "copy-headings"
+   ],
+   "wheres": [
+    "div.wrap > ol.content-rows > li:nth-of-type(2) > h3 \"A+内容\""
+   ]
+  },
+  {
+   "check": "heading-scale",
+   "where": "div.wrap > div.context-grid > div.context-copy > h3:nth-of-type(1) \"项目任务\"",
+   "msg": "h3 headings in 3 sizes, 18px (\"产品主图\") to 24px (x1.33)",
+   "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "heading-scale"
+   ],
+   "wheres": [
+    "div.wrap > div.context-grid > div.context-copy > h3:nth-of-type(1) \"项目任务\""
+   ]
+  },
+  {
+   "check": "off-grid",
+   "where": "section#outcomes > div.wrap > div.section-head > p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中切换。\"",
+   "msg": "left edge at 752px, 20px off a common edge of its section at 732px (6 elements)",
+   "fix": "move it onto the page margin, or the column edge its section uses",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-grid"
+   ],
+   "wheres": [
+    "section#outcomes > div.wrap > div.section-head > p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中切换。\""
+   ]
+  },
+  {
+   "check": "off-grid",
+   "where": "section#story-banner > div.wrap > div.section-head > p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与取景，随任务和屏\"",
+   "msg": "left edge at 752px, 8px off a common edge of its section at 744px (4 elements)",
+   "fix": "move it onto the page margin, or the column edge its section uses",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "off-grid"
+   ],
+   "wheres": [
+    "section#story-banner > div.wrap > div.section-head > p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与取景，随任务和屏\""
+   ]
+  },
+  {
+   "check": "section-tile",
+   "where": "section#background \"把生活空间的氛围， 转成有用的产品信息。\"",
+   "msg": "the section is 704px tall (0.78 screens at 1440x900), shorter than the screen: its tile (the screen from its top) shows 632px of it and 196px of the next section, its heading \"同一套材质基调， 保留昼夜的变化。\" on screen",
+   "fix": "set every section after the hero to one screen or two (height: calc(var(--h,1) * 100vh)) and fit its content above --padb",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-tile"
+   ],
+   "wheres": [
+    "section#background \"把生活空间的氛围， 转成有用的产品信息。\""
+   ]
+  },
+  {
+   "check": "section-tile",
+   "where": "section#extended \"从认识产品， 到理解使用体验。\"",
+   "msg": "the section is 957px tall (1.06 screens at 1440x900), not one screen or two: the screen one screen on from its top (scroll 7223px) shows none of it and 828px of the next section, its heading \"让故事与入口， 延续同一种生活感。\" on screen",
+   "fix": "set every section after the hero to one screen or two (height: calc(var(--h,1) * 100vh)) and fit its content above --padb",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-tile"
+   ],
+   "wheres": [
+    "section#extended \"从认识产品， 到理解使用体验。\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+   "msg": "the section is 1227px tall (1.4 screens), 327px over one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+   "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height",
+    "screen-height"
+   ],
+   "wheres": [
+    "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+    "#outcomes section.section.outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "footer#reflection \"已有的判断，与下一步验证。这个项目把产品识别、操作解释与生活情境组织成四类内容。\"",
+   "msg": "the section is 624px tall (0.7 screens), 276px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+   "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "footer#reflection \"已有的判断，与下一步验证。这个项目把产品识别、操作解释与生活情境组织成四类内容。\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\"",
+   "msg": "the section is 1119px tall (1.2 screens), 219px over one screen (900px): every section after the hero is one screen or two, 2px either way (and 6 more like it: \"按浏览中的问题，分配每一种内容。统一视觉不等于重\", \"把生活空间的氛围，转成有用的产品信息。灯在空间里\", \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、\") (SR-2)",
+   "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height",
+    "screen-height"
+   ],
+   "wheres": [
+    "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\"",
+    "#palette section.section.palette-section \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "section#strategy \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖中性色连接木纹、\"",
+   "msg": "the section starts at 1604px, 196px above the screen grid (2 x 900px): sections start on whole screens (and 5 more like it: \"已有的判断，与下一步验证。这个项目把产品识别、操\", \"按浏览中的问题，分配每一种内容。统一视觉不等于重\", \"让故事与入口，延续同一种生活感。品牌故事与Ban\") (SR-2)",
+   "fix": "make every section above it exactly one or two screens tall, so this one starts on a whole screen",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height",
+    "screen-short",
+    "screen-height"
+   ],
+   "wheres": [
+    "section#strategy \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖中性色连接木纹、\"",
+    "#strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\""
+   ]
+  },
+  {
+   "check": "one-section",
+   "where": "h2#outcomes-h \"把判断落实到一组完整商品图。\"",
+   "msg": "the screen at scroll 4500px (stride 5) shows 304px of section 7 and the heading of section 7 whole and the content of 2 sections, over 24px each beside section 6: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+   "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "one-section"
+   ],
+   "wheres": [
+    "h2#outcomes-h \"把判断落实到一组完整商品图。\""
+   ]
+  },
+  {
+   "check": "one-section",
+   "where": "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\"",
+   "msg": "the screen at scroll 1800px (stride 2) shows 235px of section 4 and the content of 2 sections, over 24px each beside section 3: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+   "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "one-section"
+   ],
+   "wheres": [
+    "section#palette \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在空间、产品和页面\""
+   ]
+  },
+  {
+   "check": "one-section",
+   "where": "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+   "msg": "the screen at scroll 4413px (the top of section 6) shows 217px of section 7 and the content of 2 sections, over 24px each beside section 6: a screen shows one section (another may peek 8px, 24px WARN) (and 6 more like it: scroll 7922px, scroll 3600px, scroll 3585px) (SR-4)",
+   "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "one-section",
+    "neighbour"
+   ],
+   "wheres": [
+    "section#outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点按可放大浏览，并\"",
+    "#outcomes section.section.outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "section#opening > img.hero__bg \"沙色Eric台灯置于木桌，暖墙、绿植与织物构成客厅场景。\"",
+   "msg": "a child of section 1 beside its .wrap is no valid background layer: z-index -1, not 0 (SR-6)",
+   "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "section#opening > img.hero__bg \"沙色Eric台灯置于木桌，暖墙、绿植与织物构成客厅场景。\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div.wrap > div.reflection > div > p.lead \"这个项目把产品识别、操作解释与生活情境组织成四类内容。它的证据是设计判断与具体成\"",
+   "msg": "2 text blocks start on a left line at x 752, 672px from the container's left: text starts on the container's left, or on one split line (x 623, 732, 841) (also \"目前没有商业表现验证。后续需要复核英文、功能资料与素材公开条件，\") (SR-6)",
+   "fix": "start the text on the container's left, or on the one split line every split shares",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div.wrap > div.reflection > div > p.lead \"这个项目把产品识别、操作解释与生活情境组织成四类内容。它的证据是设计判断与具体成\""
+   ]
+  },
+  {
+   "check": "split-pair",
+   "where": "section#extended > div.wrap > div.aplus-grid \"用动作解释操作手部与旋钮在同一画面中建立联系，再用网页文字解释信息任务。具体功能\"",
+   "msg": "the split's left column starts with a picture or a box, not text: text left, the visual right, on every split (SR-8)",
+   "fix": "put the text in the left column and the visual in the right, on every split",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "split-pair"
+   ],
+   "wheres": [
+    "section#extended > div.wrap > div.aplus-grid \"用动作解释操作手部与旋钮在同一画面中建立联系，再用网页文字解释信息任务。具体功能\""
+   ]
+  },
+  {
+   "check": "split-pair",
+   "where": "section#recognition > div.wrap.recognition-grid \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆与圆底座，是Er\"",
+   "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 909, the first split's at 752; its right column starts at x 909, on none of the split lines 623 (k=5), 732 (k=6), 841 (k=7) (SR-8)",
+   "fix": "start every split's right column on one shared line (wrap.left + k x (width + 24) / 12, k 5, 6 or 7; 6 on a place page) and end the left one 24px before it",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "split-pair"
+   ],
+   "wheres": [
+    "section#recognition > div.wrap.recognition-grid \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆与圆底座，是Er\""
+   ]
+  },
+  {
+   "check": "split-pair",
+   "where": "section#background > div.wrap > div.context-grid \"项目任务以NED Eric无线桌灯为对象，模拟亚马逊美国站的内容需求，规划商品图\"",
+   "msg": "the split's columns are off the page's one pair of lines: its right column starts at x 782, the first split's at 752; its right column starts at x 782, on none of the split lines 623 (k=5), 732 (k=6), 841 (k=7) (and 9 more like it: \"视觉选择让自然材质可见，让局部暖光与环境形成关系\", \"把生活空间的氛围，转成有用的产品信息。灯在空间里\", \"同一套材质基调，保留昼夜的变化。依据官网调性研究\") (SR-8)",
+   "fix": "start every split's right column on one shared line (wrap.left + k x (width + 24) / 12, k 5, 6 or 7; 6 on a place page) and end the left one 24px before it",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "split-pair"
+   ],
+   "wheres": [
+    "section#background > div.wrap > div.context-grid \"项目任务以NED Eric无线桌灯为对象，模拟亚马逊美国站的内容需求，规划商品图\""
+   ]
+  },
+  {
+   "check": "hero-fill",
+   "where": "section#background \"把生活空间的氛围， 转成有用的产品信息。\"",
+   "msg": "the next section shows on the first screen: it starts at 712px on a 844px screen (the hero ends at 712px)",
+   "fix": "let the hero fill the first screen alone (min-height: 100svh, less above it): nothing of the next section on load",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "hero-fill"
+   ],
+   "wheres": [
+    "section#background \"把生活空间的氛围， 转成有用的产品信息。\""
+   ]
+  },
+  {
+   "check": "fold-cut",
+   "where": "h2#background-h \"把生活空间的氛围， 转成有用的产品信息。\"",
+   "msg": "a 30px line is sliced by the bottom of the first screen (16px of it below the fold)",
+   "fix": "size the hero so the heading ends above the fold, or starts below it",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "fold-cut"
+   ],
+   "wheres": [
+    "h2#background-h \"把生活空间的氛围， 转成有用的产品信息。\""
+   ]
+  },
+  {
+   "check": "heading-scale",
+   "where": "h3#color-name \"沙灰\"",
+   "msg": "h3 headings in 3 sizes, 16px (\"产品主图\") to 25px (x1.56)",
+   "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "heading-scale"
+   ],
+   "wheres": [
+    "h3#color-name \"沙灰\""
+   ]
+  },
+  {
+   "check": "photo-upscale",
+   "where": "div.wrap > div.story-grid > div.story-item:nth-of-type(1) > img \"img: 床头夜间场景原图，灯光与蓝灰织物形成层次。\"",
+   "msg": "夜间场景.webp: 342x140 shown at 342x228, blown up 1.63x",
+   "fix": "use a source at least as wide as the picture is shown (twice that for sharp screens)",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "photo-upscale"
+   ],
+   "wheres": [
+    "div.wrap > div.story-grid > div.story-item:nth-of-type(1) > img \"img: 床头夜间场景原图，灯光与蓝灰织物形成层次。\""
+   ]
+  },
+  {
+   "check": "section-tile",
+   "where": "section#opening \"NED Eric Lamp\"",
+   "msg": "the first section is 712px tall (0.84 screens at 390x844), shorter than the screen: the first screen shows 648px of it and 132px of the next section, its heading \"把生活空间的氛围， 转成有用的产品信息。\" on screen",
+   "fix": "make the hero exactly one screen (height: 100svh) with its content between the nav and 24px above the fold",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-tile"
+   ],
+   "wheres": [
+    "section#opening \"NED Eric Lamp\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#background p.lead \"灯在空间里被感受，也在屏幕前被选择。这个项目探索如何让氛围与产品\"",
+   "msg": "starts at x 752; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#background p.lead \"灯在空间里被感受，也在屏幕前被选择。这个项目探索如何让氛围与产品\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#background h3 \"我的工作与AI协作\"",
+   "msg": "starts at x 831.4; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#background h3 \"我的工作与AI协作\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#background dl.role-list \"Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅\"",
+   "msg": "starts at x 831.4; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#background dl.role-list \"Migo项目目标、审美方向、参考选择、版本取舍与审稿反馈。AI辅\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#strategy p.lead \"依据官网调性研究与已有场景，以暖中性色连接木纹、织物和墙面；通过\"",
+   "msg": "starts at x 752; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#strategy p.lead \"依据官网调性研究与已有场景，以暖中性色连接木纹、织物和墙面；通过\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#strategy figure.scene-frame.mo-pd",
+   "msg": "starts at x 650.7; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#strategy figure.scene-frame.mo-pd"
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#palette p.lead \"沿用原项目的五个参考色，解释它们在空间、产品和页面中的职责。它们\"",
+   "msg": "starts at x 752; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#palette p.lead \"沿用原项目的五个参考色，解释它们在空间、产品和页面中的职责。它们\""
+   ]
+  },
+  {
+   "check": "edge-right",
+   "where": "#palette figure.color-photo",
+   "msg": "ends at x 625.6; the right line is 1360",
+   "fix": "end it on the .wrap right line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-right"
+   ],
+   "wheres": [
+    "#palette figure.color-photo"
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#palette figure.finish-photo",
+   "msg": "starts at x 1045.2; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#palette figure.finish-photo"
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#palette h3 \"沙灰\"",
+   "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#palette h3 \"沙灰\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#palette p \"主要阅读底色，联系暖墙与织物，连接图片和网页。\"",
+   "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#palette p \"主要阅读底色，联系暖墙与织物，连接图片和网页。\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#palette p.color-number \"#D8CABC\"",
+   "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#palette p.color-number \"#D8CABC\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#palette p.small",
+   "msg": "starts at x 1069.2; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#palette p.small"
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#recognition figure.product-stage",
+   "msg": "starts at x 908.9; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#recognition figure.product-stage"
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#content-system p.lead \"统一视觉不等于重复同一句话。商品图、A+、品牌故事与Banner\"",
+   "msg": "starts at x 752; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#content-system p.lead \"统一视觉不等于重复同一句话。商品图、A+、品牌故事与Banner\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#outcomes p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中\"",
+   "msg": "starts at x 752; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#outcomes p.lead \"沿用现有8张商品图，保留完整构图。点按可放大浏览，并在整组作品中\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#extended p.lead \"A+展开操作、材质与情境。这一段把已有光色调节画面与网页文字重新\"",
+   "msg": "starts at x 752; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#extended p.lead \"A+展开操作、材质与情境。这一段把已有光色调节画面与网页文字重新\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#extended figure.aplus-phone",
+   "msg": "starts at x 975; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#extended figure.aplus-phone"
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#story-banner p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与\"",
+   "msg": "starts at x 752; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#story-banner p.lead \"品牌故事与Banner共享光线、材质和产品外观；它们的信息密度与\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#story-banner h3 \"Banner的场景入口\"",
+   "msg": "starts at x 744; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#story-banner h3 \"Banner的场景入口\""
+   ]
+  },
+  {
+   "check": "edge-left",
+   "where": "#story-banner p \"以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配\"",
+   "msg": "starts at x 744; the lines are 80 and the column starts",
+   "fix": "start it on the .wrap left line",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "edge-left"
+   ],
+   "wheres": [
+    "#story-banner p \"以更紧凑的信息引导浏览；桌面与手机分别取景，原有三主题、六份适配\""
+   ]
+  },
+  {
+   "check": "screen-short",
+   "where": "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\"",
+   "msg": "704px tall; one screen under the nav is 900px",
+   "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "screen-short",
+    "screen-height"
+   ],
+   "wheres": [
+    "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\""
+   ]
+  },
+  {
+   "check": "neighbour",
+   "where": "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\"",
+   "msg": "framed, 84px of #strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\" shows",
+   "fix": "keep the next section's heading and picture out of this screen",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "neighbour"
+   ],
+   "wheres": [
+    "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\""
+   ]
+  },
+  {
+   "check": "neighbour-ground",
+   "where": "#strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\"",
+   "msg": "framed, 39px of #palette section.section.palette-section \"从空间与材质，理解项目参考色。沿用原项目的五个参考色，解释它们在\"'s ground shows",
+   "fix": "end the ground with the section",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "neighbour-ground"
+   ],
+   "wheres": [
+    "#strategy section.section.approach \"同一套材质基调，保留昼夜的变化。依据官网调性研究与已有场景，以暖\""
+   ]
+  },
+  {
+   "check": "screen-short",
+   "where": "#recognition section.section.recognition \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆\"",
+   "msg": "828px tall; one screen under the nav is 900px",
+   "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "screen-short",
+    "screen-height"
+   ],
+   "wheres": [
+    "#recognition section.section.recognition \"先用轮廓建立识别，再用近景解释细节。蘑菇形灯罩、顶部旋钮、细灯杆\""
+   ]
+  },
+  {
+   "check": "screen-short",
+   "where": "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\"",
+   "msg": "683px tall; one screen under the nav is 900px",
+   "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "screen-short",
+    "screen-height"
+   ],
+   "wheres": [
+    "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\""
+   ]
+  },
+  {
+   "check": "neighbour",
+   "where": "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\"",
+   "msg": "framed, 105px of #outcomes section.section.outcomes \"把判断落实到一组完整商品图。沿用现有8张商品图，保留完整构图。点\" shows",
+   "fix": "keep the next section's heading and picture out of this screen",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "neighbour"
+   ],
+   "wheres": [
+    "#content-system section.section.content-map \"按浏览中的问题，分配每一种内容。统一视觉不等于重复同一句话。商品\""
+   ]
+  },
+  {
+   "check": "screen-height",
+   "where": "#extended section.section.extended \"从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已\"",
+   "msg": "957px, 1.06 screens; a section is exactly one or two (--h)",
+   "fix": "make the section exactly one or two screens (--h: 1 or 2)",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "screen-height"
+   ],
+   "wheres": [
+    "#extended section.section.extended \"从认识产品，到理解使用体验。A+展开操作、材质与情境。这一段把已\""
+   ]
+  },
+  {
+   "check": "screen-height",
+   "where": "#story-banner section.section.story-banner \"让故事与入口，延续同一种生活感。品牌故事与Banner共享光线、\"",
+   "msg": "918px, 1.02 screens; a section is exactly one or two (--h)",
+   "fix": "make the section exactly one or two screens (--h: 1 or 2)",
+   "widths": [
+    1440
+   ],
+   "from": "layout",
+   "ids": [
+    "screen-height"
+   ],
+   "wheres": [
+    "#story-banner section.section.story-banner \"让故事与入口，延续同一种生活感。品牌故事与Banner共享光线、\""
+   ]
+  },
+  {
+   "check": "hero-lines",
+   "where": "section.hero h1",
+   "msg": "the check fills the h1 to 32 characters (this hero's maxChars in heroes.json), not the page's own: it takes 6 lines at 1440, 3 at most",
+   "fix": "the check fills the h1 to this hero's maxChars, not your own: take the next type pairing the deal printed (start.mjs); when the h1 is final and fits, waive it (target: section.hero h1)",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "hero-lines"
+   ],
+   "wheres": [
+    "section.hero h1"
+   ]
+  },
+  {
+   "check": "screen-short",
+   "where": "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \"",
+   "msg": "712px tall; one screen under the nav is 844px",
+   "fix": "make the section one full screen (--h: 1, layout-v4.md section 2)",
+   "widths": [
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "screen-short"
+   ],
+   "wheres": [
+    "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \""
+   ]
+  },
+  {
+   "check": "neighbour",
+   "where": "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \"",
+   "msg": "framed, 68px of #background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\" shows",
+   "fix": "keep the next section's heading and picture out of this screen",
+   "widths": [
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "neighbour"
+   ],
+   "wheres": [
+    "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \""
+   ]
+  },
+  {
+   "check": "hero-fold",
+   "where": "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \"",
+   "msg": "ends at y 712, above the fold (844)",
+   "fix": "the hero fills the first screen alone, its button inside it",
+   "widths": [
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "hero-fold"
+   ],
+   "wheres": [
+    "#opening section.hero.hero--photo \"NEDEric Lamp无线氛围灯的电商视觉设计。自主模拟项目 \""
+   ]
+  },
+  {
+   "check": "hero-fold",
+   "where": "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\"",
+   "msg": "shows on the first screen from y 776",
+   "fix": "the hero fills the first screen alone, its button inside it",
+   "widths": [
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "hero-fold"
+   ],
+   "wheres": [
+    "#background section.section.context \"把生活空间的氛围，转成有用的产品信息。灯在空间里被感受，也在屏幕\""
+   ]
+  },
+  {
+   "check": "hero-maxchars",
+   "where": "#opening section.hero.hero--photo \"NEDEric Lamp 无线氛围灯的电商视觉设计 无线氛围灯的\"",
+   "msg": "with a 32-character h1 (heroes.json maxChars): ends at y 864, past the fold (844): 1.02 screens tall",
+   "fix": "shorten the h1 or give the hero room for the longest headline",
+   "widths": [
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "hero-maxchars"
+   ],
+   "wheres": [
+    "#opening section.hero.hero--photo \"NEDEric Lamp 无线氛围灯的电商视觉设计 无线氛围灯的\""
+   ]
+  }
+ ],
+ "waived": [],
+ "warnCount": 16,
+ "at": "2026-11-14T19:09:47.450Z",
+ "openTold": true
+}
