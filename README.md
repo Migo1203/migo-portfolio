@@ -8,11 +8,15 @@ Migo 个人作品集网站的规划与开发，展示商业视觉设计、AI 辅
 
 当前独立仓库为 [Migo1203/migo-portfolio](https://github.com/Migo1203/migo-portfolio)。2026-11-09 从 AIGC 迁入网站规划文档，保留本仓库初始化 README 的项目描述及历史。品牌定义和源文件仍由 AIGC 中的 Project A 管理。
 
-2026-11-15最新：[NED V02规划与样稿](UI设计/NED网页展示/V02/README.md)按用户要求深入项目背景、设计策略与参考色展示，采用原项目的沙灰、深胡桃、炭灰与陶土氛围；实际执行taste-skill与Impeccable的适用流程，结果及偏离见执行记录。V02为NED详情候选，不是最终VI或正式网站；[V01与首页对照](UI设计/NED网页展示/V01/README.md)保留。尚未初始化Astro或替换线上第三版。
+## 项目进度
+
+![Migo 品牌设计与个人作品集网站阶段对照](https://raw.githubusercontent.com/Migo1203/AIGC/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%BA%A6.svg)
+
+[查看网站路线图](网站路线图.md) · [查看品牌总项目及进度图维护说明](https://github.com/Migo1203/AIGC/blob/main/%E4%BD%9C%E5%93%81%E9%A1%B9%E7%9B%AE/Migo%E4%B8%AA%E4%BA%BA%E5%93%81%E7%89%8C%E6%80%BB%E9%A1%B9%E7%9B%AE/README.md#项目进度)
 
 ## 最新网页视觉样稿
 
-**2026-11-18｜NED V03 规划：** [封面与标题设计规划](UI设计/NED网页展示/V03/设计规划.md)已补齐完整正文。本版目前仅规划首屏封面、标题、响应式与入场动效，尚未制作 V03 HTML、完成视觉验收或部署。
+**2026-11-18｜NED V02 已审阅，V03 规划中：** [V02 样稿及记录](UI设计/NED网页展示/V02/README.md)保留项目背景、设计策略和参考色展示，各项检查以原记录为准。当前进入 [V03 封面与标题设计规划](UI设计/NED网页展示/V03/设计规划.md)，范围为首屏封面、标题、响应式与入场动效，尚未制作 V03 HTML 或部署。V02 审阅完成不等于整站 UI 定稿；Astro 尚未初始化，线上仍为第三版线框预览。
 
 [NED版本统一入口](UI设计/NED网页展示/README.md)：本次按用户要求归档V01、V02及配套资料，保留各自规划、HTML、截图和实际检查结果。GitHub归档不等于部署，线上继续使用第三版线框。
 
