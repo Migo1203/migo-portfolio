@@ -191,3 +191,77 @@ a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
   .hero h1 { font-size: 2.625rem; }
   .hero__category { max-width: 15rem; }
 }
+
+/* A is the selected composition. The earlier B comparison uses the base scale. */
+.hero--a {
+  padding-top: clamp(2.5rem, 10svh, 7rem);
+}
+.hero--a .hero__copy { max-width: 38rem; }
+.hero--a h1 { font-size: clamp(4.25rem, 7.78vw, 7rem); }
+.hero--a .hero__brand { font-size: 1.125rem; }
+.hero--a .hero__category { font-size: .8125rem; }
+.hero--a .hero__lead { font-size: 1.375rem; }
+.hero--a .hero__note { font-size: .875rem; }
+.hero--a .hero__action { font-size: 1rem; }
+
+@media (max-width: 58em) {
+  .hero--a h1 { font-size: clamp(4rem, 7.55vw, 4.75rem); }
+}
+
+@media (max-width: 40em) {
+  .hero--a { padding-top: .25rem; }
+  .hero--a::before {
+    background:
+      linear-gradient(180deg, rgb(248 233 216 / 60%), rgb(248 233 216 / 36%) 4rem, transparent 9rem),
+      linear-gradient(90deg, rgb(248 246 240 / 42%), transparent 78%);
+  }
+  .hero--a h1 { font-size: clamp(2.875rem, 14.8vw, 3.625rem); }
+  .hero--a .hero__brand { font-size: .9375rem; }
+  .hero--a .hero__category { font-size: .75rem; }
+  .hero--a .hero__lead { font-size: 1.0625rem; }
+  .hero--a .hero__note { font-size: .8125rem; }
+  .hero--a .hero__action { margin-top: .75rem; }
+}
+
+@media (max-width: 22em) {
+  .hero--a .hero__action { margin-top: .4rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* V02 entrance, adapted to the A version's existing text hierarchy. */
+  .hero-motion:not([data-motion="off"]) .hero--a .hero__copy {
+    --hero-enter-ease: cubic-bezier(.22, 1, .36, 1);
+  }
+  .hero-motion:not([data-motion="off"]) .hero--a .hero__title-mask {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    /* Leave enough room for the descender in “Lamp”. */
+    padding-bottom: .12em;
+    margin-bottom: -.12em;
+  }
+  .hero-motion:not([data-motion="off"]) .hero--a .hero__title-mask > span {
+    display: inline-block;
+    animation: title-rise 700ms var(--hero-enter-ease) 80ms backwards;
+  }
+
+  .hero--a .hero__identity { --hero-enter-delay: 40ms; }
+  .hero--a .hero__lead { --hero-enter-delay: 300ms; }
+  .hero--a .hero__note { --hero-enter-delay: 360ms; }
+  .hero--a .hero__action { --hero-enter-delay: 420ms; }
+
+  .hero-motion:not([data-motion="off"]) .hero--a
+    :is(.hero__identity, .hero__lead, .hero__note, .hero__action:not(:focus)) {
+    animation: hero-copy-rise 520ms var(--hero-enter-ease) var(--hero-enter-delay) backwards;
+  }
+
+  @keyframes hero-copy-rise {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes title-rise {
+    from { transform: translateY(calc(100% + .2em)); }
+    to { transform: translateY(0); }
+  }
+}
