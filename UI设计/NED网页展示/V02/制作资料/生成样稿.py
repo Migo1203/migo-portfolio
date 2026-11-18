@@ -7,7 +7,8 @@ ROOT=Path(__file__).resolve().parents[1]
 esc=lambda s:html.escape(s,quote=True)
 def data(p):
     mime={'.woff':'font/woff','.webp':'image/webp','.js':'text/javascript','.css':'text/css','.svg':'image/svg+xml'}[p.suffix]
-    return 'data:'+mime+';base64,'+base64.b64encode(p.read_bytes()).decode()
+    payload=p.read_text(encoding='utf-8').encode('utf-8') if p.suffix in {'.js','.css'} else p.read_bytes()
+    return 'data:'+mime+';base64,'+base64.b64encode(payload).decode()
 BASE='https://github.com/Migo1203/AIGC/blob/4929b4063e74fd11642b6ff83c32f9f1f31deba1/'
 SRC='作品项目/NED_Eric_Lamp_氛围灯/'
 source=lambda p:BASE+quote(SRC+p,safe='/')
@@ -79,7 +80,7 @@ def responsive_img(match):
             sizes='(max-width:639px) calc((100vw - 48px) * '+mobile+'), (max-width:1023px) calc((100vw - 112px)/2 * '+other+'), (max-width:1200px) calc((100vw - 144px)/2 * '+other+'), (max-width:1440px) calc((100vw - 208px)/2 * '+other+'), calc(616px * '+other+')'
     if not candidates:return tag
     widths={}
-    for c in candidates:widths[Image.open(c).size[0]]=str(c.relative_to(ROOT))
+    for c in candidates:widths[Image.open(c).size[0]]=c.relative_to(ROOT).as_posix()
     srcset=', '.join(esc(v)+' '+str(w)+'w' for w,v in sorted(widths.items()))
     if name in ['策略_餐桌暮色.webp','夜间场景.webp']:
         w,h=Image.open(p).size;ratio=w/h
@@ -88,9 +89,9 @@ def responsive_img(match):
     return tag[:-1]+' srcset="'+srcset+'" sizes="'+sizes+'">'
 page=re.sub(r'<img\b[^>]*>',responsive_img,page)
 page=page.replace('<script src="制作资料/页面交互.js"></script>','<script id="ned-responsive">window.NED_RESPONSIVE_MAP='+json.dumps(responsive_map,ensure_ascii=False)+';</script><script src="制作资料/页面交互.js"></script>')
-(ROOT/'index.html').write_text(page)
+(ROOT/'index.html').write_bytes(page.encode('utf-8'))
 image_files=list((ROOT/'assets/图片').glob('*.webp'))+list((ROOT/'assets/缩略图').glob('*.webp'))
-image_map={str(p.relative_to(ROOT)):data(p) for p in image_files}
+image_map={p.relative_to(ROOT).as_posix():data(p) for p in image_files}
 portable=re.sub(r'\s+(srcset|sizes)="[^"]*"','',page)
 portable=re.sub(r'<script id="ned-responsive">[\s\S]*?</script>','',portable)
 image_map={p:u for p,u in image_map.items() if p in portable or p in ['assets/图片/策略_餐桌暮色.webp','assets/图片/夜间场景.webp']}
@@ -126,6 +127,6 @@ scene_map={key:image_map[key] for key in ['assets/图片/策略_餐桌暮色.web
 portable=portable.replace('<script src="制作资料/页面交互.js"></script>','<script>window.NED_ASSET_MAP='+json.dumps(scene_map,ensure_ascii=False)+';</script><script>\n'+ui+'\n</script>')
 licenses={p.name:p.read_text() for p in [ROOT/'assets/taste-skill许可证.txt',*list((ROOT/'assets/字体').glob('*OFL.txt'))]}
 portable=portable.replace('</body>','<script type="application/json" id="third-party-licenses">'+json.dumps(licenses,ensure_ascii=False).replace('</','<\\/')+'</script>\n</body>')
-(ROOT/'展示样稿.html').write_text(portable)
+(ROOT/'展示样稿.html').write_bytes(portable.encode('utf-8'))
 (ROOT/'构建记录.json').write_text(json.dumps({'日期':'2026-11-15','源码入口':'index.html','便携入口':'展示样稿.html','便携字节数':len(portable.encode()),'内嵌图片数':len(image_map),'便携SHA256':hashlib.sha256(portable.encode()).hexdigest(),'模块打包':'官方CSS与motion模块原样内嵌；moments loader仅将资源地址重写为data URL，功能逻辑不改。源码入口加载原样模块。'},ensure_ascii=False,indent=2))
 print('已生成源码入口与便携HTML；图片',len(image_map),'；便携字节',len(portable.encode()))
