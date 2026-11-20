@@ -29,51 +29,447 @@
         </a>
       </div>
     </section>
-    <section class="context" aria-labelledby="context-title">
-      <h2 id="context-title">把生活空间的氛围，转成有用的产品信息。</h2>
-      <p>灯在空间里被感受，也在屏幕前被选择。</p>
+    <section class="case-section case-background" id="background" aria-labelledby="background-title">
+      <div class="case-background__bar">
+        <span>NED Eric Lamp</span>
+        <span>商品图 / Listing / A+ / 品牌故事 / Banner</span>
+      </div>
+      <div class="case-background__body">
+        <header class="case-background__heading">
+          <p class="case-background__label" lang="en">01 / OVERVIEW</p>
+          <h2 id="background-title">项目概述</h2>
+        </header>
+        <div class="case-background__overview">
+          <div class="case-background__brief">
+            <h3 class="case-section__title">一盏灯，<br class="case-background__title-break">四种沟通任务。</h3>
+            <p>围绕NED Eric台灯，探索从商品识别、操作理解到生活氛围的电商视觉表达。以暖中性与自然材质连接整套内容，让每一部分回答不同的问题。</p>
+            <p class="case-background__note">亚马逊美国站展示语境下的作品集模拟，非品牌委托，未实际上架或投放。</p>
+          </div>
+          <dl class="case-background__facts">
+            <div>
+              <dt>项目</dt>
+              <dd>AI协作电商视觉模拟</dd>
+            </div>
+            <div>
+              <dt>重点</dt>
+              <dd>内容组织、设计判断与多端适配</dd>
+            </div>
+            <div>
+              <dt>成果</dt>
+              <dd>商品图、Listing、高级A+、品牌故事及Banner</dd>
+            </div>
+          </dl>
+        </div>
+        <section class="case-background__contribution" aria-labelledby="background-contribution-title">
+          <header class="case-background__heading">
+            <p class="case-background__label" lang="en">02 / CONTRIBUTION</p>
+            <h2 id="background-contribution-title">我的工作与 AI 协作</h2>
+          </header>
+          <div class="case-background__roles">
+            <div class="case-background__role">
+              <h3 lang="en">Migo</h3>
+              <ul>
+                <li>提出项目目标与审美方向</li>
+                <li>选择参考与比较版本</li>
+                <li>作出取舍，提供审稿与迭代反馈</li>
+              </ul>
+            </div>
+            <div class="case-background__role">
+              <h3 lang="en">Codex + AI</h3>
+              <ul>
+                <li>资料整理、图像生成与合成</li>
+                <li>英文文案、SVG 排版与导出</li>
+                <li>执行范围以原制作记录为依据</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="case-section case-design" id="design" aria-label="设计说明">
+      <div class="case-design__chapter case-scene-chapter">
+        <div class="case-design__intro">
+          <h2>同一盏灯，保留两种环境的光线</h2>
+          <p>台灯是两个场景共同的焦点，周围空间保留各自的色调与光线。</p>
+        </div>
+        <fieldset class="case-scenes">
+          <legend class="case-scenes__legend">选择光线场景</legend>
+          <input class="case-scenes__choice case-scenes__choice--dusk" type="radio" name="light-scene" id="light-dusk" aria-controls="scene-dusk" checked>
+          <label class="case-scenes__button" for="light-dusk">餐桌 · 暮色</label>
+          <input class="case-scenes__choice case-scenes__choice--night" type="radio" name="light-scene" id="light-night" aria-controls="scene-night">
+          <label class="case-scenes__button" for="light-night">床头 · 夜间</label>
+          <img class="case-scene__image case-scene__image--dusk" src="../V02/assets/图片/策略_餐桌暮色.webp" srcset="../V02/assets/响应式/400/策略_餐桌暮色.webp 400w, ../V02/assets/图片/策略_餐桌暮色.webp 830w" sizes="(max-width: 40em) 830px, 100vw" width="830" height="460" loading="lazy" alt="">
+          <img class="case-scene__image case-scene__image--night" src="../V02/assets/图片/夜间场景.webp" srcset="../V02/assets/响应式/400/夜间场景.webp 400w, ../V02/assets/响应式/800/夜间场景.webp 800w, ../V02/assets/图片/夜间场景.webp 1600w" sizes="(max-width: 40em) 1100px, 100vw" width="1600" height="656" loading="lazy" alt="">
+          <div class="case-scenes__captions">
+            <p class="case-scenes__caption" id="scene-dusk">保留木桌和墙面的暖色，让光沿桌面铺开。灯是画面的焦点，照亮的木纹也清晰可见。</p>
+            <p class="case-scenes__caption" id="scene-night">保留蓝灰织物和较暗的卧室，让暖光集中在床头柜上。灯在暗处更显眼，床头环境仍然可辨。</p>
+          </div>
+        </fieldset>
+      </div>
+      <div class="case-design__chapter">
+        <div class="case-design__intro">
+          <h2>先看清灯的外形，再看怎么操作</h2>
+          <p>蘑菇形灯罩、细灯杆与圆底座构成 Eric 的完整外形。近景把顶部旋钮和手部动作放大，读者可以顺着画面找到操作位置。</p>
+        </div>
+        <div class="case-pair case-pair--product">
+          <figure>
+            <div class="case-pair__silhouette">
+              <img src="../V02/assets/图片/策略_产品透明抠图.webp" width="555" height="980" loading="lazy" alt="Eric 台灯全貌，从顶部旋钮、蘑菇形灯罩到细灯杆和圆底座完整可见。">
+            </div>
+            <figcaption><strong>产品全貌</strong><span>保留灯罩、灯杆与底座的比例。</span></figcaption>
+          </figure>
+          <figure>
+            <img src="../V02/assets/图片/A加操作.webp" srcset="../V02/assets/响应式/400/A加操作.webp 400w, ../V02/assets/响应式/800/A加操作.webp 800w, ../V02/assets/图片/A加操作.webp 1600w" sizes="(max-width: 40em) 88vw, 59vw" width="1600" height="656" loading="lazy" alt="手部近景，拇指和食指捏住灯罩顶端的旋钮。">
+            <figcaption><strong>旋钮近景</strong><span>手部动作指出操作的位置。</span></figcaption>
+          </figure>
+        </div>
+      </div>
+      <section class="case-design__chapter case-palette" id="palette" aria-labelledby="palette-title">
+        <header class="case-design__intro case-palette__intro">
+          <h2 id="palette-title">项目参考色</h2>
+          <p>从灯罩、暖墙、木桌和织物看五个参考色如何连接产品、场景与页面。</p>
+        </header>
+        <div class="case-palette__board">
+          <figure class="case-palette__scene">
+            <img src="../V02/assets/图片/品牌生活.webp" srcset="../V02/assets/响应式/400/品牌生活.webp 320w, ../V02/assets/响应式/800/品牌生活.webp 640w, ../V02/assets/图片/品牌生活.webp 1122w" sizes="(max-width: 40em) 88vw, 40vw" width="1122" height="1402" loading="lazy" alt="沙色 Eric 台灯放在胡桃色木桌上，背景是暖色墙面与深灰织物沙发。">
+          </figure>
+          <div class="case-palette__colors">
+            <div class="case-palette__swatches" role="group" aria-label="五个项目参考色">
+              <button type="button" class="case-palette__swatch case-palette__swatch--bone" aria-pressed="false" aria-controls="palette-material palette-detail" disabled data-material="../V02/assets/图片/材质特写.webp" data-material-alt="浅色灯罩的细微表面纹理。" data-use="用于灯具浅色与少量明亮区域，让产品轮廓显得轻盈。">
+                <span class="case-palette__name">骨白</span><span class="case-palette__hex">#F4F1EB</span><span class="case-palette__rgb">RGB 244 / 241 / 235</span>
+              </button>
+              <button type="button" class="case-palette__swatch case-palette__swatch--sand" aria-pressed="true" aria-controls="palette-material palette-detail" disabled data-material="assets/palette/sand-wall.webp" data-material-alt="暖灰墙面的细微纹理和斑驳光影。" data-use="呼应暖墙的中性色，把场景里的柔和色调延续到网页。">
+                <span class="case-palette__name">沙灰</span><span class="case-palette__hex">#D8CABC</span><span class="case-palette__rgb">RGB 216 / 202 / 188</span>
+              </button>
+              <button type="button" class="case-palette__swatch case-palette__swatch--walnut" aria-pressed="false" aria-controls="palette-material palette-detail" disabled data-material="assets/palette/walnut-table.webp" data-material-alt="胡桃色木桌边缘与深色木纹。" data-use="呼应胡桃色木桌，为画面和页面提供偏暖的深色。">
+                <span class="case-palette__name">深胡桃</span><span class="case-palette__hex">#5A463B</span><span class="case-palette__rgb">RGB 90 / 70 / 59</span>
+              </button>
+              <button type="button" class="case-palette__swatch case-palette__swatch--charcoal" aria-pressed="false" aria-controls="palette-material palette-detail" disabled data-material="assets/palette/charcoal-fabric.webp" data-material-alt="深灰沙发的织物纹理。" data-use="呼应深灰织物的色调，用于 V03 的阅读背景。">
+                <span class="case-palette__name">炭灰</span><span class="case-palette__hex">#2F302E</span><span class="case-palette__rgb">RGB 47 / 48 / 46</span>
+              </button>
+              <button type="button" class="case-palette__swatch case-palette__swatch--terra" aria-pressed="false" aria-controls="palette-material palette-detail" disabled data-material="assets/palette/terracotta-vase.webp" data-material-alt="床头场景里暖棕陶器的粗糙表面。" data-use="呼应床头场景里的陶器，用于局部暖色点缀。">
+                <span class="case-palette__name">陶土</span><span class="case-palette__hex">#9B6B56</span><span class="case-palette__rgb">RGB 155 / 107 / 86</span>
+              </button>
+            </div>
+            <div class="case-palette__detail">
+              <img class="case-palette__material" id="palette-material" src="assets/palette/sand-wall.webp" width="176" height="176" loading="lazy" alt="暖灰墙面的细微纹理和斑驳光影。">
+              <div class="case-palette__explanation">
+                <div id="palette-detail" aria-live="polite" aria-atomic="true">
+                  <h3><span id="palette-name">沙灰</span> <span id="palette-hex">#D8CABC</span></h3>
+                  <p id="palette-use">呼应暖墙的中性色，把场景里的柔和色调延续到网页。</p>
+                </div>
+                <div class="case-palette__actions">
+                  <button class="case-palette__copy" id="palette-copy" type="button" hidden>复制 HEX</button>
+                  <p class="case-palette__status" id="palette-status" role="status"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="case-palette__note">以上色值为项目设计参考。</p>
+      </section>
+      <div class="case-design__chapter">
+        <div class="case-design__intro">
+          <h2>每类成果回答一个问题</h2>
+        </div>
+        <dl class="case-deliverables">
+          <div>
+            <dt>商品图</dt>
+            <dd><strong>这是什么，怎么用？</strong><p>把外观、操作、尺度和使用场景拆成可快速浏览的图。</p></dd>
+          </div>
+          <div>
+            <dt>A+</dt>
+            <dd><strong>细节和体验是怎样的？</strong><p>用连续图文展开材质、操作和使用。</p></dd>
+          </div>
+          <div>
+            <dt>品牌故事</dt>
+            <dd><strong>它在怎样的生活空间中出现？</strong><p>用生活场景解释品牌语境。</p></dd>
+          </div>
+          <div>
+            <dt>Banner</dt>
+            <dd><strong>哪个画面能让人愿意继续看这盏灯？</strong><p>用代表性场景和简短信息引导浏览。</p></dd>
+          </div>
+        </dl>
+        <a class="case-design__link" href="#works">查看商品图</a>
+      </div>
     </section>
     <section class="works" id="works" aria-labelledby="works-title">
-      <div class="works__head">
-        <h2 id="works-title">把判断落实到一组完整商品图。</h2>
-        <p>从产品识别、操作说明到生活情境，沿用现有作品，保留完整构图与原英文。</p>
+      <div class="works-listing" id="works-listing" hidden>
+        <div class="works-listing__notice">
+          <span>Portfolio concept · Amazon US product page</span>
+          <button type="button" class="works__button works-listing__browse" aria-controls="works-gallery">返回八图总览</button>
+        </div>
+        <div class="works-listing__shell">
+          <div class="works-listing__sheet">
+            <section class="works-listing__hero" aria-label="Product listing concept">
+              <div class="works-listing__gallery">
+                <div class="works-listing__thumbs" role="group" aria-label="商品图缩略图"></div>
+                <button type="button" class="works-listing__main-trigger" aria-label="放大查看当前商品图">
+                  <img class="works-listing__image" src="../V02/assets/图片/00_主图_近白底_V01.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="NED Eric 台灯产品主图，展示产品整体外观。">
+                </button>
+                <a class="works-listing__original" target="_blank" rel="noopener" aria-label="在新标签页查看原始大图">查看原图</a>
+              </div>
+              <div class="works-listing__heading">
+                <p class="works-listing__brand">NED Collections</p>
+                <h2 class="works-listing__title" lang="en" tabindex="-1">NED Eric Cordless Table Lamp, Rechargeable Dimmable Accent Light with Adjustable Color Temperature, Sand Cashmere</h2>
+                <p class="works-listing__meta">Color: <strong>Sand Cashmere</strong><span aria-hidden="true"> · </span>One lamp</p>
+              </div>
+              <div class="works-listing__features">
+                <h3>About this item</h3>
+                <ul>
+                  <li><strong>Cordless ambient light:</strong> A compact, rechargeable lamp that moves from a bedside table to a dining setting or a favorite corner. Use it without a cord once charged.</li>
+                  <li><strong>One-knob control:</strong> Press to switch on or off, turn to dim from 5% to 100%, and press and turn to adjust the color temperature from 2,700K to 4,000K.</li>
+                  <li><strong>Up to 8 hours:</strong> Enjoy up to 8 hours of light on a full charge, depending on brightness. Charging takes approximately 6 hours. A charging cord is included; a power adapter is not included.</li>
+                  <li><strong>Compact, rounded form:</strong> Approximately 7.9 inches high and 4.3 inches in diameter (20.1 x 11 cm). Made with powder-coated aluminum in Sand Cashmere.</li>
+                  <li><strong>Indoor and outdoor settings:</strong> NED lists an IP65 rating for outdoor use and recommends bringing the lamp indoors after outdoor use.</li>
+                </ul>
+              </div>
+            </section>
+            <section class="works-listing__lower">
+              <div class="works-listing__description">
+                <h3>Product description</h3>
+                <p>The NED Eric Table Lamp brings adjustable ambient light and a rounded silhouette to everyday spaces. Its compact, cordless design moves from a bedside table to a dining setting or a favorite corner. The Sand Cashmere finish adds a warm, understated touch.</p>
+                <p>Use the top knob to switch the lamp on or off, adjust the brightness from 5% to 100%, and adjust color temperature from 2,700K to 4,000K. Made with powder-coated aluminum, it measures approximately 7.9 inches high by 4.3 inches in diameter (20.1 x 11 cm).</p>
+                <p>A full charge provides up to 8 hours of light, depending on brightness; charging takes approximately 6 hours. A charging cord is included; a power adapter is not included. NED lists an IP65 rating and recommends bringing the lamp indoors after outdoor use.</p>
+              </div>
+              <div class="works-listing__specs">
+                <h3>At a glance</h3>
+                <table>
+                  <tbody>
+                    <tr><th scope="row">Material</th><td>Powder-coated aluminum</td></tr>
+                    <tr><th scope="row">Dimensions</th><td>Approx. 7.9 inches high x 4.3 inches in diameter</td></tr>
+                    <tr><th scope="row">Color temperature</th><td>2,700K–4,000K</td></tr>
+                    <tr><th scope="row">Runtime</th><td>Up to 8 hours; varies with brightness</td></tr>
+                    <tr><th scope="row">Outdoor use</th><td>IP65 listed by NED; bring indoors after use</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </div>
+          <p class="works-listing__footer"><strong>Portfolio visualization.</strong> Image order and layout are illustrative. Product details are based on manufacturer and retailer specifications, not independent testing.</p>
+        </div>
       </div>
-      <div class="works__grid">
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/00_主图_近白底_V01.webp" srcset="../V02/assets/响应式/缩略320/00_主图_近白底_V01.webp 320w, ../V02/assets/缩略图/00_主图_近白底_V01.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯产品主图，展示产品整体外观。">
-          <figcaption><h3>产品主图</h3><p>先建立完整外观识别</p></figcaption>
-        </figure>
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/01_产品展示_V02.webp" srcset="../V02/assets/响应式/缩略320/01_产品展示_V02.webp 320w, ../V02/assets/缩略图/01_产品展示_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯生活场景商品图，展示产品在空间中的状态。">
-          <figcaption><h3>产品展示</h3><p>把产品放回生活空间</p></figcaption>
-        </figure>
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/02_旋钮操作_V02.webp" srcset="../V02/assets/响应式/缩略320/02_旋钮操作_V02.webp 320w, ../V02/assets/缩略图/02_旋钮操作_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯旋钮操作商品图，近景呈现控制部位。">
-          <figcaption><h3>旋钮操作</h3><p>近景解释具体动作</p></figcaption>
-        </figure>
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/03_光色调节_V01.webp" srcset="../V02/assets/响应式/缩略320/03_光色调节_V01.webp 320w, ../V02/assets/缩略图/03_光色调节_V01.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯光色调节商品图，展示灯光变化。">
-          <figcaption><h3>光色调节</h3><p>把操作与光感联系起来</p></figcaption>
-        </figure>
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/04_夜间无线续航_V02.webp" srcset="../V02/assets/响应式/缩略320/04_夜间无线续航_V02.webp 320w, ../V02/assets/缩略图/04_夜间无线续航_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯夜间使用商品图，呈现夜间照明情境。">
-          <figcaption><h3>夜间使用</h3><p>呈现夜间的使用情境</p></figcaption>
-        </figure>
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/05_尺寸材质_V02.webp" srcset="../V02/assets/响应式/缩略320/05_尺寸材质_V02.webp 320w, ../V02/assets/缩略图/05_尺寸材质_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯尺寸与材质商品图，说明产品尺度和表面细节。">
-          <figcaption><h3>尺寸与材质</h3><p>回答尺度与表面的问题</p></figcaption>
-        </figure>
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/06_户外使用_V02.webp" srcset="../V02/assets/响应式/缩略320/06_户外使用_V02.webp 320w, ../V02/assets/缩略图/06_户外使用_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯户外使用商品图，呈现户外环境中的使用场景。">
-          <figcaption><h3>户外情境</h3><p>保留环境与使用条件</p></figcaption>
-        </figure>
-        <figure class="works__item">
-          <img src="../V02/assets/缩略图/07_多场景使用_V02.webp" srcset="../V02/assets/响应式/缩略320/07_多场景使用_V02.webp 320w, ../V02/assets/缩略图/07_多场景使用_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯多场景商品图，展示产品在不同空间中的应用。">
-          <figcaption><h3>多场景使用</h3><p>同一产品延续不同空间</p></figcaption>
-        </figure>
+      <div class="works__gallery" id="works-gallery">
+        <div class="works__gallery-bar">
+          <div class="works__head">
+            <h2 id="works-title">把判断落实到一组完整商品图。</h2>
+            <p>从产品识别、操作说明到生活情境，沿用现有作品，保留完整构图与原英文。</p>
+          </div>
+          <button class="works__button works__gallery-listing" type="button" aria-controls="works-listing" hidden>Listing 视图</button>
+        </div>
+        <div class="works__grid">
+          <figure class="works__item">
+            <a href="../V02/assets/图片/00_主图_近白底_V01.webp"><img src="../V02/assets/缩略图/00_主图_近白底_V01.webp" srcset="../V02/assets/响应式/缩略320/00_主图_近白底_V01.webp 320w, ../V02/assets/缩略图/00_主图_近白底_V01.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯产品主图，展示产品整体外观。"></a>
+            <figcaption><h3>产品主图</h3><p>先建立完整外观识别</p></figcaption>
+          </figure>
+          <figure class="works__item">
+            <a href="../V02/assets/图片/01_产品展示_V02.webp"><img src="../V02/assets/缩略图/01_产品展示_V02.webp" srcset="../V02/assets/响应式/缩略320/01_产品展示_V02.webp 320w, ../V02/assets/缩略图/01_产品展示_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯生活场景商品图，展示产品在空间中的状态。"></a>
+            <figcaption><h3>产品展示</h3><p>把产品放回生活空间</p></figcaption>
+          </figure>
+          <figure class="works__item">
+            <a href="../V02/assets/图片/02_旋钮操作_V02.webp"><img src="../V02/assets/缩略图/02_旋钮操作_V02.webp" srcset="../V02/assets/响应式/缩略320/02_旋钮操作_V02.webp 320w, ../V02/assets/缩略图/02_旋钮操作_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯旋钮操作商品图，近景呈现控制部位。"></a>
+            <figcaption><h3>旋钮操作</h3><p>近景解释具体动作</p></figcaption>
+          </figure>
+          <figure class="works__item">
+            <a href="../V02/assets/图片/03_光色调节_V01.webp"><img src="../V02/assets/缩略图/03_光色调节_V01.webp" srcset="../V02/assets/响应式/缩略320/03_光色调节_V01.webp 320w, ../V02/assets/缩略图/03_光色调节_V01.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯光色调节商品图，展示灯光变化。"></a>
+            <figcaption><h3>光色调节</h3><p>把操作与光感联系起来</p></figcaption>
+          </figure>
+          <figure class="works__item">
+            <a href="../V02/assets/图片/04_夜间无线续航_V02.webp"><img src="../V02/assets/缩略图/04_夜间无线续航_V02.webp" srcset="../V02/assets/响应式/缩略320/04_夜间无线续航_V02.webp 320w, ../V02/assets/缩略图/04_夜间无线续航_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯夜间使用商品图，呈现夜间照明情境。"></a>
+            <figcaption><h3>夜间使用</h3><p>呈现夜间的使用情境</p></figcaption>
+          </figure>
+          <figure class="works__item">
+            <a href="../V02/assets/图片/05_尺寸材质_V02.webp"><img src="../V02/assets/缩略图/05_尺寸材质_V02.webp" srcset="../V02/assets/响应式/缩略320/05_尺寸材质_V02.webp 320w, ../V02/assets/缩略图/05_尺寸材质_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯尺寸与材质商品图，说明产品尺度和表面细节。"></a>
+            <figcaption><h3>尺寸与材质</h3><p>回答尺度与表面的问题</p></figcaption>
+          </figure>
+          <figure class="works__item">
+            <a href="../V02/assets/图片/06_户外使用_V02.webp"><img src="../V02/assets/缩略图/06_户外使用_V02.webp" srcset="../V02/assets/响应式/缩略320/06_户外使用_V02.webp 320w, ../V02/assets/缩略图/06_户外使用_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯户外使用商品图，呈现户外环境中的使用场景。"></a>
+            <figcaption><h3>户外情境</h3><p>保留环境与使用条件</p></figcaption>
+          </figure>
+          <figure class="works__item">
+            <a href="../V02/assets/图片/07_多场景使用_V02.webp"><img src="../V02/assets/缩略图/07_多场景使用_V02.webp" srcset="../V02/assets/响应式/缩略320/07_多场景使用_V02.webp 320w, ../V02/assets/缩略图/07_多场景使用_V02.webp 640w" sizes="(max-width: 40em) 44vw, (max-width: 58em) 30vw, 25vw" width="640" height="640" loading="lazy" alt="NED Eric 台灯多场景商品图，展示产品在不同空间中的应用。"></a>
+            <figcaption><h3>多场景使用</h3><p>同一产品延续不同空间</p></figcaption>
+          </figure>
+        </div>
       </div>
       <p class="works__note">既有项目成果 · 非真实 Amazon 上架页面</p>
+      <dialog class="works-zoom" id="works-zoom" aria-labelledby="works-zoom-title">
+        <div class="works-zoom__bar">
+          <h3 id="works-zoom-title" aria-live="polite"></h3>
+          <form method="dialog"><button class="works__button" type="submit" autofocus>关闭</button></form>
+        </div>
+        <div class="works-zoom__stage" role="group" aria-label="大图浏览">
+          <button type="button" class="works__button works-zoom__arrow works-zoom__previous" aria-label="上一张">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <img class="works-zoom__image" src="../V02/assets/图片/00_主图_近白底_V01.webp" width="1254" height="1254" loading="lazy" alt="">
+          <button type="button" class="works__button works-zoom__arrow works-zoom__next" aria-label="下一张">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+        <span class="works-listing__count works-zoom__count"></span>
+      </dialog>
     </section>
   </main>
+  <script>
+    (() => {
+      const palette = document.querySelector('#palette');
+      const swatches = palette.querySelectorAll('.case-palette__swatch');
+      const name = palette.querySelector('#palette-name');
+      const hex = palette.querySelector('#palette-hex');
+      const use = palette.querySelector('#palette-use');
+      const material = palette.querySelector('#palette-material');
+      const copy = palette.querySelector('#palette-copy');
+      const status = palette.querySelector('#palette-status');
+
+      for (const swatch of swatches) {
+        swatch.addEventListener('click', () => {
+          if (swatch.getAttribute('aria-pressed') === 'true') return;
+          for (const option of swatches) {
+            option.setAttribute('aria-pressed', String(option === swatch));
+          }
+          name.textContent = swatch.querySelector('.case-palette__name').textContent;
+          hex.textContent = swatch.querySelector('.case-palette__hex').textContent;
+          use.textContent = swatch.dataset.use;
+          material.alt = swatch.dataset.materialAlt;
+          material.src = swatch.dataset.material;
+          status.textContent = '';
+        });
+        swatch.disabled = false;
+      }
+
+      copy.addEventListener('click', async () => {
+        const value = hex.textContent;
+        try {
+          await navigator.clipboard.writeText(value);
+          if (hex.textContent === value) status.textContent = `已复制 ${value}`;
+        } catch {
+          if (hex.textContent !== value) return;
+          const selection = window.getSelection();
+          const range = document.createRange();
+          range.selectNodeContents(hex);
+          selection.removeAllRanges();
+          selection.addRange(range);
+          status.textContent = '已选中色号，可手动复制。';
+        }
+      });
+      copy.hidden = false;
+    })();
+
+    (() => {
+      const works = document.querySelector('#works');
+      const listing = works.querySelector('#works-listing');
+      const gallery = works.querySelector('#works-gallery');
+      const galleryBar = gallery.querySelector('.works__gallery-bar');
+      const listingButton = galleryBar.querySelector('.works__gallery-listing');
+      const browse = listing.querySelector('.works-listing__browse');
+      const items = [...gallery.querySelectorAll('.works__item')].map(item => ({
+        link: item.querySelector('a'),
+        image: item.querySelector('img'),
+        title: item.querySelector('h3').textContent,
+        description: item.querySelector('figcaption p').textContent
+      }));
+      const thumbs = listing.querySelector('.works-listing__thumbs');
+      const image = listing.querySelector('.works-listing__image');
+      const title = listing.querySelector('.works-listing__title');
+      const original = listing.querySelector('.works-listing__original');
+      const mainTrigger = listing.querySelector('.works-listing__main-trigger');
+      let selected = 0;
+
+      const choices = items.map((item, index) => {
+        const button = document.createElement('button');
+        const thumbnail = document.createElement('img');
+        const source = item.image;
+        button.type = 'button';
+        button.className = 'works-listing__thumb';
+        button.setAttribute('aria-label', item.title);
+        thumbnail.sizes = '64px';
+        thumbnail.srcset = source.srcset;
+        thumbnail.src = source.src;
+        thumbnail.alt = '';
+        thumbnail.width = 64;
+        thumbnail.height = 64;
+        thumbnail.loading = 'lazy';
+        button.append(thumbnail);
+        button.addEventListener('click', () => show(index));
+        thumbs.append(button);
+        return button;
+      });
+
+      function show(index) {
+        selected = (index + items.length) % items.length;
+        const item = items[selected];
+        choices.forEach((choice, position) => {
+          choice.setAttribute('aria-pressed', String(position === selected));
+        });
+        image.alt = item.image.alt;
+        image.src = item.link.href;
+        original.href = item.link.href;
+      }
+
+      function openListing() {
+        gallery.hidden = true;
+        listing.hidden = false;
+      }
+
+      listingButton.addEventListener('click', () => {
+        show(selected);
+        openListing();
+        title.focus({ preventScroll: true });
+        works.scrollIntoView({ block: 'start' });
+      });
+      listingButton.hidden = false;
+
+      browse.addEventListener('click', () => {
+        listing.hidden = true;
+        gallery.hidden = false;
+        listingButton.focus({ preventScroll: true });
+        works.scrollIntoView({ block: 'start' });
+      });
+      const zoom = works.querySelector('#works-zoom');
+      if (typeof zoom.showModal !== 'function') return;
+      const zoomImage = zoom.querySelector('.works-zoom__image');
+      const zoomTitle = zoom.querySelector('#works-zoom-title');
+      const zoomCount = zoom.querySelector('.works-zoom__count');
+      let zoomIndex = 0;
+      let zoomTrigger;
+
+      function showZoom(index) {
+        zoomIndex = (index + items.length) % items.length;
+        const item = items[zoomIndex];
+        zoomImage.alt = item.image.alt;
+        zoomImage.src = item.link.href;
+        zoomTitle.textContent = item.title;
+        zoomCount.textContent = `${zoomIndex + 1} / ${items.length}`;
+      }
+
+      items.forEach((item, index) => {
+        item.link.classList.add('works__gallery-choice');
+        item.link.setAttribute('aria-label', `放大查看${item.title}`);
+        item.link.setAttribute('aria-haspopup', 'dialog');
+        item.link.addEventListener('click', event => {
+          if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+          event.preventDefault();
+          zoomTrigger = item.link;
+          showZoom(index);
+          zoom.showModal();
+        });
+      });
+      mainTrigger.addEventListener('click', () => {
+        zoomTrigger = mainTrigger;
+        showZoom(selected);
+        zoom.showModal();
+      });
+      const stepZoom = step => showZoom(zoomIndex + step);
+      zoom.querySelector('.works-zoom__previous').addEventListener('click', () => stepZoom(-1));
+      zoom.querySelector('.works-zoom__next').addEventListener('click', () => stepZoom(1));
+      zoom.addEventListener('keydown', event => {
+        if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+        event.preventDefault();
+        stepZoom(event.key === 'ArrowLeft' ? -1 : 1);
+      });
+      zoom.addEventListener('close', () => zoomTrigger?.focus({ preventScroll: true }));
+    })();
+  </script>
 </body>
 </html>
