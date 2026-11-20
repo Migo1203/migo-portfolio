@@ -4,6 +4,38 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+import shutil
+
+
+V03_PREVIEW_FILES = (
+    "UI设计/NED网页展示/V03/首屏A.html",
+    "UI设计/NED网页展示/V03/首屏.css",
+    "UI设计/NED网页展示/V03/assets/palette/sand-wall.webp",
+    "UI设计/NED网页展示/V03/assets/palette/walnut-table.webp",
+    "UI设计/NED网页展示/V03/assets/palette/charcoal-fabric.webp",
+    "UI设计/NED网页展示/V03/assets/palette/terracotta-vase.webp",
+    "UI设计/NED网页展示/V02/assets/字体/项目西文.woff",
+    "UI设计/NED网页展示/V02/assets/字体/网页中文.woff",
+    "UI设计/NED网页展示/V02/assets/图片/封面_原场景裁切.webp",
+    "UI设计/NED网页展示/V02/assets/图片/策略_餐桌暮色.webp",
+    "UI设计/NED网页展示/V02/assets/图片/夜间场景.webp",
+    "UI设计/NED网页展示/V02/assets/图片/策略_产品透明抠图.webp",
+    "UI设计/NED网页展示/V02/assets/图片/A加操作.webp",
+    "UI设计/NED网页展示/V02/assets/图片/品牌生活.webp",
+    "UI设计/NED网页展示/V02/assets/图片/材质特写.webp",
+    *(f"UI设计/NED网页展示/V02/assets/图片/{name}" for name in (
+        "00_主图_近白底_V01.webp", "01_产品展示_V02.webp",
+        "02_旋钮操作_V02.webp", "03_光色调节_V01.webp",
+        "04_夜间无线续航_V02.webp", "05_尺寸材质_V02.webp",
+        "06_户外使用_V02.webp", "07_多场景使用_V02.webp",
+    )),
+    *(f"UI设计/NED网页展示/V02/assets/缩略图/{name}" for name in (
+        "00_主图_近白底_V01.webp", "01_产品展示_V02.webp",
+        "02_旋钮操作_V02.webp", "03_光色调节_V01.webp",
+        "04_夜间无线续航_V02.webp", "05_尺寸材质_V02.webp",
+        "06_户外使用_V02.webp", "07_多场景使用_V02.webp",
+    )),
+)
 
 
 def main():
@@ -22,11 +54,18 @@ def main():
     output.mkdir(parents=True, exist_ok=True)
     (output / "index.html").write_text(html, encoding="utf-8")
     (output / ".nojekyll").write_text("", encoding="utf-8")
+    for relative in V03_PREVIEW_FILES:
+        source_file = repo / relative
+        if not source_file.is_file():
+            raise FileNotFoundError(f"V03预览依赖缺失：{relative}")
+        target_file = output / relative
+        target_file.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source_file, target_file)
     manifest = {
-        "scope": "低保真线框审阅，非正式作品集网站",
+        "scope": "网站线框与NED V03完整案例嵌入审阅，非正式作品集网站",
         "source": source.relative_to(repo).as_posix(),
         "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
-        "files": ["index.html", ".nojekyll", "部署清单.json"],
+        "files": ["index.html", ".nojekyll", *V03_PREVIEW_FILES, "部署清单.json"],
     }
     (output / "部署清单.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

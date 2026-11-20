@@ -44,6 +44,7 @@
 .dialog-top{position:sticky;top:-24px;background:white;z-index:2;padding:4px 0 12px;border-bottom:1px solid #ddd}.dialog-top h2{overflow-wrap:anywhere}.dialog-top button{flex-shrink:0}
 .large-slot{min-height:260px;gap:12px}.large-slot p{font-size:14px;margin:0}.large-slot button{font-size:14px}.missing-translation{max-width:74ch;margin:32px 0;padding:24px;border:1px dashed #888}
 main:focus,section[tabindex="-1"]:focus,h2[tabindex="-1"]:focus{outline:none}
+.ned-v03-host{width:100%;max-width:none;margin:0;padding:0}.ned-v03-frame{display:block;width:100%;min-height:calc(100vh - 100px);border:0;background:#2f302e}
 @media(hover:hover) and (pointer:fine){.action:hover,button:not(:disabled):hover{background:#eee}.site-nav a:hover{text-decoration-thickness:2px}html[data-motion="on"] .case-cover:hover .placeholder{transform:scale(1.015)}}
 html[data-motion="off"] *,html[data-motion="off"] *::before,html[data-motion="off"] *::after,html[data-motion="off"] #lightbox::backdrop{animation:none!important;transition:none!important;scroll-behavior:auto!important}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after,#lightbox::backdrop{animation:none!important;transition:none!important;scroll-behavior:auto!important}.case-cover .placeholder{transform:none!important}}
@@ -63,11 +64,11 @@ html[data-motion="off"] *,html[data-motion="off"] *::before,html[data-motion="of
   <button id="fit" type="button">画布适应窗口</button><button id="actual" type="button">画布原始尺寸</button>
  </div>
  <p>浏览模式铺满窗口并随宽度重排；画布模式用于比较 1440px / 390px。页面设置不是网站主导航，NED 详情属于作品下级。</p>
- <p id="motion-status" class="motion-status" aria-live="polite"></p><p>图片状态在 NED 的放大查看层中演示；缺译演示请切换英文。均为审阅用模拟，不是真实素材加载或正式译文状态。</p>
+ <p id="motion-status" class="motion-status" aria-live="polite"></p><p>占位图状态仅用于旧线框内容；NED 中文路由嵌入 V03 实际素材，英文仍为结构草稿。</p>
  </details>
 </header>
 <div class="surface"><article id="wireframe" class="canvas"></article></div>
-<aside class="review-note"><p id="page-note"></p><p>审阅重点：NED 分工是否容易理解；完整成果能否找到；手机阅读与页面返回是否清楚。联系方式、完整译文、素材公开条件和品牌视觉仍待确认。</p><p>这是线框审阅原型，非正式作品集网站；图片为占位，无真实联系服务，发布不等于验收通过。<a href="https://github.com/Migo1203/migo-portfolio/blob/main/线框/第三版/README.md">查看交付与验收说明</a> · <a href="https://github.com/Migo1203/migo-portfolio/blob/main/文档/首篇案例资料卡.md">查看案例来源与版本</a></p></aside>
+<aside class="review-note"><p id="page-note"></p><p>审阅重点：NED 分工是否容易理解；完整成果能否找到；手机阅读与页面返回是否清楚。联系方式、完整译文、素材公开条件和品牌视觉仍待确认。</p><p>这是线框审阅原型，非正式作品集网站；NED 中文路由嵌入真实 V03 A 版样稿，其他图片位仍为占位，无真实联系服务，发布不等于验收通过。<a href="https://github.com/Migo1203/migo-portfolio/blob/main/线框/第三版/README.md">查看交付与验收说明</a> · <a href="https://github.com/Migo1203/migo-portfolio/blob/main/文档/首篇案例资料卡.md">查看案例来源与版本</a></p></aside>
 <dialog id="lightbox" aria-labelledby="lightbox-title"><div class="dialog-top"><h2 id="lightbox-title"></h2><button id="close-modal" type="button" autofocus aria-label="关闭 / Close">关闭 ×</button></div><p id="lightbox-count" class="muted" role="status" aria-live="polite" aria-atomic="true"></p><div id="media-panel" class="placeholder large-slot"></div><div class="modal-actions"><button id="prev-image" type="button">← 上一张 / Previous</button><button id="next-image" type="button">下一张 / Next →</button></div></dialog>
 
 <script>
@@ -126,6 +127,11 @@ function ned(){
  out+=section('next','06 / NEXT',T('继续了解 Migo','Continue exploring'),`<div class="actions">${btn('work',T('返回作品列表','Back to work'))}${btn('about',T('关于 Migo','About Migo'))}${btn('contact',T('联系','Contact'))}</div><p class="caption">${T('其他案例尚未选定，暂不设置虚构的“下一个项目”。','Other cases have not been selected; no fictional next project is included.')}</p>`);
  return out+'</main></div>';
 }
+function nedV03(){
+ if(en)return ned();
+ const path=location.pathname.includes('/线框/第三版/')?'../../UI设计/NED网页展示/V03/首屏A.html':'UI设计/NED网页展示/V03/首屏A.html';
+ return `<main id="main" class="ned-v03-host"><iframe class="ned-v03-frame" src="${path}?embed=site" title="NED Eric Lamp V03完整案例"></iframe></main>`;
+}
 function home(){return `<div class="container"><main id="main"><section class="hero home-hero"><p class="eyebrow">MIGO / ${T('个人作品集','PERSONAL PORTFOLIO')}</p><h1>${T('好奇探索，认真设计。','Explore with curiosity. Design with care.')}</h1><p class="lead">${T('我是 Migo，关注 AIGC 与商业视觉设计。','I’m Migo, exploring AIGC and commercial visual design.')}</p><p>${T('通过自主项目，探索 AI 辅助创作、内容组织与设计判断。','Through self-initiated projects, I explore AI-assisted creation, content organization and design decisions.')}</p><div class="actions">${btn('work',T('查看作品 →','View work →'))}${btn('about',T('关于我','About me'))}${link('contact',T('岗位机会与合作联系','Roles and collaborations'))}</div></section><section class="section home-selected" id="selected"><p class="eyebrow">01 / SELECTED WORK</p><h2>${T('从项目了解我的工作','Explore my work through projects')}</h2>${casecard()}</section>${section('approach','02 / APPROACH',T('我如何参与项目','How I approach a project'),`<div class="grid3"><div class="panel"><h3>${T('理解目标','Understand the goal')}</h3><p>${T('从产品信息与展示目标出发，明确内容要回答什么。','Start with product information and presentation goals to define what the content should explain.')}</p></div><div class="panel"><h3>${T('选择与判断','Select and decide')}</h3><p>${T('比较参考与版本，记录取舍和迭代反馈。','Compare references and versions, documenting selections and review feedback.')}</p></div><div class="panel"><h3>${T('透明地协作','Collaborate transparently')}</h3><p>${T('区分个人判断与 AI 工具执行，用真实记录说明分工。','Distinguish personal decisions from AI-assisted execution through project records.')}</p></div></div><div class="actions">${btn('about',T('了解我的背景与工作方式','About my background and approach'))}</div>`)}${section('contact','03 / CONTACT',T('进一步交流','Let’s connect'),`<p>${T('求职机会优先，也欢迎商业合作交流。','Open to role opportunities and commercial collaborations.')}</p>${btn('contact',T('前往联系页','Go to contact'))}`)}</main></div>`}
 
 function work(){return `<div class="container"><main id="main"><section class="hero"><p class="eyebrow">WORK</p><h1>${T('作品与案例','Work and case studies')}</h1><p class="lead">${T('从项目目标、设计判断与具体成果，了解我的工作。','Explore project goals, design decisions and outcomes.')}</p></section>${section('cases','01 / CASE STUDIES',T('当前试验案例','Current trial case'),casecard())}<section class="section"><h2>${T('后续案例','Future cases')}</h2><p>${T('Migo × Beedog 个人品牌 IP 设计原计划作为首篇案例，目前尚未完成。完成并审阅后再决定上线顺序。','The Migo × Beedog personal brand and character project was originally intended as the first case. It remains in development; publication order will be decided after review.')}</p><p class="muted">${T('当前仅有一个试验案例，不设置无效筛选或虚构作品卡片。','Only one trial case is included; no non-functional filters or invented projects are added.')}</p></section></main></div>`}
@@ -133,7 +139,7 @@ function about(){return `<div class="container"><main id="main"><section class="
 function contact(){return `<div class="container"><main id="main"><section class="hero"><p class="eyebrow">CONTACT</p><h1>${T('一起讨论下一步','Let’s discuss what’s next')}</h1><p class="lead">${T('求职机会优先，也欢迎商业合作交流。','Open to role opportunities and commercial collaborations.')}</p></section>${section('channels','01 / GET IN TOUCH',T('联系入口','Contact channels'),`<div class="grid2"><div class="panel"><h3>${T('联系渠道','Contact method')}</h3><p>${T('邮箱或其他主要联系方式待提供。','An email address or primary contact method is to be provided.')}</p><button type="button" disabled>${T('联系方式待补充','Contact details pending')}</button><p class="caption">${T('渠道确认后再开放实际联系操作。','Contact actions will become available once details are confirmed.')}</p></div><div class="panel"><h3>${T('交流时可附上','Helpful context')}</h3><ul class="role-list"><li>${T('岗位或项目背景','Role or project context')}</li><li>${T('需要的设计内容与时间安排','Design scope and timing')}</li><li>${T('便于回复的联系信息','Contact details for a reply')}</li></ul></div></div><p class="inline-note">${T('当前没有在线表单或消息收集。','No contact form or message collection is currently provided.')}</p>`)}${section('next','02 / EXPLORE',T('先了解我的工作','Explore my work first'),`<div class="actions">${btn('work',T('查看作品','View work'))}${btn('about',T('关于 Migo','About Migo'))}</div>`)}</main></div>`}
 function notfound(){return `<div class="container"><main class="page404" id="main"><p class="eyebrow">PAGE NOT FOUND</p><h1>404</h1><h2>${T('这个页面暂时找不到','This page could not be found')}</h2><p>${T('链接可能已变更，你可以回到首页或继续查看作品。','The link may have changed. Return home or continue exploring the work.')}</p><div class="actions">${btn('home',T('返回首页','Return home'))}${btn('work',T('查看作品','View work'))}</div></main></div>`}
 
-const renderers={home,work,about,contact,ned,'404':notfound};
+const renderers={home,work,about,contact,ned:nedV03,'404':notfound};
 const positions=new Map();
 function positionKey(){return `${page}/${lang}/${mode}/${device}`;}
 function storePosition(key,value){positions.set(key,value);try{sessionStorage.setItem('migo-v03:'+key,JSON.stringify(value));}catch{}}
@@ -156,6 +162,30 @@ function currentSection(){
  return found||(scrollY>200?hash:'');
 }
 function updateState(){window.wireframeState={version:'V03',page,device,lang,mode,demo,motionChoice,reducedMotion:document.documentElement.dataset.motion==='off',viewer:{open:dialog.open,group,index},groupCounts:Object.fromEntries(Object.entries(imageGroups).map(([k,v])=>[k,v.length]))};}
+let embeddedViewerScroll=null;
+addEventListener('message',event=>{
+ const frame=canvas.querySelector('.ned-v03-frame');
+ if(event.source!==frame?.contentWindow)return;
+ if(event.data?.type==='ned-v03-embed-height'){
+  const height=Number(event.data.height);
+  if(Number.isFinite(height)&&height>0)frame.style.height=`${Math.ceil(height)}px`;
+  return;
+ }
+ if(event.data?.type==='ned-v03-scroll'){
+  const top=Number(event.data.top);
+  if(Number.isFinite(top))window.scrollTo({top:Math.max(0,frame.getBoundingClientRect().top+scrollY+top-16),behavior:'smooth'});
+  return;
+ }
+ if(event.data?.type==='ned-v03-viewer'){
+  if(event.data.open){
+   if(embeddedViewerScroll===null){const restoreY=Number(event.data.restoreY);embeddedViewerScroll=Number.isFinite(restoreY)?restoreY:scrollY;}
+   const top=Number(event.data.top),height=Number(event.data.height)||0;
+   if(Number.isFinite(top))window.scrollTo({top:Math.max(0,frame.getBoundingClientRect().top+scrollY+top+height/2-innerHeight/2),behavior:'instant'});
+  }else if(embeddedViewerScroll!==null){
+   const y=embeddedViewerScroll;embeddedViewerScroll=null;window.scrollTo({top:y,behavior:'instant'});
+  }
+ }
+});
 function applyMotion(){
  const reduced=motionChoice==='off'||mediaQuery.matches;
  document.documentElement.dataset.motion=reduced?'off':'on';
@@ -231,6 +261,7 @@ function refreshLinks(){
 }
 function missingTranslation(){return `<div class="container"><main id="main"><section class="hero"><p class="eyebrow">${labels[page]} / STATE DEMO</p><h1>English version pending</h1><div class="missing-translation"><p>This is a review-only missing-translation demo. The project identity is unchanged; no approved translation is being claimed.</p><p lang="zh-CN">中文内容仍可访问；退出演示后可继续查看英文结构草稿。</p><div class="actions"><a class="action language" href="${url(page,'zh')}">查看同一页面的中文</a><button id="end-translation-demo" type="button">End demo · show English draft</button></div></div></section></main></div>`;}
 function renderPage(point=null,{anchor=false,focusMain=false}={}){
+  if(embeddedViewerScroll!==null)embeddedViewerScroll=null;
  restoring=true;const token=++drawId;closeViewer(false);readLocation();
  for(const key of Object.keys(imageGroups))delete imageGroups[key];
  const banner=demo==='normal'?'':`<div class="demo-banner">${T('【审阅状态演示】不是正式内容或真实网络状态；可在顶部设置中结束。','[Review state demo] Not final content or a live network state; reset it in review settings.')}</div>`;
@@ -239,7 +270,7 @@ function renderPage(point=null,{anchor=false,focusMain=false}={}){
  const main=canvas.querySelector('main');main.tabIndex=-1;
  for(const [id,value] of [['page-select',page],['device-select',device],['lang-select',lang],['mode-select',mode==='canvas'?'browse':mode],['motion-select',motionChoice],['demo-select',demo]])document.getElementById(id).value=value;
  if(mode==='review')document.getElementById('review-tools').open=true;
- document.getElementById('page-note').textContent=T('V03：检查导航／返回位置、菜单 Escape、图组与关闭返回、语言章节定位；加载／失败／缺译均为模拟。','V03: review navigation, position restoration, menu Escape, image groups, language context and explicitly simulated states.');
+ document.getElementById('page-note').textContent=page==='ned'&&!en?T('NED 中文详情已嵌入 V03 A 版完整案例；英文切换回到现有结构草稿，图片状态模拟不作用于嵌入页。','The Chinese NED detail embeds the full V03 A case; English falls back to the existing structure draft, and image-state demos do not affect the embedded page.'):T('检查导航／返回位置、菜单 Escape、图组与关闭返回、语言章节定位；加载／失败／缺译均为模拟。','Review navigation, position restoration, menu Escape, image groups and language context; loading, failure and missing-translation states are simulations.');
  document.title=`${labels[page]}｜Migo 交互审阅 V03`;applyMotion();resize();
  requestAnimationFrame(()=>{
   if(token!==drawId)return;

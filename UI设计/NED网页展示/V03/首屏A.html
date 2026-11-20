@@ -4,7 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Eric Lamp · NED V03 首屏 A</title>
-  <script>document.documentElement.classList.add('hero-motion');</script>
+  <script>
+    document.documentElement.classList.add('hero-motion');
+    if (new URLSearchParams(location.search).get('embed') === 'site') {
+      document.documentElement.dataset.siteEmbed = 'true';
+    }
+  </script>
   <link rel="stylesheet" href="首屏.css">
 </head>
 <body>
@@ -358,6 +363,16 @@
 
     (() => {
       const works = document.querySelector('#works');
+      const embedded = document.documentElement.dataset.siteEmbed === 'true';
+      const scrollToWorks = () => {
+        if (embedded) parent.postMessage({ type: 'ned-v03-scroll', top: works.getBoundingClientRect().top }, '*');
+        else works.scrollIntoView({ block: 'start' });
+      };
+      document.querySelector('.hero__action').addEventListener('click', event => {
+        if (!embedded) return;
+        event.preventDefault();
+        scrollToWorks();
+      });
       const listing = works.querySelector('#works-listing');
       const gallery = works.querySelector('#works-gallery');
       const galleryBar = gallery.querySelector('.works__gallery-bar');
@@ -416,7 +431,7 @@
         show(selected);
         openListing();
         title.focus({ preventScroll: true });
-        works.scrollIntoView({ block: 'start' });
+        scrollToWorks();
       });
       listingButton.hidden = false;
 
@@ -424,10 +439,22 @@
         listing.hidden = true;
         gallery.hidden = false;
         listingButton.focus({ preventScroll: true });
-        works.scrollIntoView({ block: 'start' });
+        scrollToWorks();
       });
       const zoom = works.querySelector('#works-zoom');
       if (typeof zoom.showModal !== 'function') return;
+      const notifyViewer = (open, restoreY = null) => {
+        if (!embedded) return;
+        const send = () => parent.postMessage({
+          type: 'ned-v03-viewer',
+          open,
+          restoreY,
+          top: zoom.getBoundingClientRect().top,
+          height: zoom.offsetHeight
+        }, '*');
+        if (open) requestAnimationFrame(send);
+        else send();
+      };
       const zoomImage = zoom.querySelector('.works-zoom__image');
       const zoomTitle = zoom.querySelector('#works-zoom-title');
       const zoomCount = zoom.querySelector('.works-zoom__count');
@@ -451,14 +478,18 @@
           if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
           event.preventDefault();
           zoomTrigger = item.link;
+          const restoreY = embedded ? parent.scrollY : null;
           showZoom(index);
           zoom.showModal();
+          notifyViewer(true, restoreY);
         });
       });
       mainTrigger.addEventListener('click', () => {
         zoomTrigger = mainTrigger;
+        const restoreY = embedded ? parent.scrollY : null;
         showZoom(selected);
         zoom.showModal();
+        notifyViewer(true, restoreY);
       });
       const stepZoom = step => showZoom(zoomIndex + step);
       zoom.querySelector('.works-zoom__previous').addEventListener('click', () => stepZoom(-1));
@@ -468,8 +499,22 @@
         event.preventDefault();
         stepZoom(event.key === 'ArrowLeft' ? -1 : 1);
       });
-      zoom.addEventListener('close', () => zoomTrigger?.focus({ preventScroll: true }));
+      zoom.addEventListener('close', () => {
+        zoomTrigger?.focus({ preventScroll: true });
+        notifyViewer(false);
+      });
     })();
+
+    if (document.documentElement.dataset.siteEmbed === 'true') {
+      const reportHeight = () => parent.postMessage({
+        type: 'ned-v03-embed-height',
+        height: Math.ceil(document.querySelector('main').getBoundingClientRect().height)
+      }, '*');
+      new ResizeObserver(() => requestAnimationFrame(reportHeight)).observe(document.documentElement);
+      addEventListener('load', reportHeight, { once: true });
+      document.fonts?.ready.then(reportHeight);
+      reportHeight();
+    }
   </script>
 </body>
 </html>

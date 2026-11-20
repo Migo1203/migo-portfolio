@@ -865,6 +865,13 @@ body:has(.works-zoom[open]) { overflow: hidden; }
   .hero__category { max-width: 15rem; }
 }
 
+html[data-site-embed="true"] .review-bar { display: none; }
+html[data-site-embed="true"] .hero { min-height: max(38vw, 36rem); }
+html[data-site-embed="true"] .case-background { min-block-size: 0; }
+@media (max-width: 40em) {
+  html[data-site-embed="true"] .hero { min-height: 42rem; }
+}
+
 /* A is the selected composition. The earlier B comparison uses the base scale. */
 .hero--a {
   padding-top: clamp(2.5rem, 10svh, 7rem);
