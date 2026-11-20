@@ -874,8 +874,11 @@ html[data-site-embed="true"] .case-background { min-block-size: 0; }
 
 /* A is the selected composition. The earlier B comparison uses the base scale. */
 .hero--a {
+  aspect-ratio: 16 / 9;
+  min-height: 0;
   padding-top: clamp(2.5rem, 10svh, 7rem);
 }
+.hero--a > .hero__image { object-fit: contain; background: var(--wall); }
 .hero--a .hero__copy { max-width: 38rem; }
 .hero--a h1 { font-size: clamp(4.25rem, 7.78vw, 7rem); }
 .hero--a .hero__brand { font-size: 1.125rem; }
@@ -889,12 +892,26 @@ html[data-site-embed="true"] .case-background { min-block-size: 0; }
 }
 
 @media (max-width: 40em) {
-  .hero--a { padding-top: .25rem; }
-  .hero--a::before {
-    background:
-      linear-gradient(180deg, rgb(248 233 216 / 60%), rgb(248 233 216 / 36%) 4rem, transparent 9rem),
-      linear-gradient(90deg, rgb(248 246 240 / 42%), transparent 78%);
+  .hero--a {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    aspect-ratio: auto;
+    padding: 1.25rem var(--gutter) 1.5rem;
   }
+  .hero--a::before { display: none; }
+  .hero--a > .hero__image {
+    position: static;
+    inset: auto;
+    order: 2;
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin-top: 1.25rem;
+    z-index: auto;
+  }
+  .hero--a .hero__copy { order: 1; width: 100%; }
   .hero--a h1 { font-size: clamp(2.875rem, 14.8vw, 3.625rem); }
   .hero--a .hero__brand { font-size: .9375rem; }
   .hero--a .hero__category { font-size: .75rem; }
@@ -905,6 +922,11 @@ html[data-site-embed="true"] .case-background { min-block-size: 0; }
 
 @media (max-width: 22em) {
   .hero--a .hero__action { margin-top: .4rem; }
+}
+
+html[data-site-embed="true"] .hero--a { min-height: 0; aspect-ratio: 16 / 9; }
+@media (max-width: 40em) {
+  html[data-site-embed="true"] .hero--a { min-height: 0; aspect-ratio: auto; }
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
