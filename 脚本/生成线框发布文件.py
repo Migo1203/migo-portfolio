@@ -7,6 +7,13 @@ from pathlib import Path
 import shutil
 
 
+GALLERY_IMAGES = (
+    "00_主图_近白底_V01.webp", "01_产品展示_V02.webp",
+    "02_旋钮操作_V02.webp", "03_光色调节_V01.webp",
+    "04_夜间无线续航_V02.webp", "05_尺寸材质_V02.webp",
+    "06_户外使用_V02.webp", "07_多场景使用_V02.webp",
+)
+
 V03_PREVIEW_FILES = (
     "UI设计/NED网页展示/V03/首屏A.html",
     "UI设计/NED网页展示/V03/首屏.css",
@@ -23,18 +30,8 @@ V03_PREVIEW_FILES = (
     "UI设计/NED网页展示/V02/assets/图片/A加操作.webp",
     "UI设计/NED网页展示/V02/assets/图片/品牌生活.webp",
     "UI设计/NED网页展示/V02/assets/图片/材质特写.webp",
-    *(f"UI设计/NED网页展示/V02/assets/图片/{name}" for name in (
-        "00_主图_近白底_V01.webp", "01_产品展示_V02.webp",
-        "02_旋钮操作_V02.webp", "03_光色调节_V01.webp",
-        "04_夜间无线续航_V02.webp", "05_尺寸材质_V02.webp",
-        "06_户外使用_V02.webp", "07_多场景使用_V02.webp",
-    )),
-    *(f"UI设计/NED网页展示/V02/assets/缩略图/{name}" for name in (
-        "00_主图_近白底_V01.webp", "01_产品展示_V02.webp",
-        "02_旋钮操作_V02.webp", "03_光色调节_V01.webp",
-        "04_夜间无线续航_V02.webp", "05_尺寸材质_V02.webp",
-        "06_户外使用_V02.webp", "07_多场景使用_V02.webp",
-    )),
+    *(f"UI设计/NED网页展示/V02/assets/{folder}/{name}"
+      for folder in ("图片", "缩略图", "响应式/缩略320") for name in GALLERY_IMAGES),
 )
 
 

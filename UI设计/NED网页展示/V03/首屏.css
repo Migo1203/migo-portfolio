@@ -977,3 +977,40 @@ html[data-site-embed="true"] .hero--a { min-height: 0; aspect-ratio: 16 / 9; }
     to { transform: translateY(0); }
   }
 }
+
+/* Only the overview and gallery rhythm are approved for the site preview. */
+html[data-site-embed="true"] .case-background {
+  padding-bottom: clamp(1.5rem, 3vw, 3rem);
+}
+html[data-site-embed="true"] .case-background__brief > p {
+  margin-top: 1.25rem;
+  line-height: 1.78;
+}
+html[data-site-embed="true"] .case-background__contribution {
+  margin-top: clamp(2.5rem, 4.5vw, 4.5rem);
+  padding-top: clamp(1.25rem, 2vw, 2rem);
+}
+html[data-site-embed="true"] .works__gallery-bar {
+  margin-bottom: clamp(1rem, 2vw, 1.5rem);
+}
+html[data-site-embed="true"] .works__grid {
+  row-gap: clamp(2rem, 4vw, 3.25rem);
+}
+html[data-site-embed="true"] .works__item figcaption { padding-top: .5rem; }
+@media (min-width: 56.25em) {
+  html[data-site-embed="true"] .works:has(> .works__gallery:not([hidden])) {
+    min-block-size: 0;
+    padding-block: clamp(1rem, 1.25vw, 1.5rem);
+  }
+  html[data-site-embed="true"] .works__grid {
+    gap: 2.5rem clamp(1.25rem, 2vw, 2rem);
+  }
+  html[data-site-embed="true"] .works__gallery-bar { margin-bottom: .75rem; }
+  html[data-site-embed="true"] .works__item figcaption { padding-top: .375rem; }
+}
+@media (min-width: 84em) {
+  html[data-site-embed="true"] .case-background__contribution { margin-top: 2.125rem; }
+}
+@media (max-width: 40em) {
+  html[data-site-embed="true"] .works__grid { row-gap: 1.75rem; }
+}
