@@ -3,8 +3,10 @@
 import argparse
 import hashlib
 import json
+from html.parser import HTMLParser
 from pathlib import Path
 import shutil
+from urllib.parse import unquote, urlsplit
 
 
 GALLERY_IMAGES = (
@@ -30,9 +32,40 @@ V03_PREVIEW_FILES = (
     "UI设计/NED网页展示/V02/assets/图片/A加操作.webp",
     "UI设计/NED网页展示/V02/assets/图片/品牌生活.webp",
     "UI设计/NED网页展示/V02/assets/图片/材质特写.webp",
+    *(f"UI设计/NED网页展示/V02/assets/响应式/400/{name}"
+      for name in ("策略_餐桌暮色.webp", "夜间场景.webp", "A加操作.webp", "品牌生活.webp")),
+    *(f"UI设计/NED网页展示/V02/assets/响应式/800/{name}"
+      for name in ("夜间场景.webp", "A加操作.webp", "品牌生活.webp")),
     *(f"UI设计/NED网页展示/V02/assets/{folder}/{name}"
       for folder in ("图片", "缩略图", "响应式/缩略320") for name in GALLERY_IMAGES),
 )
+
+
+class ResponsiveImageCheck(HTMLParser):
+    """检查 V03 中逗号分隔的本地 srcset 候选是否都纳入发布。"""
+
+    def __init__(self, repo, document):
+        super().__init__()
+        self.repo = repo
+        self.document = document
+        self.missing = set()
+
+    def handle_starttag(self, tag, attrs):
+        if tag not in {"img", "source"}:
+            return
+        for candidate in (dict(attrs).get("srcset") or "").split(","):
+            fields = candidate.split()
+            if not fields:
+                continue
+            url = urlsplit(fields[0])
+            if url.scheme or url.netloc or not url.path:
+                continue
+            target = (self.document.parent / unquote(url.path)).resolve()
+            if not target.is_relative_to(self.repo):
+                raise ValueError(f"V03 响应式图片需使用仓库内的相对路径：{fields[0]}")
+            relative = target.relative_to(self.repo).as_posix()
+            if relative not in V03_PREVIEW_FILES:
+                self.missing.add(relative)
 
 
 def main():
@@ -48,6 +81,12 @@ def main():
     required = ('name="robots"', 'noindex,nofollow', 'id="wireframe"', 'window.wireframeState')
     if not all(marker in html for marker in required):
         raise ValueError("线框源文件缺少必要标记，请先核对原型与发布范围")
+    v03 = repo / "UI设计/NED网页展示/V03/首屏A.html"
+    images = ResponsiveImageCheck(repo, v03)
+    images.feed(v03.read_text(encoding="utf-8"))
+    images.close()
+    if images.missing:
+        raise ValueError("V03 响应式图片未纳入发布：\n" + "\n".join(sorted(images.missing)))
     output.mkdir(parents=True, exist_ok=True)
     (output / "index.html").write_text(html, encoding="utf-8")
     (output / ".nojekyll").write_text("", encoding="utf-8")
