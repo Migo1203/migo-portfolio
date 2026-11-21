@@ -1,0 +1,100 @@
+html[data-site-embed="true"] .case-tail { display: none; }
+
+.case-tail {
+  --aplus-soft: #514337;
+  --tail-ink: #29241f;
+  --tail-rule: #b9a697;
+  --tail-accent: #754b32;
+  --tail-gap: clamp(.875rem, 2.3vw, 2rem);
+  padding: clamp(2.5rem, 6vw, 6rem) var(--gutter) clamp(2rem, 4vw, 4rem);
+  background: #e8d9ca;
+  color: var(--tail-ink);
+  scroll-margin-block-start: 1.5rem;
+}
+.case-tail--reflection { background: #f0e5d8; }
+.case-tail__intro { border-block-end-color: var(--tail-rule); }
+.case-tail__inner { max-inline-size: 88rem; margin-inline: auto; }
+.case-tail__chapter + .case-tail__chapter { margin-block-start: clamp(2.5rem, 6vw, 5.5rem); }
+.case-tail h3 {
+  margin: 0 0 .75rem;
+  font-size: clamp(1.375rem, 2.35vw, 2.125rem);
+  font-weight: 550;
+  letter-spacing: -.025em;
+  line-height: 1.22;
+}
+.case-tail img { display: block; inline-size: 100%; block-size: auto; }
+.case-tail figure { min-inline-size: 0; margin: 0; }
+.case-tail figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: .25rem 1rem;
+  padding-block-start: .65rem;
+  line-height: 1.5;
+}
+.case-tail figcaption strong { font-weight: 650; }
+.case-tail figcaption span, .case-tail__note, .case-tail__scroll-note,
+.case-tail__boundary, .case-tail__crop p, .case-tail__end p, .case-tail__lessons p { color: var(--aplus-soft); }
+.case-tail figcaption span, .case-tail__boundary, .case-tail__scroll-note { font-size: .875rem; }
+.case-tail__note { max-inline-size: 58ch; margin-block: 0 1rem; line-height: 1.65; }
+.case-tail__boundary { margin-block-start: 1.25rem; }
+.case-tail__crop {
+  max-inline-size: 64rem;
+  margin-block-start: .65rem;
+  border-block-end: 1px solid var(--tail-rule);
+}
+.case-tail__crop summary { min-block-size: 44px; padding: .65rem .125rem; cursor: pointer; }
+.case-tail__crop summary:hover { color: var(--tail-accent); }
+.case-tail__crop p { margin-block: .25rem .75rem; line-height: 1.6; }
+.case-tail__crop img { margin-block-end: 1rem; }
+.case-tail__crop summary:focus-visible, .case-tail__formats:focus-visible {
+  outline: 2px solid var(--tail-accent);
+  outline-offset: 3px;
+}
+.case-tail__dining, .case-tail__comparison, .case-tail__lessons { display: grid; gap: var(--tail-gap); }
+.case-tail__dining { grid-template-columns: minmax(0, 2.62fr) minmax(0, 1fr); }
+.case-tail__formats {
+  display: grid;
+  grid-template-columns: minmax(0, 1.78fr) minmax(0, 1.24fr) minmax(0, .7fr);
+  align-items: start;
+  gap: var(--tail-gap);
+}
+.case-tail__scroll-note { display: none; }
+.case-tail__comparison, .case-tail__lessons { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.case-tail__comparison figcaption { justify-content: start; }
+.case-tail__lessons {
+  border-block-start: 1px solid var(--tail-rule);
+  padding-block-start: clamp(1.25rem, 3vw, 2.75rem);
+  margin-block-start: clamp(2rem, 5vw, 4.5rem);
+}
+.case-tail__lessons h3 { font-size: clamp(1.125rem, 1.8vw, 1.625rem); }
+.case-tail__lessons p { max-inline-size: 45ch; line-height: 1.72; }
+.case-tail__end {
+  margin-block-start: clamp(2rem, 4vw, 4rem);
+  padding-block-start: .8rem;
+  border-block-start: 1px solid var(--tail-rule);
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: .5rem var(--tail-gap);
+}
+.case-tail__end p { max-inline-size: 61ch; font-size: .875rem; line-height: 1.65; }
+.case-tail__end nav { display: flex; flex-wrap: wrap; gap: 0 1rem; }
+.case-tail__end a { min-block-size: 44px; display: inline-flex; align-items: center; text-underline-offset: .2em; }
+@media (max-width: 50em) {
+  .case-tail__formats {
+    grid-template-columns: min(82%, 22rem) min(58%, 15.5rem) min(39%, 10.5rem);
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-color: var(--tail-rule) transparent;
+    padding-block-end: .5rem;
+  }
+  .case-tail__scroll-note { display: block; margin-block: 0 .65rem; }
+}
+@media (max-width: 42em) {
+  .case-tail__intro, .case-tail__dining, .case-tail__comparison, .case-tail__lessons {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .case-tail__dining figure:nth-child(2) { inline-size: min(100%, 26rem); }
+}

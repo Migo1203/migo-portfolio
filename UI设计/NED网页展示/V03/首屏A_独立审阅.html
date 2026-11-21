@@ -12,6 +12,8 @@
   </script>
   <link rel="stylesheet" href="首屏_独立审阅.css">
   <link rel="stylesheet" href="高级A+.css">
+  <link rel="stylesheet" href="品牌故事.css">
+  <link rel="stylesheet" href="成果与复盘.css">
 </head>
 <body>
   <header class="review-bar">
@@ -316,115 +318,302 @@
         <span class="works-listing__count works-zoom__count"></span>
       </dialog>
     </section>
+    <section class="brand-story" id="brand-story" aria-labelledby="brand-story-title">
+      <header class="aplus__intro">
+        <h2 id="brand-story-title">品牌故事</h2>
+        <p>从 NED 的选品与设计风格，看 Eric 如何融入日常的家。</p>
+      </header>
+      <div class="brand-story__body" lang="en">
+        <img class="brand-story__desktop" src="assets/brand-story/B00_Desktop.webp" width="1464" height="625" loading="lazy" decoding="async" alt="Everyday Spaces, Considered. The NED Collections brand introduction, design, life at home, and Q&amp;A appear together over a living-room scene. Text version below.">
+        <div class="brand-story__mobile">
+          <div class="aplus__carousel" data-aplus-switcher>
+            <div class="aplus__nav" hidden>
+              <button class="aplus__arrow aplus__arrow--prev" type="button" data-aplus-step="-1" aria-label="Previous brand story" aria-controls="brand-story-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div class="aplus__tabs" aria-label="Brand story cards" style="--aplus-tab-count: 4">
+                <button type="button" id="brand-story-card-1-tab" data-aplus-target="brand-story-card-1">About</button>
+                <button type="button" id="brand-story-card-2-tab" data-aplus-target="brand-story-card-2">Design</button>
+                <button type="button" id="brand-story-card-3-tab" data-aplus-target="brand-story-card-3">At home</button>
+                <button type="button" id="brand-story-card-4-tab" data-aplus-target="brand-story-card-4">Q&amp;A</button>
+              </div>
+              <button class="aplus__arrow aplus__arrow--next" type="button" data-aplus-step="1" aria-label="Next brand story" aria-controls="brand-story-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+              <span class="aplus__visually-hidden" data-aplus-status aria-live="polite" aria-atomic="true"></span>
+            </div>
+            <div class="aplus__slides" id="brand-story-slides">
+              <div class="aplus__slide" id="brand-story-card-1">
+                <img class="aplus__art" src="assets/brand-story/B01_Mobile.webp" width="390" height="625" loading="lazy" decoding="async" alt="Meet NED Collections. Founded in Christchurch, New Zealand, in 2015, NED Collections brings together furniture, lighting and homewares.">
+              </div>
+              <div class="aplus__slide" id="brand-story-card-2">
+                <img class="aplus__art" src="assets/brand-story/B02_Mobile.webp" width="390" height="625" loading="lazy" decoding="async" alt="Simple, with Character. Clean lines and considered details add character to the spaces we live in.">
+              </div>
+              <div class="aplus__slide" id="brand-story-card-3">
+                <img class="aplus__art" src="assets/brand-story/B03_Mobile.webp" width="390" height="625" loading="lazy" decoding="async" alt="Moments That Feel Like Home. From a quiet corner to a shared table, small details make everyday spaces feel more personal.">
+              </div>
+              <div class="aplus__slide" id="brand-story-card-4">
+                <img class="aplus__art" src="assets/brand-story/B04_Mobile.webp" width="390" height="625" loading="lazy" decoding="async" alt="Brand questions and answers. How NED selects pieces, what the collection offers, and where Eric fits. See the text version below.">
+              </div>
+            </div>
+          </div>
+        </div>
+        <details class="aplus__transcript">
+          <summary lang="zh-CN">查看品牌故事文字（英文）</summary>
+          <dl>
+            <dt>Everyday Spaces, Considered</dt><dd>Simple forms and thoughtful details for the spaces we call home.</dd>
+            <dt>Meet NED Collections</dt><dd>Founded in Christchurch, New Zealand, in 2015, NED Collections brings together furniture, lighting and homewares.</dd>
+            <dt>Simple, with Character</dt><dd>Clean lines and considered details add character to the spaces we live in.</dd>
+            <dt>Moments That Feel Like Home</dt><dd>From a quiet corner to a shared table, small details make everyday spaces feel more personal.</dd>
+            <dt>How are NED pieces selected?</dt><dd>The collection is hand-selected from around the world, with an eye for clean design and character.</dd>
+            <dt>What does NED offer?</dt><dd>NED brings together furniture, lighting and homewares for different spaces around the home.</dd>
+            <dt>How does Eric fit into the collection?</dt><dd>Eric is a compact cordless lamp with adjustable light for everyday spaces.</dd>
+          </dl>
+        </details>
+      </div>
+    </section>
     <section class="aplus" id="premium-aplus" aria-labelledby="aplus-title">
       <header class="aplus__intro">
         <h2 id="aplus-title">高级 A+ 展示</h2>
         <p>八张商品图建立第一印象；高级 A+ 继续展开灯具细节、旋钮操作与使用场景。</p>
       </header>
       <div class="aplus__body" lang="en">
-        <div class="aplus__opening">
-          <div class="aplus__lead">
-            <h3>A small light for everyday moments.</h3>
-            <p>A compact, cordless lamp for adjustable ambient light at home.</p>
-          </div>
-          <picture>
-            <source media="(max-width: 42em)" srcset="assets/aplus/P01_Mobile.webp" width="1000" height="750">
-            <img src="assets/aplus/P01_PC.webp" width="1600" height="656" loading="lazy" decoding="async" alt="A lit Eric table lamp on a wood table beside a sofa in a sunlit room.">
-          </picture>
-        </div>
+        <picture class="aplus__art">
+          <source media="(max-width: 42em)" srcset="assets/aplus-composed/P01_Mobile.webp" width="600" height="738">
+          <img src="assets/aplus-composed/P01_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="The lit Eric lamp beside a sofa. A small light for everyday moments. A compact, cordless lamp for adjustable ambient light at home.">
+        </picture>
 
         <section class="aplus__chapter" aria-labelledby="aplus-details">
-          <h3 id="aplus-details">A closer look.</h3>
+          <h3 id="aplus-details">A closer look</h3>
           <div class="aplus__detail-wide">
-            <img src="assets/aplus/P02_PC.webp" width="1600" height="656" loading="lazy" decoding="async" alt="The full Sand Cashmere lamp alongside a close-up of its top knob.">
+            <picture class="aplus__art">
+              <img src="assets/aplus-composed/P02_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="The full Sand Cashmere lamp and a close-up of its knob. Sand Cashmere. A soft sand-colored finish on the powder-coated aluminum body. Top knob. One top knob controls power, brightness and color temperature.">
+            </picture>
           </div>
-          <div class="aplus__details">
-            <div>
-              <img class="aplus__detail-compact" src="assets/aplus/P02_Finish_Mobile.webp" width="600" height="450" loading="lazy" decoding="async" alt="Front view of the Eric lamp in Sand Cashmere.">
-              <h4>Sand Cashmere</h4><p>A soft sand-colored finish on the powder-coated aluminum body.</p>
-            </div>
-            <div>
-              <img class="aplus__detail-compact" src="assets/aplus/P02_Knob_Mobile.webp" width="600" height="450" loading="lazy" decoding="async" alt="Close-up of the knob on top of the rounded lamp shade.">
-              <h4>Top knob</h4><p>One top knob controls power, brightness and color temperature.</p>
+          <div class="aplus__detail-compact">
+            <div class="aplus__carousel" data-aplus-switcher>
+              <div class="aplus__nav" hidden>
+                <button class="aplus__arrow aplus__arrow--prev" type="button" data-aplus-step="-1" aria-label="Previous slide" aria-controls="aplus-details-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+                <div class="aplus__tabs" aria-labelledby="aplus-details" style="--aplus-tab-count: 2">
+                  <button type="button" id="aplus-details-1-tab" data-aplus-target="aplus-details-1">Sand Cashmere</button>
+                  <button type="button" id="aplus-details-2-tab" data-aplus-target="aplus-details-2">Top knob</button>
+                </div>
+                <button class="aplus__arrow aplus__arrow--next" type="button" data-aplus-step="1" aria-label="Next slide" aria-controls="aplus-details-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+                <span class="aplus__visually-hidden" data-aplus-status aria-live="polite" aria-atomic="true"></span>
+              </div>
+              <div class="aplus__slides" id="aplus-details-slides">
+                <div class="aplus__slide" id="aplus-details-1">
+                  <picture class="aplus__art">
+                    <img src="assets/aplus-composed/P02_Finish_Mobile.webp" width="600" height="668" loading="lazy" decoding="async" alt="Front view of the lamp. Sand Cashmere. A soft sand-colored finish on the powder-coated aluminum body.">
+                  </picture>
+                </div>
+                <div class="aplus__slide" id="aplus-details-2">
+                  <picture class="aplus__art">
+                    <img src="assets/aplus-composed/P02_Knob_Mobile.webp" width="600" height="668" loading="lazy" decoding="async" alt="Close-up of the knob. Top knob. One top knob controls power, brightness and color temperature.">
+                  </picture>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
         <section class="aplus__chapter" aria-labelledby="aplus-controls">
-          <h3 id="aplus-controls">Three ways to use one knob.</h3>
-          <ol class="aplus__steps">
-            <li>
-              <img src="assets/aplus/P03A_Mobile.webp" width="1000" height="750" loading="lazy" decoding="async" alt="A fingertip presses down on the lamp’s top knob.">
-              <h4>Press.</h4><p>Press the top knob to switch on or off.</p>
-            </li>
-            <li>
-              <img src="assets/aplus/P03B_Mobile.webp" width="1000" height="750" loading="lazy" decoding="async" alt="The thumb and index finger turn the knob.">
-              <h4>Turn.</h4><p>Turn the knob to dim from 5% to 100%.</p>
-            </li>
-            <li>
-              <img src="assets/aplus/P03C_Mobile.webp" width="1000" height="750" loading="lazy" decoding="async" alt="A hand holds and turns the knob at the top of the lamp.">
-              <h4>Press &amp; turn.</h4><p>Press and turn to adjust color temperature continuously from 2700K to 4000K.</p>
-            </li>
-          </ol>
+          <h3 id="aplus-controls">Three ways to use one knob</h3>
+          <div class="aplus__carousel" data-aplus-switcher>
+            <div class="aplus__nav" hidden>
+              <button class="aplus__arrow aplus__arrow--prev" type="button" data-aplus-step="-1" aria-label="Previous slide" aria-controls="aplus-controls-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div class="aplus__tabs" aria-labelledby="aplus-controls" style="--aplus-tab-count: 3">
+                <button type="button" id="aplus-controls-1-tab" data-aplus-target="aplus-controls-1">Press</button>
+                <button type="button" id="aplus-controls-2-tab" data-aplus-target="aplus-controls-2">Turn</button>
+                <button type="button" id="aplus-controls-3-tab" data-aplus-target="aplus-controls-3">Press &amp; turn</button>
+              </div>
+              <button class="aplus__arrow aplus__arrow--next" type="button" data-aplus-step="1" aria-label="Next slide" aria-controls="aplus-controls-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+              <span class="aplus__visually-hidden" data-aplus-status aria-live="polite" aria-atomic="true"></span>
+            </div>
+            <div class="aplus__slides" id="aplus-controls-slides">
+              <div class="aplus__slide" id="aplus-controls-1">
+                <picture class="aplus__art">
+                  <source media="(max-width: 42em)" srcset="assets/aplus-composed/P03A_Mobile.webp" width="600" height="660">
+                  <img src="assets/aplus-composed/P03A_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="A fingertip presses the knob. Press. A simple start. Press the top knob to switch on or off.">
+                </picture>
+              </div>
+              <div class="aplus__slide" id="aplus-controls-2">
+                <picture class="aplus__art">
+                  <source media="(max-width: 42em)" srcset="assets/aplus-composed/P03B_Mobile.webp" width="600" height="660">
+                  <img src="assets/aplus-composed/P03B_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="Fingers turn the knob; a scale illustrates the dimming range. Turn. Find your glow. Turn the knob to dim from 5% to 100%.">
+                </picture>
+              </div>
+              <div class="aplus__slide" id="aplus-controls-3">
+                <picture class="aplus__art">
+                  <source media="(max-width: 42em)" srcset="assets/aplus-composed/P03C_Mobile.webp" width="600" height="762">
+                  <img src="assets/aplus-composed/P03C_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="Fingers press and turn the knob; the scale runs from warm to neutral. Press &amp; turn. Warm to neutral. Press and turn to adjust color temperature continuously from 2700K to 4000K.">
+                </picture>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section class="aplus__chapter" aria-labelledby="aplus-scenes">
-          <h3 id="aplus-scenes">At the table, by the bed, and outdoors.</h3>
-          <div class="aplus__scenes">
-            <article class="aplus__scene">
-              <picture>
-                <source media="(max-width: 42em)" srcset="assets/aplus/P04A_Mobile.webp" width="1000" height="750">
-                <img src="assets/aplus/P04A_PC.webp" width="1600" height="656" loading="lazy" decoding="async" alt="The Eric lamp lights a place setting on a dining table.">
-              </picture>
-              <div><h4>A little light at the table.</h4><p>Bring a little ambiance to the table.</p></div>
-            </article>
-            <article class="aplus__scene">
-              <picture>
-                <source media="(max-width: 42em)" srcset="assets/aplus/P04B_Mobile.webp" width="1000" height="750">
-                <img src="assets/aplus/P04B_PC.webp" width="1600" height="656" loading="lazy" decoding="async" alt="The lamp casts a warm pool of light on a wooden nightstand.">
-              </picture>
-              <div><h4>A quiet bedside glow.</h4><p>Up to 8 hours on a full charge. Runtime varies with brightness.</p></div>
-            </article>
-            <article class="aplus__scene">
-              <picture>
-                <source media="(max-width: 42em)" srcset="assets/aplus/P04C_Mobile.webp" width="1000" height="750">
-                <img src="assets/aplus/P04C_PC.webp" width="1600" height="656" loading="lazy" decoding="async" alt="A lit Eric lamp on an outdoor terrace table at dusk.">
-              </picture>
-              <div><h4>Outdoor moments.</h4><p>IP65-rated. Bring indoors after outdoor use.</p></div>
-            </article>
+          <h3 id="aplus-scenes">At the table, by the bed, and outdoors</h3>
+          <div class="aplus__carousel" data-aplus-switcher>
+            <div class="aplus__nav" hidden>
+              <button class="aplus__arrow aplus__arrow--prev" type="button" data-aplus-step="-1" aria-label="Previous slide" aria-controls="aplus-scenes-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+              <div class="aplus__tabs" aria-labelledby="aplus-scenes" style="--aplus-tab-count: 3">
+                <button type="button" id="aplus-scenes-1-tab" data-aplus-target="aplus-scenes-1">Dining table</button>
+                <button type="button" id="aplus-scenes-2-tab" data-aplus-target="aplus-scenes-2">Bedside</button>
+                <button type="button" id="aplus-scenes-3-tab" data-aplus-target="aplus-scenes-3">Terrace</button>
+              </div>
+              <button class="aplus__arrow aplus__arrow--next" type="button" data-aplus-step="1" aria-label="Next slide" aria-controls="aplus-scenes-slides"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+              <span class="aplus__visually-hidden" data-aplus-status aria-live="polite" aria-atomic="true"></span>
+            </div>
+            <div class="aplus__slides" id="aplus-scenes-slides">
+              <div class="aplus__slide" id="aplus-scenes-1">
+                <picture class="aplus__art">
+                  <source media="(max-width: 42em)" srcset="assets/aplus-composed/P04A_Mobile.webp" width="600" height="660">
+                  <img src="assets/aplus-composed/P04A_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="The lamp on a set dining table. A little light at the table. Bring a little ambiance to the table.">
+                </picture>
+              </div>
+              <div class="aplus__slide" id="aplus-scenes-2">
+                <picture class="aplus__art">
+                  <source media="(max-width: 42em)" srcset="assets/aplus-composed/P04B_Mobile.webp" width="600" height="694">
+                  <img src="assets/aplus-composed/P04B_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="The lamp lights a wooden nightstand. A quiet bedside glow. Up to 8 hours on a full charge. Runtime varies with brightness.">
+                </picture>
+              </div>
+              <div class="aplus__slide" id="aplus-scenes-3">
+                <picture class="aplus__art">
+                  <source media="(max-width: 42em)" srcset="assets/aplus-composed/P04C_Mobile.webp" width="600" height="660">
+                  <img src="assets/aplus-composed/P04C_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="The lamp on an outdoor terrace table at dusk. Outdoor moments. IP65-rated. Bring indoors after outdoor use.">
+                </picture>
+              </div>
+            </div>
           </div>
         </section>
 
-        <section class="aplus__chapter aplus__closing" aria-labelledby="aplus-scale">
-          <div>
-            <h3 id="aplus-scale">Small lamp. Thoughtful form.</h3>
-            <p>Approx. 7.9 in high × 4.3 in diameter (20.1 × 11 cm).</p>
-            <picture>
-              <source media="(max-width: 42em)" srcset="assets/aplus/P05_Mobile.webp" width="1000" height="750">
-              <img src="assets/aplus/P05_PC.webp" width="1600" height="656" loading="lazy" decoding="async" alt="The compact lamp beside a closed book on a wood surface.">
-            </picture>
-          </div>
-          <div class="aplus__faq" aria-labelledby="aplus-faq">
-            <h3 id="aplus-faq">A little more to know.</h3>
-            <details>
-              <summary>How do I adjust the light?</summary>
-              <p>Press the knob for power, turn to dim, and press and turn to change color temperature.</p>
-            </details>
-            <details>
-              <summary>How long does it last on a charge?</summary>
-              <p>Up to 8 hours on a full charge, depending on brightness. NED lists a charging time of approximately 6 hours.</p>
-            </details>
-            <details>
-              <summary>Can I use it outdoors?</summary>
-              <p>NED lists an IP65 rating and recommends bringing the lamp indoors after outdoor use.</p>
-            </details>
-          </div>
+        <section class="aplus__chapter" aria-labelledby="aplus-scale">
+          <h3 id="aplus-scale" class="aplus__visually-hidden">Size</h3>
+          <picture class="aplus__art">
+            <source media="(max-width: 42em)" srcset="assets/aplus-composed/P05_Mobile.webp" width="600" height="694">
+            <img src="assets/aplus-composed/P05_PC.webp" width="1952" height="800" loading="lazy" decoding="async" alt="Dimensions of the compact lamp beside a closed book. Small lamp. Thoughtful form. Approx. 7.9 in high × 4.3 in diameter (20.1 × 11 cm).">
+          </picture>
         </section>
+
+        <section class="aplus__chapter" aria-labelledby="aplus-faq">
+          <h3 id="aplus-faq" class="aplus__visually-hidden">Frequently asked questions</h3>
+          <picture class="aplus__art">
+            <source media="(max-width: 42em)" srcset="assets/aplus-composed/P06_Mobile.webp" width="600" height="807">
+            <img src="assets/aplus-composed/P06_PC.webp" width="1952" height="724" loading="lazy" decoding="async" alt="A little more to know: frequently asked questions about controls, charging and outdoor use. Text version below.">
+          </picture>
+        </section>
+
+        <details class="aplus__transcript">
+          <summary lang="zh-CN">查看图中文字（英文）</summary>
+          <dl>
+            <dt>A small light for everyday moments.</dt><dd>A compact, cordless lamp for adjustable ambient light at home.</dd>
+            <dt>Sand Cashmere.</dt><dd>A soft sand-colored finish on the powder-coated aluminum body.</dd>
+            <dt>Top knob.</dt><dd>One top knob controls power, brightness and color temperature.</dd>
+            <dt>Press. A simple start.</dt><dd>Press the top knob to switch on or off.</dd>
+            <dt>Turn. Find your glow.</dt><dd>Turn the knob to dim from 5% to 100%.</dd>
+            <dt>Press &amp; turn. Warm to neutral.</dt><dd>Press and turn to adjust color temperature continuously from 2700K to 4000K.</dd>
+            <dt>A little light at the table.</dt><dd>Bring a little ambiance to the table.</dd>
+            <dt>A quiet bedside glow.</dt><dd>Up to 8 hours on a full charge. Runtime varies with brightness.</dd>
+            <dt>Outdoor moments.</dt><dd>IP65-rated. Bring indoors after outdoor use.</dd>
+            <dt>Small lamp. Thoughtful form.</dt><dd>Approx. 7.9 in high × 4.3 in diameter (20.1 × 11 cm).</dd>
+            <dt>How do I adjust the light?</dt><dd>Press the knob for power, turn to dim, and press and turn to change color temperature.</dd>
+            <dt>How long does it last on a charge?</dt><dd>Up to 8 hours on a full charge, depending on brightness. NED lists a charging time of approximately 6 hours.</dd>
+            <dt>Can I use it outdoors?</dt><dd>NED lists an IP65 rating and recommends bringing the lamp indoors after outdoor use.</dd>
+          </dl>
+        </details>
       </div>
       <footer class="aplus__foot">
         <p>作品集模拟展示 · 非 Amazon 实际上线页面</p>
         <a href="#works">返回八图总览 ↑</a>
       </footer>
+    </section>
+    <section class="case-tail case-tail--banner" id="banner-system" aria-labelledby="banner-title">
+      <header class="aplus__intro case-tail__intro">
+        <h2 id="banner-title">Banner 多尺寸展示</h2>
+        <p>页头介绍 Eric，餐桌场景把目光引向产品，夜间广告在三个画幅里延续同一主题。</p>
+      </header>
+      <div class="case-tail__inner">
+        <section class="case-tail__chapter" aria-labelledby="banner-store-title">
+          <h3 id="banner-store-title">店铺页头</h3>
+          <figure>
+              <img src="assets/banner/store-header.webp" width="1920" height="506" alt="NED 品牌栏与暖色客厅横幅，完整 Eric 台灯在右，左侧写着 Meet Eric. Cordless light. Everyday warmth." loading="lazy" decoding="async">
+              <figcaption><strong>品牌栏＋页头</strong><span>横幅素材 · 3000 × 600</span></figcaption>
+            </figure>
+          <details class="case-tail__crop">
+            <summary>查看中央 70% 裁切检查</summary>
+            <p>检查缩窄后是否仍保留标题和完整灯体。这是裁切示意，不是独立手机版或平台实机预览。</p>
+            <img src="assets/banner/store-crop.webp" width="1200" height="343" alt="裁切后的页头保留了左侧 Meet Eric 标题和右侧的完整灯体。" loading="lazy" decoding="async">
+          </details>
+        </section>
+
+        <section class="case-tail__chapter" aria-labelledby="banner-dining-title">
+          <h3 id="banner-dining-title">餐桌导流</h3>
+          <p class="case-tail__note">电脑用宽幅交代餐桌环境；手机用独立近景，把说明移到照片下方。</p>
+          <div class="case-tail__dining">
+            <figure>
+              <img src="assets/banner/dining-desktop.webp" width="1600" height="800" alt="餐桌导流宽版，左侧文字 Set the table. Keep the glow.，右侧是点亮的 Eric 和玻璃杯。" loading="lazy" decoding="async">
+              <figcaption><strong>电脑构图</strong><span>场景素材 · 3000 × 1500</span></figcaption>
+            </figure>
+            <figure>
+              <img src="assets/banner/dining-mobile.webp" width="840" height="1110" alt="手机导流用更紧的餐桌构图，标题 Set the table. Keep the glow. 和说明排在照片下方。" loading="lazy" decoding="async">
+              <figcaption><strong>手机构图</strong><span>场景素材 · 1680 × 1680</span></figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="case-tail__chapter" aria-labelledby="banner-rec-title">
+          <h3 id="banner-rec-title">REC 广告创意</h3>
+          <p class="case-tail__note">横版展示图片、品牌和标题的组合；方版和竖版保留无字的场景素材。</p>
+          <p class="case-tail__scroll-note">左右滑动或用方向键查看三种画幅。</p>
+          <div class="case-tail__formats" role="region" aria-label="REC 横版、方版、竖版对照" tabindex="0">
+            <figure>
+              <img src="assets/banner/rec-wide.webp" width="1200" height="830" alt="夜间卧室横版，灯照亮床边桌；下方独立品牌栏写着 Evening light, without the cord." loading="lazy" decoding="async">
+              <figcaption><strong>横版 · 图文组件</strong><span>图片素材 · 1200 × 628</span></figcaption>
+            </figure>
+            <figure>
+              <img src="assets/banner/rec-square.webp" width="900" height="900" alt="同一夜间主题的无字方图，灯和床边桌置于画面中央。" loading="lazy" decoding="async">
+              <figcaption><strong>方版 · 无字图</strong><span>图片素材 · 1200 × 1200</span></figcaption>
+            </figure>
+            <figure>
+              <img src="assets/banner/rec-portrait.webp" width="780" height="1387" alt="夜间主题的无字竖图，保留灯体和更多床品、床头桌上下空间。" loading="lazy" decoding="async">
+              <figcaption><strong>竖版 · 无字图</strong><span>图片素材 · 900 × 1600</span></figcaption>
+            </figure>
+          </div>
+          <p class="case-tail__boundary">以上尺寸为原项目素材记录；图中导流入口为静态创意示意，不代表已上线或投放。</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="case-tail case-tail--reflection" id="case-reflection" aria-labelledby="reflection-title">
+      <header class="aplus__intro case-tail__intro">
+        <h2 id="reflection-title">案例复盘</h2>
+        <p>不同版位不必用同一种构图；要保留的是产品识别、信息主次，以及光线的气质。</p>
+      </header>
+      <div class="case-tail__inner">
+        <section aria-labelledby="reflection-compare-title">
+          <h3 id="reflection-compare-title">店铺页头，为什么改版？</h3>
+          <p class="case-tail__note">两张都是原项目的 3000 × 600 页头预览，以相同宽度对照。</p>
+          <div class="case-tail__comparison">
+            <figure>
+              <img src="assets/banner/review-header-v01.webp" width="1400" height="280" alt="V01 页头：左半部覆盖大面积浅色信息区，右边为灯与客厅。" loading="lazy" decoding="async">
+              <figcaption><strong>V01</strong><span>独立浅色信息区，文案与照片明显分开。</span></figcaption>
+            </figure>
+            <figure>
+              <img src="assets/banner/review-header-v02.webp" width="1400" height="280" alt="V02 页头：短文案排在原场景左侧留白，右边是完整 Eric 灯体。" loading="lazy" decoding="async">
+              <figcaption><strong>V02</strong><span>撤掉大面积白罩，用场景留白承载短标题。</span></figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="case-tail__lessons" aria-label="下次沿用的做法">
+          <div><h3>先核对灯体和手势</h3><p>先做一张主场景、一张操作近景，查灯罩、旋钮、细杆、底座和手势，再扩展成套素材。边缘有问题时先区分是位图还是蒙版，避免靠换一张图掩盖偏差。</p></div>
+          <div><h3>按端、画幅和状态检查</h3><p>把手机独立构图、横竖幅和交互状态列入清单，按实际浏览宽度逐项检查。文件能打开，不等于标题、灯体和操作都看得清。</p></div>
+        </section>
+        <footer class="case-tail__end">
+          <p>自主概念项目 · Migo 负责方向、取舍与审稿，AI 协助资料、制作和导出。非品牌委托、Amazon 上架或广告投放，无点击、销量或转化数据。</p>
+          <nav aria-label="案例结束导航">
+            <a href="#works">返回八图总览</a>
+            <a href="#cover-title">返回顶部</a>
+          </nav>
+        </footer>
+      </div>
     </section>
   </main>
   <script>
@@ -615,6 +804,81 @@
         notifyViewer(false);
       });
     })();
+
+    // Enhance each gallery independently; without JS, the original compositions stay readable in sequence.
+    document.querySelectorAll('[data-aplus-switcher]').forEach(carousel => {
+      const nav = carousel.querySelector('.aplus__nav');
+      const list = nav.querySelector('.aplus__tabs');
+      const tabs = [...list.querySelectorAll('[data-aplus-target]')];
+      const panels = tabs.map(tab => document.getElementById(tab.dataset.aplusTarget));
+      const status = nav.querySelector('[data-aplus-status]');
+      if (tabs.length < 2 || panels.some(panel => !panel || !carousel.contains(panel))) return;
+      list.setAttribute('role', 'tablist');
+      tabs.forEach((tab, i) => {
+        tab.setAttribute('role', 'tab');
+        tab.setAttribute('aria-controls', panels[i].id);
+        panels[i].setAttribute('role', 'tabpanel');
+        panels[i].setAttribute('aria-labelledby', tab.id);
+        panels[i].tabIndex = 0;
+      });
+      const wrap = index => (index + tabs.length) % tabs.length;
+      const setTabStop = index => tabs.forEach((tab, i) => { tab.tabIndex = i === index ? 0 : -1; });
+      let active = -1;
+      const select = (index, announce = false) => {
+        if (index === active) return;
+        active = index;
+        setTabStop(index);
+        tabs.forEach((tab, i) => {
+          tab.setAttribute('aria-selected', String(i === active));
+          panels[i].hidden = i !== active;
+        });
+        if (announce) status.textContent = tabs[index].textContent.trim() + ', ' + (index + 1) + ' of ' + tabs.length;
+      };
+      list.addEventListener('click', event => {
+        const index = tabs.indexOf(event.target.closest('button'));
+        if (index >= 0) select(index);
+      });
+      list.addEventListener('keydown', event => {
+        const index = tabs.indexOf(event.target);
+        if (index < 0) return;
+        const destinations = { ArrowLeft: wrap(index - 1), ArrowRight: wrap(index + 1), Home: 0, End: tabs.length - 1 };
+        if (!Object.hasOwn(destinations, event.key)) return;
+        event.preventDefault();
+        const next = destinations[event.key];
+        setTabStop(next);
+        tabs[next].focus({ preventScroll: true });
+      });
+      list.addEventListener('focusout', event => {
+        if (!list.contains(event.relatedTarget)) setTabStop(active);
+      });
+      nav.addEventListener('click', event => {
+        const arrow = event.target.closest('[data-aplus-step]');
+        if (arrow) select(wrap(active + Number(arrow.dataset.aplusStep)), true);
+      });
+      const stage = carousel.querySelector('.aplus__slides');
+      let touchStart = null;
+      stage.addEventListener('pointerdown', event => {
+        if (event.pointerType !== 'touch' || !event.isPrimary) {
+          touchStart = null;
+          return;
+        }
+        touchStart = { id: event.pointerId, x: event.clientX, y: event.clientY };
+      });
+      stage.addEventListener('pointercancel', () => { touchStart = null; });
+      stage.addEventListener('pointerup', event => {
+        const start = touchStart;
+        touchStart = null;
+        if (start?.id !== event.pointerId) return;
+        const x = event.clientX - start.x;
+        const y = event.clientY - start.y;
+        if (Math.abs(x) > 48 && Math.abs(x) > Math.abs(y) * 1.5) {
+          select(wrap(active + (x < 0 ? 1 : -1)), true);
+        }
+      });
+      select(0);
+      carousel.dataset.aplusReady = '';
+      nav.hidden = false;
+    });
 
     if (document.documentElement.dataset.siteEmbed === 'true') {
       const reportHeight = () => parent.postMessage({
