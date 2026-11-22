@@ -1,4 +1,4 @@
-html[data-site-embed="true"] .aplus { display: none; }
+html[data-site-embed="true"]:not([data-published-case]) .aplus { display: none; }
 
 .aplus {
   --aplus-rule: #b9a697;

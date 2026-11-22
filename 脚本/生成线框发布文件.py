@@ -16,9 +16,13 @@ GALLERY_IMAGES = (
     "06_户外使用_V02.webp", "07_多场景使用_V02.webp",
 )
 
+V03_ROOT = "UI设计/NED网页展示/V03"
+V03_CASE_ART = ("brand-story", "aplus-composed", "banner")
+
 V03_PREVIEW_FILES = (
     "UI设计/NED网页展示/V03/首屏A.html",
     "UI设计/NED网页展示/V03/首屏.css",
+    *(f"{V03_ROOT}/{name}" for name in ("高级A+.css", "品牌故事.css", "成果与复盘.css", "图文切换.js")),
     "UI设计/NED网页展示/V03/assets/palette/sand-wall.webp",
     "UI设计/NED网页展示/V03/assets/palette/walnut-table.webp",
     "UI设计/NED网页展示/V03/assets/palette/charcoal-fabric.webp",
@@ -41,30 +45,34 @@ V03_PREVIEW_FILES = (
 )
 
 
-class ResponsiveImageCheck(HTMLParser):
-    """检查 V03 中逗号分隔的本地 srcset 候选是否都纳入发布。"""
+class PreviewDependencyCheck(HTMLParser):
+    """检查 V03 的本地图片、响应式候选、样式和脚本是否纳入发布。"""
 
-    def __init__(self, repo, document):
+    def __init__(self, repo, document, files):
         super().__init__()
         self.repo = repo
         self.document = document
+        self.files = set(files)
         self.missing = set()
 
     def handle_starttag(self, tag, attrs):
-        if tag not in {"img", "source"}:
-            return
-        for candidate in (dict(attrs).get("srcset") or "").split(","):
-            fields = candidate.split()
-            if not fields:
-                continue
-            url = urlsplit(fields[0])
+        attrs = dict(attrs)
+        candidates = []
+        if tag in {"img", "source", "script"} and attrs.get("src"):
+            candidates.append(attrs["src"])
+        if tag == "link" and attrs.get("rel") == "stylesheet" and attrs.get("href"):
+            candidates.append(attrs["href"])
+        if tag in {"img", "source"}:
+            candidates.extend(item.split()[0] for item in (attrs.get("srcset") or "").split(",") if item.strip())
+        for candidate in candidates:
+            url = urlsplit(candidate)
             if url.scheme or url.netloc or not url.path:
                 continue
             target = (self.document.parent / unquote(url.path)).resolve()
             if not target.is_relative_to(self.repo):
-                raise ValueError(f"V03 响应式图片需使用仓库内的相对路径：{fields[0]}")
+                raise ValueError(f"V03 资源需使用仓库内的相对路径：{candidate}")
             relative = target.relative_to(self.repo).as_posix()
-            if relative not in V03_PREVIEW_FILES:
+            if relative not in self.files:
                 self.missing.add(relative)
 
 
@@ -81,16 +89,23 @@ def main():
     required = ('name="robots"', 'noindex,nofollow', 'id="wireframe"', 'window.wireframeState')
     if not all(marker in html for marker in required):
         raise ValueError("线框源文件缺少必要标记，请先核对原型与发布范围")
-    v03 = repo / "UI设计/NED网页展示/V03/首屏A.html"
-    images = ResponsiveImageCheck(repo, v03)
-    images.feed(v03.read_text(encoding="utf-8"))
-    images.close()
-    if images.missing:
-        raise ValueError("V03 响应式图片未纳入发布：\n" + "\n".join(sorted(images.missing)))
+    v03 = repo / V03_ROOT / "首屏A.html"
+    art = sorted(
+        path.relative_to(repo).as_posix()
+        for group in V03_CASE_ART
+        for path in (repo / V03_ROOT / "assets" / group).glob("*.webp")
+        if path.is_file()
+    )
+    preview_files = (*V03_PREVIEW_FILES, *art)
+    dependencies = PreviewDependencyCheck(repo, v03, preview_files)
+    dependencies.feed(v03.read_text(encoding="utf-8"))
+    dependencies.close()
+    if dependencies.missing:
+        raise ValueError("V03 资源未纳入发布：\n" + "\n".join(sorted(dependencies.missing)))
     output.mkdir(parents=True, exist_ok=True)
     (output / "index.html").write_text(html, encoding="utf-8")
     (output / ".nojekyll").write_text("", encoding="utf-8")
-    for relative in V03_PREVIEW_FILES:
+    for relative in preview_files:
         source_file = repo / relative
         if not source_file.is_file():
             raise FileNotFoundError(f"V03预览依赖缺失：{relative}")
@@ -101,7 +116,7 @@ def main():
         "scope": "网站线框与NED V03完整案例嵌入审阅，非正式作品集网站",
         "source": source.relative_to(repo).as_posix(),
         "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
-        "files": ["index.html", ".nojekyll", *V03_PREVIEW_FILES, "部署清单.json"],
+        "files": ["index.html", ".nojekyll", *preview_files, "部署清单.json"],
     }
     (output / "部署清单.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

@@ -1,4 +1,4 @@
-html[data-site-embed="true"] .brand-story { display: none; }
+html[data-site-embed="true"]:not([data-published-case]) .brand-story { display: none; }
 
 .brand-story {
   /* Match the adjacent A+ navigation without changing its published styles. */

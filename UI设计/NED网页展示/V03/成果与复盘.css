@@ -1,4 +1,4 @@
-html[data-site-embed="true"] .case-tail { display: none; }
+html[data-site-embed="true"]:not([data-published-case]) .case-tail { display: none; }
 
 .case-tail {
   --aplus-soft: #514337;
