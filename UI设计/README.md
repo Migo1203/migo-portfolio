@@ -1,5 +1,9 @@
 # 网站 UI 设计
 
+## 参考网站分析｜Sommerseth Design
+
+[设计元素与案例分析](案例拆解/Sommerseth%20Design首页分析/设计元素与案例分析.md) · [Dembrandt 原始报告及归档说明](案例拆解/Sommerseth%20Design首页分析/README.md)。分析整合了原自动提取报告、用户提供的 Hero 截图、官网首页与案例信息；区分可见事实、推断和对 Migo 的建议。仅作设计参考，不是 1:1 复刻规格。
+
 ## 2026-11-15｜NED网页展示V02
 
 [规划](NED网页展示/V02/设计规划.md) · [样稿与检查说明](NED网页展示/V02/README.md) · [单文件HTML](NED网页展示/V02/展示样稿.html) · [参考色预览](NED网页展示/V02/预览图/项目参考色_桌面.png)。
